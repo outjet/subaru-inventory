@@ -1,0 +1,21 @@
+[
+  {
+    "vin": "JTDACAAJXS3014174",
+    "stock": "M260363A",
+    "year": 2025,
+    "trim": "CROWN SIGNIA LIMITED",
+    "mileage": 22978,
+    "price": 51947,
+    "msrp": 47990,
+    "color": "STORM CLOUD",
+    "colorHex": "#22323F",
+    "dealer": "Brunswick Toyota",
+    "certificationType": "GOLD",
+    "drivetrain": "All-Wheel Drive",
+    "mpgCombined": 38,
+    "bodyStyle": "SUV",
+    "oneOwner": true,
+    "noAccidents": true,
+    "thumbnail": "https://cdnrs.inventoryrsc.com/640x480/531547720_6a406723656605a66d313b0c.jpg"
+  }
+]
