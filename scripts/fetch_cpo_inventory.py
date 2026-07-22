@@ -43,11 +43,14 @@ def get_dealers_within_radius(zipcode, radius, cpo_only=True):
             continue
         if cpo_only and "Cpo" not in d["dealer"]["types"]:
             continue
+        addr = d["dealer"]["address"]
         out.append({
             "id": d["dealer"]["id"],
             "name": d["dealer"]["name"],
-            "city": d["dealer"]["address"]["city"],
-            "state": d["dealer"]["address"]["state"],
+            "street": addr.get("street"),
+            "city": addr["city"],
+            "state": addr["state"],
+            "zipcode": addr.get("zipcode"),
             "distance": round(d["distance"], 1),
         })
     return out

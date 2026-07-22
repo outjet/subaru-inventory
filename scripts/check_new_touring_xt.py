@@ -24,6 +24,7 @@ import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_cpo_inventory import get_dealers_within_radius, get_cpo_inventory  # noqa: E402
+from drive_time import get_drive_times_batch  # noqa: E402
 
 STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "seen_touring_xt_vins.json")
 
@@ -85,6 +86,10 @@ def main():
     print(f"  {len(items)} total {args.model} listings")
 
     dist_by_dealer = {d["name"]: d["distance"] for d in dealers}
+    addr_by_dealer = {
+        d["name"]: f'{d["street"]}, {d["city"]}, {d["state"]} {d["zipcode"]}'
+        for d in dealers if d.get("street")
+    }
     matches = []
     for it in items:
         price = it.get("internetPrice") or it.get("cpoInternetPrice") or 0
@@ -111,6 +116,14 @@ def main():
     new_matches = [m for m in matches if m["vin"] not in seen]
     print(f"  {len(new_matches)} are new (not previously alerted)")
 
+    # Only look up drive time for dealers we're about to actually notify about --
+    # cached forever per dealer, so this only ever costs an API call the first time.
+    drive_times = {}
+    if new_matches and len(new_matches) <= 10:
+        new_dealers = {m["dealer"]: addr_by_dealer[m["dealer"]] for m in new_matches if m["dealer"] in addr_by_dealer}
+        if new_dealers:
+            drive_times = get_drive_times_batch(f"{args.zip} USA", new_dealers)
+
     notified_vins = set()
     if not new_matches:
         print("No new matches — no notification sent.")
@@ -127,7 +140,9 @@ def main():
     else:
         title = f"New Outback Touring XT under ${args.max_price:,}"
         for m in new_matches:
-            message = f"{m['year']} — ${m['price']:,}, {m['mileage']:,}mi\n{m['dealer']} ({m['distance']}mi)"
+            dt = drive_times.get(m["dealer"])
+            dealer_line = f"{m['dealer']} ({m['distance']}mi, ~{dt['text']} drive)" if dt else f"{m['dealer']} ({m['distance']}mi)"
+            message = f"{m['year']} — ${m['price']:,}, {m['mileage']:,}mi\n{dealer_line}"
             try:
                 send_pushover(title, message, url=m["url"], url_title="View listing")
                 notified_vins.add(m["vin"])

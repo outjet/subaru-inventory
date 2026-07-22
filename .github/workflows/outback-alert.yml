@@ -26,15 +26,16 @@ jobs:
         env:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: python3 scripts/check_new_touring_xt.py
 
-      - name: Commit updated state file
+      - name: Commit updated state
         run: |
-          if ! git diff --quiet -- data/seen_touring_xt_vins.json; then
+          if ! git diff --quiet -- data/seen_touring_xt_vins.json data/drive_times_cache.json; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add data/seen_touring_xt_vins.json
-            git commit -m "Update seen Touring XT VINs"
+            git add data/seen_touring_xt_vins.json data/drive_times_cache.json
+            git commit -m "Update seen VINs / drive-time cache"
             git push
           else
             echo "No state change, skipping commit."
