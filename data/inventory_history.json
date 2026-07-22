@@ -209,7 +209,7 @@
       "currentPrice": 26510,
       "dealer": "Adventure Subaru",
       "delistedDate": null,
-      "distance": 763.4,
+      "distance": 29.9,
       "driveMinutes": 45,
       "driveText": "45 mins",
       "firstSeen": "2026-07-22",
@@ -593,12 +593,12 @@
       "year": 2025
     },
     "4S4BTACC6M3192312": {
-      "active": true,
+      "active": false,
       "color": "Crystal White Pearl",
       "currentMileage": 32895,
       "currentPrice": 25075,
       "dealer": "Jenkins Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-22",
       "distance": 171.0,
       "driveMinutes": 221,
       "driveText": "3 hours 41 mins",
@@ -905,12 +905,12 @@
       "year": 2024
     },
     "4S4BTADC1R3166044": {
-      "active": true,
+      "active": false,
       "color": "Crimson Red Pearl",
       "currentMileage": 23920,
       "currentPrice": 27768,
       "dealer": "Adventure Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-22",
       "distance": 763.4,
       "driveMinutes": 45,
       "driveText": "45 mins",
@@ -989,7 +989,7 @@
       "currentPrice": 27052,
       "dealer": "Adventure Subaru",
       "delistedDate": null,
-      "distance": 763.4,
+      "distance": 29.9,
       "driveMinutes": 45,
       "driveText": "45 mins",
       "firstSeen": "2026-07-22",
@@ -1529,12 +1529,12 @@
       "year": 2024
     },
     "4S4BTAFC1R3280512": {
-      "active": true,
+      "active": false,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 32512,
       "currentPrice": 26793,
       "dealer": "Ken Ganley Subaru Wickliffe",
-      "delistedDate": null,
+      "delistedDate": "2026-07-22",
       "distance": 18.1,
       "driveMinutes": 28,
       "driveText": "28 mins",
@@ -2419,7 +2419,7 @@
       "currentPrice": 31105,
       "dealer": "Adventure Subaru",
       "delistedDate": null,
-      "distance": 763.4,
+      "distance": 29.9,
       "driveMinutes": 45,
       "driveText": "45 mins",
       "firstSeen": "2026-07-22",
@@ -2705,7 +2705,7 @@
       "currentPrice": 29481,
       "dealer": "Thomas Subaru",
       "delistedDate": null,
-      "distance": 200.9,
+      "distance": 198.6,
       "driveMinutes": 224,
       "driveText": "3 hours 44 mins",
       "firstSeen": "2026-07-22",
@@ -3372,6 +3372,32 @@
       "trim": "Limited",
       "url": "https://www.subarumorgantown.com/inventory/certified-used-2024-subaru-outback-limited-awd-4d-sport-utility-4s4btanc4r3112820/",
       "vin": "4S4BTANC4R3112820",
+      "year": 2024
+    },
+    "4S4BTANC4R3127785": {
+      "active": true,
+      "color": "Crystal Black Silica",
+      "currentMileage": 36815,
+      "currentPrice": 30264,
+      "dealer": "Kenny Ross Subaru",
+      "delistedDate": null,
+      "distance": 134.1,
+      "driveMinutes": 152,
+      "driveText": "2 hours 32 mins",
+      "firstSeen": "2026-07-22",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-22",
+      "msrp": 29774,
+      "priceHistory": [
+        {
+          "date": "2026-07-22",
+          "price": 30264
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC4R3127785",
+      "trim": "Limited",
+      "url": "https://www.kennyrosssubaru.com/inventory/used-2024-subaru-outback-limited-awd-4d-sport-utility-4s4btanc4r3127785/",
+      "vin": "4S4BTANC4R3127785",
       "year": 2024
     },
     "4S4BTANC4R3131867": {
@@ -4620,6 +4646,32 @@
       "trim": "Limited XT",
       "url": "https://www.glakessubaru.com/used-Findlay-2024-Subaru-Outback-Limited+XT-4S4BTGND6R3171279",
       "vin": "4S4BTGND6R3171279",
+      "year": 2024
+    },
+    "4S4BTGND7R3164289": {
+      "active": true,
+      "color": "Magnetite Gray Metallic",
+      "currentMileage": 56614,
+      "currentPrice": 29018,
+      "dealer": "Zeigler Subaru of Fort Wayne",
+      "delistedDate": null,
+      "distance": 176.0,
+      "driveMinutes": 188,
+      "driveText": "3 hours 8 mins",
+      "firstSeen": "2026-07-22",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-22",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-22",
+          "price": 29018
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGND7R3164289",
+      "trim": "Limited XT",
+      "url": "https://www.zeiglersubaruoffortwayne.com/catcher.esl?vehicleId=6d263948ac185d005aaedd20d96133dd",
+      "vin": "4S4BTGND7R3164289",
       "year": 2024
     },
     "4S4BTGND7R3296145": {
@@ -6059,7 +6111,7 @@
       "currentPrice": 36653,
       "dealer": "Williams Subaru",
       "delistedDate": null,
-      "distance": 438.9,
+      "distance": 164.1,
       "driveMinutes": 202,
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
@@ -6257,7 +6309,7 @@
       "currentPrice": 41184,
       "dealer": "Williams Subaru",
       "delistedDate": null,
-      "distance": 438.9,
+      "distance": 164.1,
       "driveMinutes": 202,
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
@@ -6439,7 +6491,7 @@
       "currentPrice": 44855,
       "dealer": "Williams Subaru",
       "delistedDate": null,
-      "distance": 438.9,
+      "distance": 164.1,
       "driveMinutes": 202,
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
