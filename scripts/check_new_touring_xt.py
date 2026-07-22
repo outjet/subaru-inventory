@@ -18,6 +18,7 @@ import argparse
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -48,7 +49,7 @@ def send_pushover(title, message, url=None, url_title=None):
         print(title)
         print(message)
         return
-    data = {"token": app_token, "user": user_key, "title": title, "message": message}
+    data = {"token": app_token, "user": user_key, "title": title, "message": message[:1024]}
     if url:
         data["url"] = url
         data["url_title"] = url_title or "View listing"
@@ -57,9 +58,13 @@ def send_pushover(title, message, url=None, url_title=None):
         data=urllib.parse.urlencode(data).encode(),
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        body = resp.read().decode()
-        print(f"Pushover response: {resp.status} {body}")
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            body = resp.read().decode()
+            print(f"Pushover response: {resp.status} {body}")
+    except urllib.error.HTTPError as e:
+        print(f"Pushover error: HTTP {e.code} {e.reason} — {e.read().decode()}")
+        raise
 
 
 def main():
@@ -103,22 +108,37 @@ def main():
     new_matches = [m for m in matches if m["vin"] not in seen]
     print(f"  {len(new_matches)} are new (not previously alerted)")
 
-    if new_matches:
-        lines = []
-        for m in new_matches:
-            lines.append(
-                f"{m['year']} Touring XT — ${m['price']:,}, {m['mileage']:,}mi, "
-                f"{m['dealer']} ({m['distance']}mi)\n{m['url']}"
-            )
-        title = f"{len(new_matches)} new Outback Touring XT under ${args.max_price:,}"
-        message = "\n\n".join(lines)
-        send_pushover(title, message, url=new_matches[0]["url"], url_title="First listing")
-    else:
+    notified_vins = set()
+    if not new_matches:
         print("No new matches — no notification sent.")
+    elif len(new_matches) > 10:
+        # Large batch (e.g. a manual state reset) -- one summary instead of a notification storm.
+        lines = [f"{m['year']} — ${m['price']:,}, {m['dealer']}" for m in new_matches]
+        title = f"{len(new_matches)} new Outback Touring XT under ${args.max_price:,}"
+        message = "\n".join(lines)
+        try:
+            send_pushover(title, message, url=new_matches[0]["url"], url_title="First listing")
+            notified_vins = {m["vin"] for m in new_matches}
+        except Exception as e:
+            print(f"Failed to send summary notification: {e}")
+    else:
+        title = f"New Outback Touring XT under ${args.max_price:,}"
+        for m in new_matches:
+            message = f"{m['year']} — ${m['price']:,}, {m['mileage']:,}mi\n{m['dealer']} ({m['distance']}mi)"
+            try:
+                send_pushover(title, message, url=m["url"], url_title="View listing")
+                notified_vins.add(m["vin"])
+            except Exception as e:
+                print(f"Failed to notify for VIN {m['vin']}: {e}")
 
-    all_current_vins = seen | {m["vin"] for m in matches}
+    all_current_vins = seen | notified_vins
     save_seen(all_current_vins)
-    print(f"State updated: {len(all_current_vins)} VINs tracked total.")
+    unnotified = len(new_matches) - len(notified_vins)
+    if unnotified > 0:
+        print(f"State updated: {len(all_current_vins)} VINs tracked total "
+              f"({unnotified} new match(es) left unnotified due to send failures, will retry next run).")
+    else:
+        print(f"State updated: {len(all_current_vins)} VINs tracked total.")
 
 
 if __name__ == "__main__":
