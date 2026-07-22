@@ -22,20 +22,33 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Fetch inventory once (shared by the alert + comps steps)
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: |
+          python3 scripts/fetch_cpo_inventory.py --zip 44107 --radius 200 --model OBK --out data/outback_data_200mi.json
+          python3 scripts/add_drive_times.py --zip 44107
+
       - name: Check for new Touring XT listings under $45k
         env:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
-          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-        run: python3 scripts/check_new_touring_xt.py
+        run: python3 scripts/check_new_touring_xt.py --from-file data/outback_data_200mi.json
+
+      - name: "Snapshot per-VIN history (days-on-lot, price drops, trend)"
+        run: python3 scripts/snapshot_inventory.py --from-file data/outback_data_200mi.json
+
+      - name: Rebuild comps dashboard
+        run: python3 scripts/build_dashboard.py
 
       - name: Commit updated state
         run: |
-          if ! git diff --quiet -- data/seen_touring_xt_vins.json data/drive_times_cache.json; then
+          FILES="data/seen_touring_xt_vins.json data/drive_times_cache.json data/outback_data_200mi.json data/inventory_history.json dashboard.html"
+          if ! git diff --quiet -- $FILES; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add data/seen_touring_xt_vins.json data/drive_times_cache.json
-            git commit -m "Update seen VINs / drive-time cache"
+            git add $FILES
+            git commit -m "Update inventory history, comps trend, and dashboard"
             git push
           else
             echo "No state change, skipping commit."

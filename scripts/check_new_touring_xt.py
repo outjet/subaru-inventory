@@ -23,10 +23,36 @@ import urllib.parse
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fetch_cpo_inventory import get_dealers_within_radius, get_cpo_inventory  # noqa: E402
+from fetch_cpo_inventory import get_dealers_within_radius, get_cpo_inventory, simplify  # noqa: E402
 from drive_time import get_drive_times_batch  # noqa: E402
 
 STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "seen_touring_xt_vins.json")
+
+
+def load_rows(args):
+    """Return simplified, drive-time-enriched listing rows. When --from-file is
+    given, read a pre-fetched snapshot (the shared per-run fetch) instead of
+    hitting subaru.com again; otherwise fetch live and enrich here."""
+    if args.from_file:
+        with open(args.from_file) as f:
+            rows = json.load(f)
+        print(f"  {len(rows)} listings loaded from {args.from_file}")
+        return rows
+    dealers = get_dealers_within_radius(args.zip, args.radius)
+    print(f"  {len(dealers)} CPO-flagged dealers")
+    dist_by_dealer = {d["name"]: d["distance"] for d in dealers}
+    addr_by_dealer = {
+        d["name"]: f'{d["street"]}, {d["city"]}, {d["state"]} {d["zipcode"]}'
+        for d in dealers if d.get("street")
+    }
+    items = get_cpo_inventory(args.model, [d["id"] for d in dealers])
+    rows = [simplify(it, dist_by_dealer) for it in items]
+    drive = get_drive_times_batch(f"{args.zip} USA", addr_by_dealer)
+    for r in rows:
+        dt = drive.get(r["dealer"])
+        if dt:
+            r["driveMinutes"], r["driveText"] = dt["minutes"], dt["text"]
+    return rows
 
 
 def load_seen():
@@ -76,38 +102,31 @@ def main():
     ap.add_argument("--trim", default="Touring XT")
     ap.add_argument("--year", type=int, default=2026)
     ap.add_argument("--max-price", type=int, default=45000)
+    ap.add_argument("--from-file", default=None,
+                    help="read a pre-fetched snapshot JSON instead of fetching live (shared per-run fetch)")
     args = ap.parse_args()
 
     print(f"Checking CPO {args.year} {args.model} '{args.trim}' under ${args.max_price:,} within {args.radius}mi of {args.zip}...")
-    dealers = get_dealers_within_radius(args.zip, args.radius)
-    print(f"  {len(dealers)} CPO-flagged dealers")
+    rows = load_rows(args)
 
-    items = get_cpo_inventory(args.model, [d["id"] for d in dealers])
-    print(f"  {len(items)} total {args.model} listings")
-
-    dist_by_dealer = {d["name"]: d["distance"] for d in dealers}
-    addr_by_dealer = {
-        d["name"]: f'{d["street"]}, {d["city"]}, {d["state"]} {d["zipcode"]}'
-        for d in dealers if d.get("street")
-    }
     matches = []
-    for it in items:
-        price = it.get("internetPrice") or it.get("cpoInternetPrice") or 0
-        trim = it.get("trimName") or ""
-        if trim != args.trim:
+    for r in rows:
+        price = r.get("price") or 0
+        if r.get("trim") != args.trim:
             continue
-        if it.get("year") != args.year:
+        if r.get("year") != args.year:
             continue
         if price <= 0 or price >= args.max_price:
             continue
         matches.append({
-            "vin": it.get("vinNumber"),
-            "year": it.get("year"),
+            "vin": r.get("vin"),
+            "year": r.get("year"),
             "price": price,
-            "mileage": it.get("mileage"),
-            "dealer": (it.get("dealership") or "").strip(),
-            "distance": dist_by_dealer.get((it.get("dealership") or "").strip()),
-            "url": it.get("detailsUrl"),
+            "mileage": r.get("mileage"),
+            "dealer": r.get("dealer"),
+            "distance": r.get("distance"),
+            "url": r.get("url"),
+            "driveText": r.get("driveText"),
         })
 
     print(f"  {len(matches)} match trim/price filter")
@@ -115,14 +134,6 @@ def main():
     seen = load_seen()
     new_matches = [m for m in matches if m["vin"] not in seen]
     print(f"  {len(new_matches)} are new (not previously alerted)")
-
-    # Only look up drive time for dealers we're about to actually notify about --
-    # cached forever per dealer, so this only ever costs an API call the first time.
-    drive_times = {}
-    if new_matches and len(new_matches) <= 10:
-        new_dealers = {m["dealer"]: addr_by_dealer[m["dealer"]] for m in new_matches if m["dealer"] in addr_by_dealer}
-        if new_dealers:
-            drive_times = get_drive_times_batch(f"{args.zip} USA", new_dealers)
 
     notified_vins = set()
     if not new_matches:
@@ -140,8 +151,8 @@ def main():
     else:
         title = f"New Outback Touring XT under ${args.max_price:,}"
         for m in new_matches:
-            dt = drive_times.get(m["dealer"])
-            dealer_line = f"{m['dealer']} ({m['distance']}mi, ~{dt['text']} drive)" if dt else f"{m['dealer']} ({m['distance']}mi)"
+            dt = m.get("driveText")
+            dealer_line = f"{m['dealer']} ({m['distance']}mi, ~{dt} drive)" if dt else f"{m['dealer']} ({m['distance']}mi)"
             message = f"{m['year']} — ${m['price']:,}, {m['mileage']:,}mi\n{dealer_line}"
             try:
                 send_pushover(title, message, url=m["url"], url_title="View listing")
