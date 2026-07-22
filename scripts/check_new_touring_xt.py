@@ -73,10 +73,11 @@ def main():
     ap.add_argument("--radius", type=int, default=200)
     ap.add_argument("--model", default="OBK")
     ap.add_argument("--trim", default="Touring XT")
+    ap.add_argument("--year", type=int, default=2026)
     ap.add_argument("--max-price", type=int, default=45000)
     args = ap.parse_args()
 
-    print(f"Checking CPO {args.model} '{args.trim}' under ${args.max_price:,} within {args.radius}mi of {args.zip}...")
+    print(f"Checking CPO {args.year} {args.model} '{args.trim}' under ${args.max_price:,} within {args.radius}mi of {args.zip}...")
     dealers = get_dealers_within_radius(args.zip, args.radius)
     print(f"  {len(dealers)} CPO-flagged dealers")
 
@@ -89,6 +90,8 @@ def main():
         price = it.get("internetPrice") or it.get("cpoInternetPrice") or 0
         trim = it.get("trimName") or ""
         if trim != args.trim:
+            continue
+        if it.get("year") != args.year:
             continue
         if price <= 0 or price >= args.max_price:
             continue
