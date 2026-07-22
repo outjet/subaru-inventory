@@ -2,7 +2,7 @@ name: Outback Touring XT Alert
 
 on:
   schedule:
-    - cron: "*/30 7-22 * * *"
+    - cron: "*/30 11-23,0-2 * * *"
   workflow_dispatch: {}
 
 permissions:
