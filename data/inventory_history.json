@@ -333,12 +333,12 @@
       "year": 2024
     },
     "4S4BTACC0S3293780": {
-      "active": true,
+      "active": false,
       "color": "Autumn Green Metallic",
       "currentMileage": 5885,
       "currentPrice": 33759,
       "dealer": "New Motors Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-23",
       "distance": 96.9,
       "driveMinutes": 101,
       "driveText": "1 hour 41 mins",
@@ -893,6 +893,32 @@
       "url": "https://www.glassmansubaru.com/used-Southfield-2025-Subaru-Outback-Premium-4S4BTACC9S3277058",
       "vin": "4S4BTACC9S3277058",
       "year": 2025
+    },
+    "4S4BTACCXP3163934": {
+      "active": true,
+      "color": "Autumn Green Metallic",
+      "currentMileage": 40663,
+      "currentPrice": 26993,
+      "dealer": "Cascade Subaru",
+      "delistedDate": null,
+      "distance": 25.3,
+      "driveMinutes": 42,
+      "driveText": "42 mins",
+      "firstSeen": "2026-07-23",
+      "interior": "Slate Black Cloth",
+      "lastSeen": "2026-07-23",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-23",
+          "price": 26993
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTACCXP3163934",
+      "trim": "Premium",
+      "url": "https://www.cascadesubaru.net/catcher.esl?vehicleId=de7c3674ac1858f1357ca0a6c8419fe9",
+      "vin": "4S4BTACCXP3163934",
+      "year": 2023
     },
     "4S4BTACCXS3319155": {
       "active": true,
@@ -3559,6 +3585,32 @@
       "vin": "4S4BTANC4R3112820",
       "year": 2024
     },
+    "4S4BTANC4R3123610": {
+      "active": true,
+      "color": "Brilliant Bronze Metallic",
+      "currentMileage": 21024,
+      "currentPrice": 31177,
+      "dealer": "Adventure Subaru",
+      "delistedDate": null,
+      "distance": 29.9,
+      "driveMinutes": 45,
+      "driveText": "45 mins",
+      "firstSeen": "2026-07-23",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-23",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-23",
+          "price": 31177
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC4R3123610",
+      "trim": "Limited",
+      "url": "https://www.adventureneosubaru.com/catcher.esl?vehicleId=4b1c4affac1858fe65a8f85273858384",
+      "vin": "4S4BTANC4R3123610",
+      "year": 2024
+    },
     "4S4BTANC4R3127785": {
       "active": true,
       "color": "Crystal Black Silica",
@@ -3671,6 +3723,32 @@
       "vin": "4S4BTANC5P3220814",
       "year": 2023
     },
+    "4S4BTANC5R3142313": {
+      "active": true,
+      "color": "Magnetite Gray Metallic",
+      "currentMileage": 5706,
+      "currentPrice": 34393,
+      "dealer": "Cascade Subaru",
+      "delistedDate": null,
+      "distance": 25.3,
+      "driveMinutes": 42,
+      "driveText": "42 mins",
+      "firstSeen": "2026-07-23",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-23",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-23",
+          "price": 34393
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC5R3142313",
+      "trim": "Limited",
+      "url": "https://www.cascadesubaru.net/catcher.esl?vehicleId=172224e4ac1806192e06a5e8fded1f46",
+      "vin": "4S4BTANC5R3142313",
+      "year": 2024
+    },
     "4S4BTANC5S3272100": {
       "active": true,
       "color": "Magnetite Gray Metallic",
@@ -3724,12 +3802,12 @@
       "year": 2024
     },
     "4S4BTANC6R3166040": {
-      "active": true,
+      "active": false,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 33049,
       "currentPrice": 29946,
       "dealer": "Byers Dublin Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-23",
       "distance": 116.3,
       "driveMinutes": 123,
       "driveText": "2 hours 3 mins",
@@ -6110,12 +6188,12 @@
       "year": 2026
     },
     "JF2BUPAD3TY459666": {
-      "active": true,
+      "active": false,
       "color": "Crystal White Pearl",
       "currentMileage": 1792,
       "currentPrice": 33313,
       "dealer": "Fox Subaru Macomb",
-      "delistedDate": null,
+      "delistedDate": "2026-07-23",
       "distance": 96.6,
       "driveMinutes": 174,
       "driveText": "2 hours 54 mins",
