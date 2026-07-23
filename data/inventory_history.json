@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastSnapshot": "2026-07-22",
+    "lastSnapshot": "2026-07-23",
     "radius": 200,
     "trackingSince": "2026-07-22",
     "trend": {
@@ -11,6 +11,13 @@
           "median": 31896,
           "min": 22898,
           "n": 251
+        },
+        {
+          "date": "2026-07-23",
+          "max": 46498,
+          "median": 31760,
+          "min": 22898,
+          "n": 250
         }
       ],
       "Base": [
@@ -19,6 +26,13 @@
           "max": 27576,
           "median": 26268,
           "min": 25021,
+          "n": 5
+        },
+        {
+          "date": "2026-07-23",
+          "max": 27576,
+          "median": 26268,
+          "min": 24317,
           "n": 5
         }
       ],
@@ -29,6 +43,13 @@
           "median": 31949,
           "min": 23798,
           "n": 55
+        },
+        {
+          "date": "2026-07-23",
+          "max": 41361,
+          "median": 31715,
+          "min": 23798,
+          "n": 56
         }
       ],
       "Limited XT": [
@@ -38,6 +59,13 @@
           "median": 31248,
           "min": 28163,
           "n": 21
+        },
+        {
+          "date": "2026-07-23",
+          "max": 42986,
+          "median": 30848,
+          "min": 27971,
+          "n": 22
         }
       ],
       "Onyx Edition": [
@@ -47,11 +75,25 @@
           "median": 30019,
           "min": 26229,
           "n": 25
+        },
+        {
+          "date": "2026-07-23",
+          "max": 35687,
+          "median": 30099,
+          "min": 26128,
+          "n": 26
         }
       ],
       "Onyx Edition XT": [
         {
           "date": "2026-07-22",
+          "max": 36590,
+          "median": 33959,
+          "min": 29148,
+          "n": 7
+        },
+        {
+          "date": "2026-07-23",
           "max": 36590,
           "median": 33959,
           "min": 29148,
@@ -65,6 +107,13 @@
           "median": 31625,
           "min": 22898,
           "n": 87
+        },
+        {
+          "date": "2026-07-23",
+          "max": 36653,
+          "median": 32146,
+          "min": 22898,
+          "n": 84
         }
       ],
       "Touring": [
@@ -74,6 +123,13 @@
           "median": 34083,
           "min": 24748,
           "n": 11
+        },
+        {
+          "date": "2026-07-23",
+          "max": 44855,
+          "median": 34624,
+          "min": 24748,
+          "n": 10
         }
       ],
       "Touring XT": [
@@ -83,11 +139,25 @@
           "median": 34216,
           "min": 30283,
           "n": 18
+        },
+        {
+          "date": "2026-07-23",
+          "max": 46498,
+          "median": 34216,
+          "min": 30200,
+          "n": 18
         }
       ],
       "Wilderness": [
         {
           "date": "2026-07-22",
+          "max": 44945,
+          "median": 33575,
+          "min": 25753,
+          "n": 22
+        },
+        {
+          "date": "2026-07-23",
           "max": 44945,
           "median": 33575,
           "min": 25753,
@@ -110,7 +180,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -140,7 +210,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -170,7 +240,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28651,
       "priceHistory": [
         {
@@ -196,7 +266,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -222,7 +292,7 @@
       "driveText": "45 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -248,7 +318,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29399,
       "priceHistory": [
         {
@@ -274,7 +344,7 @@
       "driveText": "1 hour 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -304,7 +374,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28850,
       "priceHistory": [
         {
@@ -330,7 +400,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28995,
       "priceHistory": [
         {
@@ -356,7 +426,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31055,
       "priceHistory": [
         {
@@ -382,7 +452,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -412,7 +482,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -438,7 +508,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -468,7 +538,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29350,
       "priceHistory": [
         {
@@ -494,7 +564,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -520,7 +590,7 @@
       "driveText": "3 hours 2 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -546,7 +616,7 @@
       "driveText": "2 hours 56 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 27749,
       "priceHistory": [
         {
@@ -572,7 +642,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -598,7 +668,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -654,7 +724,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -680,7 +750,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -706,7 +776,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -732,7 +802,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29850,
       "priceHistory": [
         {
@@ -758,7 +828,7 @@
       "driveText": "2 hours 18 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29486,
       "priceHistory": [
         {
@@ -784,7 +854,7 @@
       "driveText": "2 hours 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -810,7 +880,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35237,
       "priceHistory": [
         {
@@ -836,7 +906,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -866,7 +936,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -892,7 +962,7 @@
       "driveText": "3 hours 51 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 37786,
       "priceHistory": [
         {
@@ -918,7 +988,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -974,7 +1044,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31499,
       "priceHistory": [
         {
@@ -1000,7 +1070,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 30998,
       "priceHistory": [
         {
@@ -1026,7 +1096,7 @@
       "driveText": "45 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1052,7 +1122,7 @@
       "driveText": "1 hour 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28990,
       "priceHistory": [
         {
@@ -1078,7 +1148,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 36741,
       "priceHistory": [
         {
@@ -1104,7 +1174,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33075,
       "priceHistory": [
         {
@@ -1130,7 +1200,7 @@
       "driveText": "3 hours 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1156,7 +1226,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1186,7 +1256,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1212,7 +1282,7 @@
       "driveText": "27 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 26910,
       "priceHistory": [
         {
@@ -1238,7 +1308,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1264,7 +1334,7 @@
       "driveText": "3 hours 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1290,7 +1360,7 @@
       "driveText": "3 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29632,
       "priceHistory": [
         {
@@ -1316,7 +1386,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31500,
       "priceHistory": [
         {
@@ -1342,7 +1412,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31477,
       "priceHistory": [
         {
@@ -1368,7 +1438,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1394,7 +1464,7 @@
       "driveText": "1 hour 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 23500,
       "priceHistory": [
         {
@@ -1420,7 +1490,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1446,7 +1516,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29925,
       "priceHistory": [
         {
@@ -1472,7 +1542,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1498,7 +1568,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1524,7 +1594,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1550,7 +1620,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 32000,
       "priceHistory": [
         {
@@ -1602,7 +1672,7 @@
       "driveText": "2 hours 44 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 38530,
       "priceHistory": [
         {
@@ -1628,7 +1698,7 @@
       "driveText": "42 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1654,7 +1724,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1680,7 +1750,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1706,7 +1776,7 @@
       "driveText": "1 hour 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1736,7 +1806,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1762,7 +1832,7 @@
       "driveText": "2 hours 16 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1788,7 +1858,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 38336,
       "priceHistory": [
         {
@@ -1814,7 +1884,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 38336,
       "priceHistory": [
         {
@@ -1840,7 +1910,7 @@
       "driveText": "2 hours 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1866,7 +1936,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29225,
       "priceHistory": [
         {
@@ -1892,7 +1962,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 25025,
       "priceHistory": [
         {
@@ -1918,7 +1988,7 @@
       "driveText": "3 hours 0 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 25575,
       "priceHistory": [
         {
@@ -1944,7 +2014,7 @@
       "driveText": "2 hours 56 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28749,
       "priceHistory": [
         {
@@ -1970,7 +2040,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34495,
       "priceHistory": [
         {
@@ -1996,7 +2066,7 @@
       "driveText": "3 hours 2 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2022,7 +2092,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2048,7 +2118,7 @@
       "driveText": "42 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2074,7 +2144,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28555,
       "priceHistory": [
         {
@@ -2104,7 +2174,7 @@
       "driveText": "2 hours 56 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 27499,
       "priceHistory": [
         {
@@ -2130,7 +2200,7 @@
       "driveText": "1 hour 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31990,
       "priceHistory": [
         {
@@ -2156,7 +2226,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2182,7 +2252,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 27718,
       "priceHistory": [
         {
@@ -2208,7 +2278,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31995,
       "priceHistory": [
         {
@@ -2234,7 +2304,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2260,7 +2330,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2286,7 +2356,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 32500,
       "priceHistory": [
         {
@@ -2312,7 +2382,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2338,7 +2408,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31555,
       "priceHistory": [
         {
@@ -2368,7 +2438,7 @@
       "driveText": "2 hours 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2394,7 +2464,7 @@
       "driveText": "42 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2420,7 +2490,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 36025,
       "priceHistory": [
         {
@@ -2450,7 +2520,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 32995,
       "priceHistory": [
         {
@@ -2476,7 +2546,7 @@
       "driveText": "45 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2502,7 +2572,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31000,
       "priceHistory": [
         {
@@ -2528,7 +2598,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31558,
       "priceHistory": [
         {
@@ -2554,7 +2624,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2580,7 +2650,7 @@
       "driveText": "3 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 30443,
       "priceHistory": [
         {
@@ -2606,7 +2676,7 @@
       "driveText": "2 hours 48 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2632,7 +2702,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2658,7 +2728,7 @@
       "driveText": "3 hours 19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29999,
       "priceHistory": [
         {
@@ -2684,7 +2754,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2710,7 +2780,7 @@
       "driveText": "2 hours 48 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2736,7 +2806,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31899,
       "priceHistory": [
         {
@@ -2762,7 +2832,7 @@
       "driveText": "3 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 27785,
       "priceHistory": [
         {
@@ -2788,7 +2858,7 @@
       "driveText": "3 hours 44 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31975,
       "priceHistory": [
         {
@@ -2814,7 +2884,7 @@
       "driveText": "2 hours 44 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2840,7 +2910,7 @@
       "driveText": "3 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 30210,
       "priceHistory": [
         {
@@ -2866,7 +2936,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34558,
       "priceHistory": [
         {
@@ -2892,7 +2962,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28977,
       "priceHistory": [
         {
@@ -2918,7 +2988,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35250,
       "priceHistory": [
         {
@@ -2948,7 +3018,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 26000,
       "priceHistory": [
         {
@@ -2978,7 +3048,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3004,7 +3074,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3030,7 +3100,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC1S3197640",
@@ -3051,7 +3121,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3077,7 +3147,7 @@
       "driveText": "1 hour 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3103,7 +3173,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33499,
       "priceHistory": [
         {
@@ -3129,7 +3199,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 32382,
       "priceHistory": [
         {
@@ -3155,7 +3225,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35400,
       "priceHistory": [
         {
@@ -3185,7 +3255,7 @@
       "driveText": "2 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3211,7 +3281,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 37400,
       "priceHistory": [
         {
@@ -3237,7 +3307,7 @@
       "driveText": "1 hour 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 25000,
       "priceHistory": [
         {
@@ -3263,7 +3333,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3289,7 +3359,7 @@
       "driveText": "3 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 24018,
       "priceHistory": [
         {
@@ -3315,7 +3385,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 26525,
       "priceHistory": [
         {
@@ -3341,7 +3411,7 @@
       "driveText": "2 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3367,7 +3437,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3393,7 +3463,7 @@
       "driveText": "2 hours 18 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35683,
       "priceHistory": [
         {
@@ -3419,7 +3489,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 37025,
       "priceHistory": [
         {
@@ -3445,7 +3515,7 @@
       "driveText": "27 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 26190,
       "priceHistory": [
         {
@@ -3471,7 +3541,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33000,
       "priceHistory": [
         {
@@ -3501,7 +3571,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29774,
       "priceHistory": [
         {
@@ -3527,7 +3597,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3557,7 +3627,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35448,
       "priceHistory": [
         {
@@ -3583,7 +3653,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28120,
       "priceHistory": [
         {
@@ -3613,7 +3683,7 @@
       "driveText": "2 hours 18 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 36129,
       "priceHistory": [
         {
@@ -3639,7 +3709,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35995,
       "priceHistory": [
         {
@@ -3665,7 +3735,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 30875,
       "priceHistory": [
         {
@@ -3691,7 +3761,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35595,
       "priceHistory": [
         {
@@ -3717,7 +3787,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3747,7 +3817,7 @@
       "driveText": "1 hour 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35990,
       "priceHistory": [
         {
@@ -3773,7 +3843,7 @@
       "driveText": "3 hours 2 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3799,7 +3869,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3825,7 +3895,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3877,7 +3947,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33500,
       "priceHistory": [
         {
@@ -3903,7 +3973,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 24955,
       "priceHistory": [
         {
@@ -3933,7 +4003,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3959,7 +4029,7 @@
       "driveText": "42 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3985,7 +4055,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4011,7 +4081,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4041,7 +4111,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4071,7 +4141,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 38750,
       "priceHistory": [
         {
@@ -4101,7 +4171,7 @@
       "driveText": "3 hours 2 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4153,7 +4223,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34575,
       "priceHistory": [
         {
@@ -4179,7 +4249,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4209,7 +4279,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 37225,
       "priceHistory": [
         {
@@ -4235,7 +4305,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 24525,
       "priceHistory": [
         {
@@ -4261,7 +4331,7 @@
       "driveText": "3 hours 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31390,
       "priceHistory": [
         {
@@ -4287,7 +4357,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 36450,
       "priceHistory": [
         {
@@ -4313,7 +4383,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4339,7 +4409,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 30500,
       "priceHistory": [
         {
@@ -4365,7 +4435,7 @@
       "driveText": "2 hours 18 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 32993,
       "priceHistory": [
         {
@@ -4391,7 +4461,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4417,7 +4487,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4443,7 +4513,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33925,
       "priceHistory": [
         {
@@ -4469,7 +4539,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4495,7 +4565,7 @@
       "driveText": "2 hours 48 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4521,7 +4591,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28750,
       "priceHistory": [
         {
@@ -4551,7 +4621,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34875,
       "priceHistory": [
         {
@@ -4577,7 +4647,7 @@
       "driveText": "1 hour 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33990,
       "priceHistory": [
         {
@@ -4603,7 +4673,7 @@
       "driveText": "3 hours 19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 32499,
       "priceHistory": [
         {
@@ -4629,7 +4699,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31750,
       "priceHistory": [
         {
@@ -4655,7 +4725,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 29300,
       "priceHistory": [
         {
@@ -4681,7 +4751,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4707,7 +4777,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28010,
       "priceHistory": [
         {
@@ -4737,7 +4807,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28630,
       "priceHistory": [
         {
@@ -4767,7 +4837,7 @@
       "driveText": "2 hours 16 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4793,7 +4863,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4819,7 +4889,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35019,
       "priceHistory": [
         {
@@ -4845,7 +4915,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4875,7 +4945,7 @@
       "driveText": "3 hours 5 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33450,
       "priceHistory": [
         {
@@ -4901,7 +4971,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 28760,
       "priceHistory": [
         {
@@ -4931,7 +5001,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4957,7 +5027,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 30025,
       "priceHistory": [
         {
@@ -4983,7 +5053,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5009,7 +5079,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31750,
       "priceHistory": [
         {
@@ -5035,7 +5105,7 @@
       "driveText": "1 hour 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 37990,
       "priceHistory": [
         {
@@ -5061,7 +5131,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5087,7 +5157,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5117,7 +5187,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 30210,
       "priceHistory": [
         {
@@ -5147,7 +5217,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 30977,
       "priceHistory": [
         {
@@ -5173,7 +5243,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35850,
       "priceHistory": [
         {
@@ -5199,7 +5269,7 @@
       "driveText": "1 hour 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 35900,
       "priceHistory": [
         {
@@ -5225,7 +5295,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5251,7 +5321,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5277,7 +5347,7 @@
       "driveText": "2 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5303,7 +5373,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5329,7 +5399,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5359,7 +5429,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33869,
       "priceHistory": [
         {
@@ -5385,7 +5455,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 40000,
       "priceHistory": [
         {
@@ -5411,7 +5481,7 @@
       "driveText": "2 hours 48 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5437,7 +5507,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 37995,
       "priceHistory": [
         {
@@ -5463,7 +5533,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5489,7 +5559,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5515,7 +5585,7 @@
       "driveText": "3 hours 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex ",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 26510,
       "priceHistory": [
         {
@@ -5541,7 +5611,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31425,
       "priceHistory": [
         {
@@ -5567,7 +5637,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5597,7 +5667,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31490,
       "priceHistory": [
         {
@@ -5627,7 +5697,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5653,7 +5723,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33750,
       "priceHistory": [
         {
@@ -5679,7 +5749,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 33977,
       "priceHistory": [
         {
@@ -5705,7 +5775,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5731,7 +5801,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 36977,
       "priceHistory": [
         {
@@ -5757,7 +5827,7 @@
       "driveText": "2 hours 16 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex ",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5783,7 +5853,7 @@
       "driveText": "1 hour 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34990,
       "priceHistory": [
         {
@@ -5809,7 +5879,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5835,7 +5905,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34150,
       "priceHistory": [
         {
@@ -5861,7 +5931,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5887,7 +5957,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 31475,
       "priceHistory": [
         {
@@ -5913,7 +5983,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 37775,
       "priceHistory": [
         {
@@ -5939,7 +6009,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5969,7 +6039,7 @@
       "driveText": "1 hour 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5999,7 +6069,7 @@
       "driveText": "1 hour 27 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34274,
       "priceHistory": [
         {
@@ -6025,7 +6095,7 @@
       "driveText": "2 hours 30 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 38795,
       "priceHistory": [
         {
@@ -6051,7 +6121,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 37286,
       "priceHistory": [
         {
@@ -6077,7 +6147,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6103,7 +6173,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6129,7 +6199,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6155,7 +6225,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 36589,
       "priceHistory": [
         {
@@ -6185,7 +6255,7 @@
       "driveText": "3 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 36959,
       "priceHistory": [
         {
@@ -6211,7 +6281,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6237,7 +6307,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34977,
       "priceHistory": [
         {
@@ -6263,7 +6333,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6289,7 +6359,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6315,7 +6385,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6341,7 +6411,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6367,7 +6437,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34977,
       "priceHistory": [
         {
@@ -6393,7 +6463,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 34977,
       "priceHistory": [
         {
@@ -6419,7 +6489,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6445,7 +6515,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6471,7 +6541,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 43612,
       "priceHistory": [],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPDD0TY472015",
@@ -6492,7 +6562,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6522,7 +6592,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 44007,
       "priceHistory": [],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPDD2TY472386",
@@ -6543,7 +6613,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6569,7 +6639,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 40950,
       "priceHistory": [
         {
@@ -6595,7 +6665,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 43898,
       "priceHistory": [
         {
@@ -6621,7 +6691,7 @@
       "driveText": "3 hours 51 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 45547,
       "priceHistory": [
         {
@@ -6647,7 +6717,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6673,7 +6743,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 42250,
       "priceHistory": [
         {
@@ -6699,7 +6769,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6725,7 +6795,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6751,7 +6821,7 @@
       "driveText": "1 hour 27 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 43826,
       "priceHistory": [
         {
@@ -6777,7 +6847,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 44599,
       "priceHistory": [
         {
@@ -6807,7 +6877,7 @@
       "driveText": "3 hours 51 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 48218,
       "priceHistory": [
         {
@@ -6833,7 +6903,7 @@
       "driveText": "3 hours 51 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 51580,
       "priceHistory": [
         {
@@ -6859,7 +6929,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6889,7 +6959,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 50429,
       "priceHistory": [
         {
@@ -6915,7 +6985,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6941,7 +7011,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-23",
       "msrp": 0,
       "priceHistory": [
         {
