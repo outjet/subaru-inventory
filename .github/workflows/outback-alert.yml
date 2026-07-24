@@ -38,12 +38,12 @@ jobs:
       - name: "Snapshot per-VIN history (days-on-lot, price drops, trend)"
         run: python3 scripts/snapshot_inventory.py --from-file data/outback_data_200mi.json
 
-      - name: Rebuild comps dashboard
+      - name: Rebuild comps dashboard (GitHub Pages page in docs/)
         run: python3 scripts/build_dashboard.py
 
       - name: Commit updated state
         run: |
-          FILES="data/seen_touring_xt_vins.json data/drive_times_cache.json data/outback_data_200mi.json data/inventory_history.json dashboard.html"
+          FILES="data/seen_touring_xt_vins.json data/drive_times_cache.json data/outback_data_200mi.json data/inventory_history.json docs/index.html"
           if ! git diff --quiet -- $FILES; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"

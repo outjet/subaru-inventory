@@ -9,18 +9,33 @@ a fitted market line, a value-ladder by model year, a deal-ranked comps table
 (with days-on-lot and price-drop pulled from the history), and the accruing
 per-trim price trend.
 
-The output is a body-fragment (styles in <style>, logic in <script>, no
-<html>/<head>/<body> wrappers) so it doubles as a Claude Artifact and still
-opens directly in a browser.
+By default it writes a full standalone HTML document to docs/index.html, which
+GitHub Pages serves live (the alert workflow rebuilds and commits it every run,
+so the hosted page stays current with no manual step). Pass --artifact-out to
+also emit a body-fragment (no <html>/<head>/<body> wrappers) suitable for
+publishing as a Claude Artifact.
 
 Run snapshot_inventory.py first (it refreshes the history and the trend point),
 then this. Usage:
-  python3 build_dashboard.py --history ../data/inventory_history.json --out ../dashboard.html
+  python3 build_dashboard.py                          # -> docs/index.html (Pages)
+  python3 build_dashboard.py --artifact-out ../dashboard.html   # + artifact fragment
 """
 import argparse
 import datetime as dt
 import json
 import os
+
+# Wraps the body-fragment TEMPLATE into a full document for direct hosting.
+PAGE_OPEN = (
+    '<!doctype html>\n<html lang="en">\n<head>\n'
+    '<meta charset="utf-8">\n'
+    '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+    '<meta name="robots" content="noindex">\n'
+    '<title>Outback CPO — Negotiation Comps</title>\n'
+    '<style>*{box-sizing:border-box}html,body{margin:0;padding:0}</style>\n'
+    '</head>\n<body>\n'
+)
+PAGE_CLOSE = '\n</body>\n</html>\n'
 
 
 def days_between(a, b):
@@ -594,7 +609,10 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     here = os.path.dirname(os.path.abspath(__file__))
     ap.add_argument("--history", default=os.path.join(here, "..", "data", "inventory_history.json"))
-    ap.add_argument("--out", default=os.path.join(here, "..", "dashboard.html"))
+    ap.add_argument("--out", default=os.path.join(here, "..", "docs", "index.html"),
+                    help="full standalone page for GitHub Pages (default: docs/index.html)")
+    ap.add_argument("--artifact-out", default=None,
+                    help="also write a body-fragment here for publishing as a Claude Artifact")
     ap.add_argument("--default-trim", default="Touring XT")
     args = ap.parse_args()
 
@@ -615,16 +633,23 @@ def main():
     meta = {"defaultTrim": args.default_trim, "zip": zipc, "radius": radius,
             "date": last_snap, "trackingSince": tracking_since}
 
-    html = (TEMPLATE
-            .replace("__DATA__", json.dumps(rows))
-            .replace("__HISTORY__", json.dumps(trend))
-            .replace("__META__", json.dumps(meta))
-            .replace("__SUBTITLE__", subtitle)
-            .replace("__TRACKING_SINCE__", tracking_since))
+    fragment = (TEMPLATE
+                .replace("__DATA__", json.dumps(rows))
+                .replace("__HISTORY__", json.dumps(trend))
+                .replace("__META__", json.dumps(meta))
+                .replace("__SUBTITLE__", subtitle)
+                .replace("__TRACKING_SINCE__", tracking_since))
 
+    os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
+    page = PAGE_OPEN + fragment + PAGE_CLOSE
     with open(args.out, "w") as f:
-        f.write(html)
-    print(f"Wrote dashboard to {args.out} ({len(html):,} bytes, {len(rows)} active vehicles embedded)")
+        f.write(page)
+    print(f"Wrote Pages document to {args.out} ({len(page):,} bytes, {len(rows)} active vehicles embedded)")
+
+    if args.artifact_out:
+        with open(args.artifact_out, "w") as f:
+            f.write(fragment)
+        print(f"Wrote artifact fragment to {args.artifact_out} ({len(fragment):,} bytes)")
 
 
 if __name__ == "__main__":
