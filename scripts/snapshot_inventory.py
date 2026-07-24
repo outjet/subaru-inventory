@@ -121,6 +121,18 @@ def main():
 
     history = load_history()
     vehicles = history["vehicles"]
+
+    # Guard: a failed/blocked fetch that returns nothing (or a tiny fraction of
+    # what we had) must NOT mutate history — otherwise it would mass-delist the
+    # whole market and write a garbage trend point. Bail loudly so the workflow
+    # run fails, the page stops updating, and the dashboard's freshness banner
+    # flips to stale instead of silently showing corrupted data.
+    active_before = sum(1 for e in vehicles.values() if e.get("active"))
+    if not rows or (active_before and len(rows) < active_before * 0.5):
+        print(f"ABORT: fetched {len(rows)} rows but {active_before} were active last run — "
+              f"refusing to corrupt history. Leaving state untouched.", file=sys.stderr)
+        sys.exit(1)
+
     meta = history["meta"]
     meta.setdefault("trackingSince", today)
     meta["lastSnapshot"] = today

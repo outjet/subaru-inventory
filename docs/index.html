@@ -122,8 +122,19 @@
   .delta { font-weight: 650; font-variant-numeric: tabular-nums; }
   .delta.good { color: var(--good); }
   .delta.bad { color: var(--bad); }
-  .drop { font-size: 11px; font-weight: 650; color: var(--good); font-variant-numeric: tabular-nums; margin-top: 1px; }
+  .drop { font-size: 11px; font-weight: 650; font-variant-numeric: tabular-nums; margin-top: 1px; }
+  .drop.cut { color: var(--good); }
+  .drop.up { color: var(--bad); }
   .stale { color: var(--bad); font-weight: 650; }
+  .freshness { display: flex; align-items: center; gap: 8px; font-size: 13px; border-radius: 10px; padding: 9px 13px; }
+  .freshness .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+  .freshness.ok { color: var(--text-2); background: var(--surface-1); border: 1px solid var(--border); }
+  .freshness.ok .dot { background: var(--good); }
+  .freshness.warn { color: var(--text-1); font-weight: 600;
+    background: color-mix(in srgb, var(--bad) 13%, var(--surface-1));
+    border: 1px solid color-mix(in srgb, var(--bad) 45%, var(--border)); }
+  .freshness.warn .dot { background: var(--bad); }
+  .freshness b { font-variant-numeric: tabular-nums; }
   .yrchip { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; vertical-align: baseline; }
   a.lk { color: var(--accent); text-decoration: none; font-weight: 600; }
   a.lk:hover { text-decoration: underline; }
@@ -149,6 +160,8 @@
     <h1>Outback CPO — Negotiation Comps</h1>
     <div class="sub">Certified pre-owned within <b>200 mi</b> of <b>44107</b> · <b>245</b> active listings · snapshot <b>2026-07-24</b> · tracking since <b>2026-07-22</b></div>
   </header>
+
+  <div id="freshness"></div>
 
   <div class="card">
     <div class="controls" id="controls">
@@ -214,7 +227,7 @@
   <div class="foot">
     Comps are certified pre-owned only, pulled from subaru.com. Market line is an ordinary least-squares
     fit of price on mileage &amp; model year within the selected trim (shown when ≥ 6 comps). Days-on-lot and
-    price drops accrue from the first snapshot forward — a car on the lot before tracking began shows its
+    price changes accrue from the first snapshot forward — a car on the lot before tracking began shows its
     days since <b>2026-07-22</b>, not its true age. Refresh with
     <code>python3 scripts/snapshot_inventory.py &amp;&amp; python3 scripts/build_dashboard.py</code>.
   </div>
@@ -329,11 +342,15 @@ function renderKpis(rows, fit){
   tiles.push(['Median mileage', fmtK(Math.round(median(miles)))+' mi', `${fmtK(Math.min(...miles))}–${fmtK(Math.max(...miles))} mi`]);
   tiles.push(['Cheapest', fmt$(cheapest.price), `${fmtK(cheapest.mileage)} mi · ${cheapest.dealer}`]);
   tiles.push(['Closest', (closest.distance!=null?closest.distance+' mi':'—'), `${fmt$(closest.price)} · ${closest.dealer}`]);
-  const cuts=rows.filter(r=>r.priceDrop<0);
+  const cuts=rows.filter(r=>r.priceDrop<0), ups=rows.filter(r=>r.priceDrop>0);
   const stale=rows.filter(r=>r.daysOnLot>=21).length;
   tiles.push(['Median days on lot', Math.round(median(rows.map(r=>r.daysOnLot)))+'<small> days</small>',
     stale? `${stale} sitting 21+ days` : 'none sitting 21+ days']);
-  tiles.push(['Price cuts', cuts.length, cuts.length? `deepest −${fmt$(Math.max(...cuts.map(c=>-c.priceDrop)))}` : 'none yet — accrues over time']);
+  const moved=cuts.length+ups.length;
+  const changeNote = moved
+    ? `${cuts.length}↓ cut · ${ups.length}↑ raised` + (cuts.length?` · deepest −${fmt$(Math.max(...cuts.map(c=>-c.priceDrop)))}`:'')
+    : 'none yet — accrues over time';
+  tiles.push(['Price changes', moved, changeNote]);
   if(fit){
     tiles.push(['Depreciation', '−'+fmt$(Math.abs(fit.perK)),
       fit.useYear? `per 1,000 mi · +${fmt$(Math.abs(fit.perYr))}/model year` : 'per 1,000 mi · single model year']);
@@ -388,7 +405,7 @@ function renderScatter(rows, fit){
         `<div class="ttv">${fmt$(r.price)} · ${fmtK(r.mileage)} mi</div>`+
         `<div class="ttd">${r.dealer}</div>`+
         `<div class="ttd">${r.distance!=null?r.distance+' mi · '+(r.driveText||''):''}</div>`+
-        `<div class="ttd">${r.daysOnLot}d on lot${r.priceDrop<0?` · ↓${fmt$(Math.abs(r.priceDrop))}`:''}</div>`+
+        `<div class="ttd">${r.daysOnLot}d on lot${r.priceDrop<0?` · ↓${fmt$(-r.priceDrop)}`:r.priceDrop>0?` · ↑${fmt$(r.priceDrop)}`:''}</div>`+
         (d!=null?`<div class="ttv" style="color:${d<=0?'var(--good)':'var(--bad)'}">${d<=0?'−':'+'}${fmt$(Math.abs(d))} vs market</div>`:''));
       c.setAttribute('r','8'); c.classList.add('hl'); });
     c.addEventListener('mouseleave',()=>{ hideTip(); c.setAttribute('r','6.5'); c.classList.remove('hl'); });
@@ -459,8 +476,11 @@ function renderTable(rows, fit){
     if(r.delta!=null){ const good=r.delta<=0; deltaCell=`<span class="delta ${good?'good':'bad'}">${good?'−':'+'}${fmt$(Math.abs(r.delta))}</span>`; }
     const links=`<a class="lk" href="${r.url}" target="_blank" rel="noopener">listing</a>`+
                 (r.sticker?` · <a class="lk" href="${r.sticker}" target="_blank" rel="noopener">sticker</a>`:'');
+    const chTitle = `${r.priceDropCount} price change${r.priceDropCount===1?'':'s'} since first seen (${r.daysOnLot}d ago)`;
     const drop = r.priceDrop<0
-      ? `<div class="drop" title="${r.priceDropCount} price cut${r.priceDropCount===1?'':'s'} since first seen">↓${fmt$(Math.abs(r.priceDrop))}</div>` : '';
+      ? `<div class="drop cut" title="${chTitle}">↓${fmt$(-r.priceDrop)}</div>`
+      : r.priceDrop>0
+      ? `<div class="drop up" title="${chTitle}">↑${fmt$(r.priceDrop)}</div>` : '';
     const days = r.daysOnLot>=21 ? `<span class="stale">${r.daysOnLot}d</span>`
                : `${r.daysOnLot}d`;
     return `<tr class="${r.price===cheapest?'target':''}">
@@ -517,8 +537,27 @@ function showTip(e,html){ tt.innerHTML=html; tt.classList.add('on');
   tt.style.left=x+'px'; tt.style.top=y+'px'; }
 function hideTip(){ tt.classList.remove('on'); }
 
+// ---- freshness (compares last snapshot to the viewer's live clock, so it
+//      still flags staleness even if the whole pipeline has stopped) ----
+function renderFreshness(){
+  const el=$('#freshness'); const snap=META.date;
+  if(!snap){ el.className=''; el.innerHTML=''; return; }
+  const days=Math.floor((Date.now()-Date.parse(snap+'T12:00:00'))/86400000);
+  if(days<=1){
+    const when=days<=0?'today':'yesterday';
+    el.className='freshness ok';
+    el.innerHTML=`<span class="dot"></span><span>Data current — last updated <b>${snap}</b> (${when}).</span>`;
+  } else {
+    el.className='freshness warn';
+    el.innerHTML=`<span class="dot"></span><span>⚠ Data may be stale — last successful update was <b>${snap}</b>, `+
+      `<b>${days}</b> days ago. The scraper looks like it has stopped or its API calls are failing; `+
+      `numbers below are frozen as of that date.</span>`;
+  }
+}
+
 // ---- master render ----
 function render(){
+  renderFreshness();
   const rows=currentRows();
   const fit=fitMarket(rows);
   renderKpis(rows,fit);
