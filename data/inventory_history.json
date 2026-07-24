@@ -1059,12 +1059,12 @@
       "year": 2025
     },
     "4S4BTADC0S3336125": {
-      "active": true,
+      "active": false,
       "color": "Ice Silver Metallic",
       "currentMileage": 4582,
       "currentPrice": 33825,
       "dealer": "Thelen Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-24",
       "distance": 182.7,
       "driveMinutes": 231,
       "driveText": "3 hours 51 mins",
@@ -2200,6 +2200,32 @@
       "vin": "4S4BTAFC9S3310913",
       "year": 2025
     },
+    "4S4BTAFCXR3250067": {
+      "active": true,
+      "color": "Magnetite Gray Metallic",
+      "currentMileage": 15725,
+      "currentPrice": 28941,
+      "dealer": "Subaru of South Hills",
+      "delistedDate": null,
+      "distance": 120.5,
+      "driveMinutes": 146,
+      "driveText": "2 hours 26 mins",
+      "firstSeen": "2026-07-24",
+      "interior": "Slate Black Cloth",
+      "lastSeen": "2026-07-24",
+      "msrp": 28493,
+      "priceHistory": [
+        {
+          "date": "2026-07-24",
+          "price": 28941
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFCXR3250067",
+      "trim": "Premium",
+      "url": "https://www.subarusouthhills.com/inventory/used-2024-subaru-outback-premium-awd-sport-utility-4s4btafcxr3250067/",
+      "vin": "4S4BTAFCXR3250067",
+      "year": 2024
+    },
     "4S4BTAFCXS3217382": {
       "active": true,
       "color": "Autumn Green Metallic",
@@ -2309,12 +2335,12 @@
       "year": 2024
     },
     "4S4BTALC0R3144036": {
-      "active": true,
+      "active": false,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 36575,
       "currentPrice": 27395,
       "dealer": "Yark Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-24",
       "distance": 98.9,
       "driveMinutes": 109,
       "driveText": "1 hour 49 mins",
@@ -4123,12 +4149,12 @@
       "year": 2023
     },
     "4S4BTANC8R3144511": {
-      "active": true,
+      "active": false,
       "color": "Autumn Green Metallic",
       "currentMileage": 24577,
       "currentPrice": 31949,
       "dealer": "LaFontaine Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-24",
       "distance": 112.1,
       "driveMinutes": 158,
       "driveText": "2 hours 38 mins",
@@ -4699,7 +4725,7 @@
     "4S4BTGLD2R3147709": {
       "active": true,
       "color": "Cosmic Blue Pearl",
-      "currentMileage": 19734,
+      "currentMileage": 19738,
       "currentPrice": 29998,
       "dealer": "#1 Cochran Subaru",
       "delistedDate": null,
@@ -4961,12 +4987,12 @@
       "year": 2024
     },
     "4S4BTGND0R3176543": {
-      "active": true,
+      "active": false,
       "color": "Ice Silver Metallic",
       "currentMileage": 37048,
       "currentPrice": 30448,
       "dealer": "Byers Dublin Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-24",
       "distance": 116.3,
       "driveMinutes": 123,
       "driveText": "2 hours 3 mins",
@@ -6329,12 +6355,12 @@
       "year": 2025
     },
     "4S4BTGUD8R3255167": {
-      "active": true,
+      "active": false,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 14347,
       "currentPrice": 34484,
       "dealer": "New Motors Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-24",
       "distance": 96.9,
       "driveMinutes": 101,
       "driveText": "1 hour 41 mins",
@@ -6551,7 +6577,7 @@
     "JF2BUPBD0TY461437": {
       "active": true,
       "color": "Magnetite Gray Metallic",
-      "currentMileage": 4524,
+      "currentMileage": 4610,
       "currentPrice": 33812,
       "dealer": "Northtown Subaru",
       "delistedDate": null,
