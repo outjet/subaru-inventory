@@ -911,6 +911,32 @@
       "vin": "4S4BTACC7R3135513",
       "year": 2024
     },
+    "4S4BTACC7R3224773": {
+      "active": true,
+      "color": "Ice Silver Metallic",
+      "currentMileage": 25633,
+      "currentPrice": 27500,
+      "dealer": "Subaru of Dayton",
+      "delistedDate": null,
+      "distance": 179.5,
+      "driveMinutes": 199,
+      "driveText": "3 hours 19 mins",
+      "firstSeen": "2026-07-25",
+      "interior": "Slate Black Cloth",
+      "lastSeen": "2026-07-25",
+      "msrp": 27500,
+      "priceHistory": [
+        {
+          "date": "2026-07-25",
+          "price": 27500
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTACC7R3224773",
+      "trim": "Premium",
+      "url": "https://www.subaruofdayton.com/viewdetails/used/4s4btacc7r3224773/2024-subaru-outback-sport-utility",
+      "vin": "4S4BTACC7R3224773",
+      "year": 2024
+    },
     "4S4BTACC7S3323843": {
       "active": true,
       "color": "Ice Silver Metallic",
@@ -1532,6 +1558,32 @@
       "url": "https://www.jenkinssubaruwv.com/used-Bridgeport-2024-Subaru-Outback-Premium-4S4BTADC4R3185199",
       "vin": "4S4BTADC4R3185199",
       "year": 2024
+    },
+    "4S4BTADC6S3101874": {
+      "active": true,
+      "color": "Crimson Red Pearl",
+      "currentMileage": 20294,
+      "currentPrice": 31780,
+      "dealer": "Subaru of Grand Blanc",
+      "delistedDate": null,
+      "distance": 138.5,
+      "driveMinutes": 194,
+      "driveText": "3 hours 14 mins",
+      "firstSeen": "2026-07-25",
+      "interior": "Slate Black Cloth",
+      "lastSeen": "2026-07-25",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-25",
+          "price": 31780
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTADC6S3101874",
+      "trim": "Premium",
+      "url": "https://www.subaruofgrandblanc.com/used-Grand+Blanc-2025-Subaru-Outback-Premium-4S4BTADC6S3101874",
+      "vin": "4S4BTADC6S3101874",
+      "year": 2025
     },
     "4S4BTADC7N3164499": {
       "active": true,
@@ -2700,6 +2752,32 @@
       "url": "https://www.zeiglersubaruoffortwayne.com/catcher.esl?vehicleId=6a6a494bac185771b4b362d70a124bd4",
       "vin": "4S4BTALC4S3176543",
       "year": 2025
+    },
+    "4S4BTALC5R3150236": {
+      "active": true,
+      "color": "Crystal White Pearl",
+      "currentMileage": 44808,
+      "currentPrice": 28778,
+      "dealer": "Subaru of Grand Blanc",
+      "delistedDate": null,
+      "distance": 138.5,
+      "driveMinutes": 194,
+      "driveText": "3 hours 14 mins",
+      "firstSeen": "2026-07-25",
+      "interior": "Gray StarTex<sup>&reg;</sup>",
+      "lastSeen": "2026-07-25",
+      "msrp": 28730,
+      "priceHistory": [
+        {
+          "date": "2026-07-25",
+          "price": 28778
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTALC5R3150236",
+      "trim": "Onyx Edition",
+      "url": "https://www.subaruofgrandblanc.com/used-Grand+Blanc-2024-Subaru-Outback-Onyx+Edition-4S4BTALC5R3150236",
+      "vin": "4S4BTALC5R3150236",
+      "year": 2024
     },
     "4S4BTALC5R3222214": {
       "active": true,
@@ -4513,6 +4591,32 @@
       "vin": "4S4BTANC9S3175594",
       "year": 2025
     },
+    "4S4BTANC9S3275548": {
+      "active": true,
+      "color": "Cosmic Blue Pearl",
+      "currentMileage": 9575,
+      "currentPrice": 34999,
+      "dealer": "Subaru of Dayton",
+      "delistedDate": null,
+      "distance": 179.5,
+      "driveMinutes": 199,
+      "driveText": "3 hours 19 mins",
+      "firstSeen": "2026-07-25",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-25",
+      "msrp": 42239,
+      "priceHistory": [
+        {
+          "date": "2026-07-25",
+          "price": 34999
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC9S3275548",
+      "trim": "Limited",
+      "url": "https://www.subaruofdayton.com/viewdetails/used/4s4btanc9s3275548/2025-subaru-outback-sport-utility",
+      "vin": "4S4BTANC9S3275548",
+      "year": 2025
+    },
     "4S4BTANCXP3121437": {
       "active": true,
       "color": "Crimson Red Pearl",
@@ -4924,12 +5028,12 @@
       "year": 2024
     },
     "4S4BTGLD2R3147709": {
-      "active": true,
+      "active": false,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 19738,
       "currentPrice": 29998,
       "dealer": "#1 Cochran Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-25",
       "distance": 128.9,
       "driveMinutes": 138,
       "driveText": "2 hours 18 mins",
@@ -6112,12 +6216,12 @@
       "year": 2024
     },
     "4S4BTGSD7R3291452": {
-      "active": true,
+      "active": false,
       "color": "Crystal Black Silica",
       "currentMileage": 19102,
       "currentPrice": 33575,
       "dealer": "Jenkins Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-25",
       "distance": 171.0,
       "driveMinutes": 221,
       "driveText": "3 hours 41 mins",
@@ -6162,6 +6266,32 @@
       "url": "https://www.subarutransit.com/catcher.esl?vehicleId=7aad31beac180446c74c8ee1901c8d33",
       "vin": "4S4BTGSD8N3134622",
       "year": 2022
+    },
+    "4S4BTGUD0S3324438": {
+      "active": true,
+      "color": "Geyser Blue",
+      "currentMileage": 18262,
+      "currentPrice": 39475,
+      "dealer": "Louis Thomas Subaru",
+      "delistedDate": null,
+      "distance": 153.8,
+      "driveMinutes": 168,
+      "driveText": "2 hours 48 mins",
+      "firstSeen": "2026-07-25",
+      "interior": "Gray StarTex<sup>&reg;</sup>",
+      "lastSeen": "2026-07-25",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-25",
+          "price": 39475
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGUD0S3324438",
+      "trim": "Wilderness",
+      "url": "https://www.louisthomassubaru.com/catcher.esl?vehicleId=46674faaac1813cdd93b471398c475a8",
+      "vin": "4S4BTGUD0S3324438",
+      "year": 2025
     },
     "4S4BTGUD1P3224355": {
       "active": true,
@@ -6329,6 +6459,32 @@
       "trim": "Wilderness",
       "url": "https://www.serrasubaruakron.com/viewdetails/cpo/4s4btgud3r3142629/2024-subaru-outback-sport-utility",
       "vin": "4S4BTGUD3R3142629",
+      "year": 2024
+    },
+    "4S4BTGUD3R3222903": {
+      "active": true,
+      "color": "Geyser Blue",
+      "currentMileage": 27439,
+      "currentPrice": 32990,
+      "dealer": "#1 Cochran Subaru of Butler County",
+      "delistedDate": null,
+      "distance": 103.7,
+      "driveMinutes": 134,
+      "driveText": "2 hours 14 mins",
+      "firstSeen": "2026-07-25",
+      "interior": "Gray StarTex<sup>&reg;</sup>",
+      "lastSeen": "2026-07-25",
+      "msrp": 35500,
+      "priceHistory": [
+        {
+          "date": "2026-07-25",
+          "price": 32990
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGUD3R3222903",
+      "trim": "Wilderness",
+      "url": "https://www.cochransubarubutler.com/viewdetails/used/4s4btgud3r3222903/2024-subaru-outback-sport-utility",
+      "vin": "4S4BTGUD3R3222903",
       "year": 2024
     },
     "4S4BTGUD3S3102976": {
