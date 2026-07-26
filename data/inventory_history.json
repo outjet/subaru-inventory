@@ -5861,12 +5861,12 @@
       "year": 2024
     },
     "4S4BTGND7R3296145": {
-      "active": true,
+      "active": false,
       "color": "Ice Silver Metallic",
       "currentMileage": 22945,
       "currentPrice": 32472,
       "dealer": "Delaney Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-26",
       "distance": 148.6,
       "driveMinutes": 185,
       "driveText": "3 hours 5 mins",
