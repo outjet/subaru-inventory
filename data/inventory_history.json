@@ -2156,6 +2156,32 @@
       "vin": "4S4BTAFC1S3336258",
       "year": 2025
     },
+    "4S4BTAFC2N3251031": {
+      "active": true,
+      "color": "Crystal White Pearl",
+      "currentMileage": 52578,
+      "currentPrice": 24144,
+      "dealer": "Subaru of Morgantown",
+      "delistedDate": null,
+      "distance": 160.4,
+      "driveMinutes": 202,
+      "driveText": "3 hours 22 mins",
+      "firstSeen": "2026-07-26",
+      "interior": "Titanium Gray Cloth",
+      "lastSeen": "2026-07-26",
+      "msrp": 25500,
+      "priceHistory": [
+        {
+          "date": "2026-07-26",
+          "price": 24144
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFC2N3251031",
+      "trim": "Premium",
+      "url": "https://www.subarumorgantown.com/inventory/used-2022-subaru-outback-premium-awd-4d-sport-utility-4s4btafc2n3251031/",
+      "vin": "4S4BTAFC2N3251031",
+      "year": 2022
+    },
     "4S4BTAFC3S3215389": {
       "active": true,
       "color": "Crystal White Pearl",
@@ -2325,12 +2351,12 @@
       "year": 2024
     },
     "4S4BTAFC5R3281940": {
-      "active": true,
+      "active": false,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 36809,
       "currentPrice": 28247,
       "dealer": "Byers Airport Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-26",
       "distance": 117.8,
       "driveMinutes": 129,
       "driveText": "2 hours 9 mins",
@@ -2537,12 +2563,12 @@
       "year": 2024
     },
     "4S4BTAFCXS3217382": {
-      "active": true,
+      "active": false,
       "color": "Autumn Green Metallic",
       "currentMileage": 19420,
       "currentPrice": 30575,
       "dealer": "Jenkins Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-26",
       "distance": 171.0,
       "driveMinutes": 221,
       "driveText": "3 hours 41 mins",
@@ -2991,12 +3017,12 @@
       "year": 2025
     },
     "4S4BTALC5S3333979": {
-      "active": true,
+      "active": false,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 6469,
       "currentPrice": 34247,
       "dealer": "Byers Airport Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-26",
       "distance": 117.8,
       "driveMinutes": 129,
       "driveText": "2 hours 9 mins",
@@ -4831,6 +4857,32 @@
       "url": "https://www.serrasubaruakron.com/viewdetails/cpo/4s4btancxr3146521/2024-subaru-outback-sport-utility",
       "vin": "4S4BTANCXR3146521",
       "year": 2024
+    },
+    "4S4BTANCXS3257205": {
+      "active": true,
+      "color": "Cosmic Blue Pearl",
+      "currentMileage": 13454,
+      "currentPrice": 34485,
+      "dealer": "Spitzer Subaru",
+      "delistedDate": null,
+      "distance": 158.7,
+      "driveMinutes": 180,
+      "driveText": "3 hours 0 mins",
+      "firstSeen": "2026-07-26",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-26",
+      "msrp": 34950,
+      "priceHistory": [
+        {
+          "date": "2026-07-26",
+          "price": 34485
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANCXS3257205",
+      "trim": "Limited",
+      "url": "https://www.spitzersubarudubois.com/inventory/used-2025-subaru-outback-limited-awd-4d-sport-utility-4s4btancxs3257205/",
+      "vin": "4S4BTANCXS3257205",
+      "year": 2025
     },
     "4S4BTANCXS3295260": {
       "active": true,
@@ -7578,6 +7630,32 @@
       "trim": "Limited",
       "url": "https://www.lansingsubaru.com/catcher.esl?vehicleId=e1b2265dac18231ba5c0b249e289a51a",
       "vin": "JF2BUPDD4TY462393",
+      "year": 2026
+    },
+    "JF2BUPDD4TY462510": {
+      "active": true,
+      "color": "Crystal Black Silica",
+      "currentMileage": 2874,
+      "currentPrice": 39497,
+      "dealer": "Ken Ganley Subaru Wickliffe",
+      "delistedDate": null,
+      "distance": 18.1,
+      "driveMinutes": 28,
+      "driveText": "28 mins",
+      "firstSeen": "2026-07-26",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-26",
+      "msrp": 44085,
+      "priceHistory": [
+        {
+          "date": "2026-07-26",
+          "price": 39497
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPDD4TY462510",
+      "trim": "Limited",
+      "url": "https://www.ganleysubarueast.com/catcher.esl?vehicleId=97d6f606ac1853aa2a6cb31b2d3d4b08",
+      "vin": "JF2BUPDD4TY462510",
       "year": 2026
     },
     "JF2BUPDD5TY466940": {
