@@ -26,8 +26,8 @@ jobs:
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: |
-          python3 scripts/fetch_cpo_inventory.py --zip 44107 --radius 200 --model OBK --out data/outback_data_200mi.json
-          python3 scripts/add_drive_times.py --zip 44107
+          python3 scripts/fetch_cpo_inventory.py --zip 44107 --radius 300 --model OBK --out data/outback_data_200mi.json
+          python3 scripts/add_drive_times.py --zip 44107 --radius 300
 
       - name: Check for new Touring XT listings under $45k
         env:
@@ -36,7 +36,7 @@ jobs:
         run: python3 scripts/check_new_touring_xt.py --from-file data/outback_data_200mi.json
 
       - name: "Snapshot per-VIN history (days-on-lot, price drops, trend)"
-        run: python3 scripts/snapshot_inventory.py --from-file data/outback_data_200mi.json
+        run: python3 scripts/snapshot_inventory.py --from-file data/outback_data_200mi.json --radius 300
 
       - name: Rebuild comps dashboard (GitHub Pages page in docs/)
         run: python3 scripts/build_dashboard.py

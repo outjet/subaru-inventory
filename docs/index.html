@@ -20,6 +20,7 @@
     --text-2:    #4a5563;
     --text-3:    #8a95a3;
     --accent:    #1f6feb;   /* subaru-ish signal blue */
+    --accent2:   #e0602a;   /* second trend line (Limited XT) */
     --good:      #128a5f;   /* below market — good for the buyer */
     --bad:       #d23b3b;   /* above market */
     --grid:      #eaeef3;
@@ -41,7 +42,7 @@
       color-scheme: dark;
       --surface-0: #0c0f14; --surface-1: #141922; --surface-2: #1b212c;
       --border: #29313d; --text-1: #f2f5f8; --text-2: #aeb8c4; --text-3: #6f7987;
-      --accent: #4b93ff; --good: #2ec27e; --bad: #f2635f; --grid: #202632;
+      --accent: #4b93ff; --accent2: #ef8a5c; --good: #2ec27e; --bad: #f2635f; --grid: #202632;
       --yr-1: #9ec5f4; --yr-2: #6da7ec; --yr-3: #3987e5;
       --yr-4: #256abf; --yr-5: #1c5cab; --yr-6: #104281;
     }
@@ -179,7 +180,7 @@
       </div>
       <div class="ctl">
         <label for="f-dist">Max drive distance <span class="rangeval" id="v-dist"></span></label>
-        <input type="range" id="f-dist" min="10" max="200" step="10">
+        <input type="range" id="f-dist" min="20" max="300" step="10">
       </div>
       <div class="ctl">
         <label for="f-price">Max price <span class="rangeval" id="v-price"></span></label>
@@ -259,21 +260,26 @@ function yearColor(y) {
 // ---- OLS: price ~ 1 + mileage + year (drops year if only one present) ----
 function fitMarket(rows) {
   const n = rows.length;
-  const uy = new Set(rows.map(r=>r.year));
-  const useYear = uy.size > 1;
   if (n < 6) return null;
-  // design cols
-  const X = rows.map(r => useYear ? [1, r.mileage, r.year] : [1, r.mileage]);
-  const y = rows.map(r => r.price);
-  const p = X[0].length;
-  // normal equations XtX b = Xty
+  const uy = [...new Set(rows.map(r=>r.year))];
+  const ut = [...new Set(rows.map(r=>r.trim))];       // trim dummy so pooling
+  const useYear = uy.length > 1, useTrim = ut.length > 1;  // Touring+Limited
+  // design cols: 1, mileage, [year], [trim dummies vs ut[0]]
+  const cols = r => {
+    const c = [1, r.mileage];
+    if (useYear) c.push(r.year);
+    if (useTrim) for (let i=1;i<ut.length;i++) c.push(r.trim===ut[i] ? 1 : 0);
+    return c;
+  };
+  const X = rows.map(cols), y = rows.map(r=>r.price), p = X[0].length;
+  if (n < p + 1) return null;
   const XtX = Array.from({length:p}, ()=>new Array(p).fill(0));
   const Xty = new Array(p).fill(0);
   for (let i=0;i<n;i++){ for(let a=0;a<p;a++){ Xty[a]+=X[i][a]*y[i]; for(let b=0;b<p;b++) XtX[a][b]+=X[i][a]*X[i][b]; } }
   const b = gsolve(XtX, Xty);
   if (!b) return null;
-  const pred = r => useYear ? b[0]+b[1]*r.mileage+b[2]*r.year : b[0]+b[1]*r.mileage;
-  return { b, useYear, pred, perK: b[1]*1000, perYr: useYear ? b[2] : 0 };
+  const pred = r => cols(r).reduce((s,v,i)=>s+v*b[i], 0);
+  return { b, useYear, useTrim, ut, pred, perK: b[1]*1000, perYr: useYear ? b[2] : 0 };
 }
 function gsolve(A, bv){ // Gaussian elimination with partial pivoting
   const n=A.length; const M=A.map((r,i)=>[...r,bv[i]]);
@@ -289,19 +295,20 @@ function gsolve(A, bv){ // Gaussian elimination with partial pivoting
 
 // ---- state / filters ----
 const priced = DATA.filter(r => (r.price||0) > 0 && r.mileage != null);
-const maxDist = Math.ceil(Math.max(...priced.map(r=>r.distance||0))/10)*10;
+const WATCH = ['Touring XT', 'Limited XT'];   // the two trims we compare
+const DIST_MAX = 300;                          // miles the buyer will travel
 const maxPrice = Math.ceil(Math.max(...priced.map(r=>r.price))/1000)*1000;
 const trimCounts = {};
 priced.forEach(r => trimCounts[r.trim]=(trimCounts[r.trim]||0)+1);
-const trims = Object.keys(trimCounts).sort((a,b)=>trimCounts[b]-trimCounts[a]);
+const trimMatch = r => state.trim==='both' ? WATCH.includes(r.trim) : r.trim===state.trim;
+const trimLabel = () => state.trim==='both' ? 'Touring XT + Limited XT' : state.trim;
 
-const DEFAULT_TRIM = META.defaultTrim && trimCounts[META.defaultTrim] ? META.defaultTrim : trims[0];
-const state = { trim: DEFAULT_TRIM, ymin: years[0], ymax: years[years.length-1],
-                dist: maxDist, price: maxPrice, sort:'delta', dir:1 };
+const state = { trim: 'both', ymin: years[0], ymax: years[years.length-1],
+                dist: DIST_MAX, price: maxPrice, sort:'delta', dir:1 };
 
 function currentRows(){
   return priced.filter(r =>
-    (state.trim==='(all)' || r.trim===state.trim) &&
+    trimMatch(r) &&
     r.year>=state.ymin && r.year<=state.ymax &&
     (r.distance==null || r.distance<=state.dist) &&
     r.price<=state.price);
@@ -310,21 +317,24 @@ function currentRows(){
 // ---- controls setup ----
 function buildControls(){
   const ts = $('#f-trim');
-  ts.innerHTML = `<option value="(all)">All trims (${priced.length})</option>` +
-    trims.map(t=>`<option value="${t}">${t} (${trimCounts[t]})</option>`).join('');
+  const cBoth = (trimCounts['Touring XT']||0) + (trimCounts['Limited XT']||0);
+  ts.innerHTML =
+    `<option value="both">Both XT (${cBoth})</option>` +
+    `<option value="Touring XT">Touring XT (${trimCounts['Touring XT']||0})</option>` +
+    `<option value="Limited XT">Limited XT (${trimCounts['Limited XT']||0})</option>`;
   ts.value = state.trim;
   const ym=$('#f-ymin'), yx=$('#f-ymax');
   ym.innerHTML = years.map(y=>`<option>${y}</option>`).join('');
   yx.innerHTML = years.map(y=>`<option>${y}</option>`).join('');
   ym.value=state.ymin; yx.value=state.ymax;
-  const fd=$('#f-dist'); fd.max=maxDist; fd.value=state.dist;
+  const fd=$('#f-dist'); fd.max=DIST_MAX; fd.value=state.dist;
   const fp=$('#f-price'); fp.max=maxPrice; fp.value=state.price;
   ts.onchange=()=>{state.trim=ts.value; render();};
   ym.onchange=()=>{state.ymin=+ym.value; if(state.ymax<state.ymin){state.ymax=state.ymin; yx.value=state.ymax;} render();};
   yx.onchange=()=>{state.ymax=+yx.value; if(state.ymin>state.ymax){state.ymin=state.ymax; ym.value=state.ymin;} render();};
   fd.oninput=()=>{state.dist=+fd.value; render();};
   fp.oninput=()=>{state.price=+fp.value; render();};
-  $('#reset').onclick=()=>{ Object.assign(state,{trim:DEFAULT_TRIM,ymin:years[0],ymax:years[years.length-1],dist:maxDist,price:maxPrice});
+  $('#reset').onclick=()=>{ Object.assign(state,{trim:'both',ymin:years[0],ymax:years[years.length-1],dist:DIST_MAX,price:maxPrice});
     ts.value=state.trim; ym.value=state.ymin; yx.value=state.ymax; fd.value=state.dist; fp.value=state.price; render(); };
 }
 
@@ -337,7 +347,7 @@ function renderKpis(rows, fit){
   const cheapest=rows.reduce((a,b)=>b.price<a.price?b:a);
   const closest=rows.reduce((a,b)=>(b.distance??1e9)<(a.distance??1e9)?b:a);
   const tiles=[];
-  tiles.push(['Comps', rows.length, `${state.trim==='(all)'?'all trims':state.trim}`]);
+  tiles.push(['Comps', rows.length, trimLabel()]);
   tiles.push(['Median price', fmt$(median(prices)), `range ${fmt$(Math.min(...prices))}–${fmt$(Math.max(...prices))}`]);
   tiles.push(['Median mileage', fmtK(Math.round(median(miles)))+' mi', `${fmtK(Math.min(...miles))}–${fmtK(Math.max(...miles))} mi`]);
   tiles.push(['Cheapest', fmt$(cheapest.price), `${fmtK(cheapest.mileage)} mi · ${cheapest.dealer}`]);
@@ -377,14 +387,18 @@ function renderScatter(rows, fit){
   xticks.forEach(t=>{ s+=`<text x="${px(t)}" y="${H-m.b+18}" text-anchor="middle">${(t/1000).toFixed(0)+'k'}</text>`; });
   s+=`<text x="${(m.l+W-m.r)/2}" y="${H-4}" text-anchor="middle" fill="var(--text-3)">Mileage</text>`;
   s+=`</g>`;
-  // market line
+  // market line(s) — one per trim when two are pooled, so each price tier
+  // gets its own reference and Limited XT isn't wrongly flagged "below market"
   if(fit){
     const my = fit.useYear ? Math.round(median(rows.map(r=>r.year))) : rows[0].year;
-    const lx0=x0, lx1=x1;
-    const ly0=fit.b[0]+fit.b[1]*lx0+(fit.useYear?fit.b[2]*my:0);
-    const ly1=fit.b[0]+fit.b[1]*lx1+(fit.useYear?fit.b[2]*my:0);
-    s+=`<line class="marketline" x1="${px(lx0)}" y1="${py(ly0)}" x2="${px(lx1)}" y2="${py(ly1)}"/>`;
-    cap.innerHTML = `Dashed line = fitted market price${fit.useYear?` (at MY ${my})`:''}. Points below it are priced under market.`;
+    const lineTrims = fit.useTrim ? fit.ut : [rows[0].trim];
+    lineTrims.forEach(tr=>{
+      const ly0=fit.pred({mileage:x0, year:my, trim:tr});
+      const ly1=fit.pred({mileage:x1, year:my, trim:tr});
+      s+=`<line class="marketline" x1="${px(x0)}" y1="${py(ly0)}" x2="${px(x1)}" y2="${py(ly1)}"/>`;
+      if(fit.useTrim) s+=`<text x="${px(x1)-3}" y="${py(ly1)-6}" text-anchor="end" fill="var(--text-3)" style="font-size:10px">${tr}</text>`;
+    });
+    cap.innerHTML = `Dashed line${fit.useTrim?'s (one per trim)':''} = fitted market price${fit.useYear?` at MY ${my}`:''}. Points below are priced under market.`;
   } else {
     cap.textContent = `Not enough comps for a market fit — showing raw listings.`;
   }
@@ -415,7 +429,7 @@ function renderScatter(rows, fit){
 // ---- value ladder ----
 function renderLadder(){
   const host=$('#ladder');
-  const rows = priced.filter(r=> state.trim==='(all)'||r.trim===state.trim);
+  const rows = priced.filter(trimMatch);
   const byYear={};
   rows.forEach(r=> (byYear[r.year]=byYear[r.year]||[]).push(r.price));
   const ys=Object.keys(byYear).map(Number).sort((a,b)=>a-b);
@@ -497,33 +511,46 @@ function renderTable(rows, fit){
   }).join('');
 }
 
-// ---- trend ----
+// ---- trend (one line per selected trim; "both" overlays two) ----
 function renderTrend(){
   const host=$('#trend'); const cap=$('#trend-cap');
-  const key = state.trim; // history keyed by trim, '(all)' rollup exists
-  let series = HISTORY.filter(h=>h.trim===key).sort((a,b)=>a.date<b.date?-1:1);
-  if(!series.length) series = HISTORY.filter(h=>h.trim==='(all)').sort((a,b)=>a.date<b.date?-1:1);
-  if(series.length<=1){
-    const d = series[0];
-    cap.innerHTML = `Only one snapshot so far (<b>${d?d.date:'today'}</b>) — the trend line accrues each time the fetcher runs. `+
-      `Today's median for ${key==='(all)'?'all trims':key}: <b>${d?fmt$(d.median_price):'—'}</b> across ${d?d.n:0} listings.`;
+  const keys = state.trim==='both' ? WATCH : [state.trim];
+  const COLORS = ['var(--accent)', 'var(--accent2)'];
+  const seriesByKey = keys
+    .map(k=>({key:k, pts: HISTORY.filter(h=>h.trim===k).sort((a,b)=>a.date<b.date?-1:1)}))
+    .filter(s=>s.pts.length);
+  const maxLen = Math.max(0, ...seriesByKey.map(s=>s.pts.length));
+  if(maxLen<=1){
+    const latest = seriesByKey.map(s=>`${s.key}: ${s.pts.length?fmt$(s.pts[s.pts.length-1].median_price):'—'}`).join(' · ');
+    cap.innerHTML = `The trend accrues each time a snapshot runs. Latest median — ${latest || 'no data yet'}.`;
     host.innerHTML = `<div class="empty">Trend chart appears once there are ≥ 2 daily snapshots.</div>`;
     return;
   }
-  cap.textContent = `Median asking price over time for ${key==='(all)'?'all trims':key}.`;
+  cap.textContent = `Median asking price over time — ${trimLabel()}.`;
+  const allDates=[...new Set([].concat(...seriesByKey.map(s=>s.pts.map(p=>p.date))))].sort();
   const W=900,H=240,m={t:16,r:18,b:34,l:64};
-  const xs=series.map((d,i)=>i), ys=series.map(d=>d.median_price);
-  let y0=Math.min(...ys), y1=Math.max(...ys); const yp=(y1-y0||1)*0.15; y0-=yp;y1+=yp;
-  const px=i=>m.l+i/(series.length-1)*(W-m.l-m.r);
+  const allY=[].concat(...seriesByKey.map(s=>s.pts.map(p=>p.median_price)));
+  let y0=Math.min(...allY), y1=Math.max(...allY); const yp=(y1-y0||1)*0.15; y0-=yp;y1+=yp;
+  const xi=d=>allDates.indexOf(d);
+  const px=i=>m.l+(allDates.length<=1?0.5:i/(allDates.length-1))*(W-m.l-m.r);
   const py=v=>H-m.b-(v-y0)/(y1-y0)*(H-m.t-m.b);
   const yticks=niceTicks(y0,y1,4);
   let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Median price trend"><g class="axis">`;
   yticks.forEach(t=>{ s+=`<line class="gridline" x1="${m.l}" x2="${W-m.r}" y1="${py(t)}" y2="${py(t)}"/><text x="${m.l-8}" y="${py(t)+4}" text-anchor="end">$${(t/1000).toFixed(0)}k</text>`; });
-  series.forEach((d,i)=>{ s+=`<text x="${px(i)}" y="${H-m.b+18}" text-anchor="middle">${d.date.slice(5)}</text>`; });
-  s+=`</g><path class="trendline" d="${series.map((d,i)=>(i?'L':'M')+px(i)+' '+py(d.median_price)).join(' ')}"/>`;
-  series.forEach((d,i)=> s+=`<circle class="trenddot" cx="${px(i)}" cy="${py(d.median_price)}" r="4"/>`);
+  allDates.forEach((d,i)=>{ s+=`<text x="${px(i)}" y="${H-m.b+18}" text-anchor="middle">${d.slice(5)}</text>`; });
+  s+=`</g>`;
+  seriesByKey.forEach((ser,si)=>{
+    const col=COLORS[si%COLORS.length];
+    s+=`<path fill="none" stroke="${col}" stroke-width="2" d="${ser.pts.map((p,j)=>(j?'L':'M')+px(xi(p.date))+' '+py(p.median_price)).join(' ')}"/>`;
+    ser.pts.forEach(p=> s+=`<circle cx="${px(xi(p.date))}" cy="${py(p.median_price)}" r="4" fill="${col}" stroke="var(--surface-1)" stroke-width="1.5"/>`);
+  });
   s+=`</svg>`;
   host.innerHTML=s;
+  if(seriesByKey.length>1){
+    host.innerHTML += `<div class="legend">` +
+      seriesByKey.map((ser,si)=>`<span class="it"><span class="sw" style="background:${COLORS[si%COLORS.length]}"></span>${ser.key}</span>`).join('') +
+      `</div>`;
+  }
 }
 
 // ---- helpers ----
@@ -565,7 +592,7 @@ function render(){
   renderLadder();
   renderTable(rows,fit);
   renderTrend();
-  $('#v-dist').textContent = state.dist>=maxDist? 'any' : '≤ '+state.dist+' mi';
+  $('#v-dist').textContent = state.dist>=DIST_MAX? 'any' : '≤ '+state.dist+' mi';
   $('#v-price').textContent = state.price>=maxPrice? 'any' : '≤ '+fmt$(state.price);
 }
 buildControls();
