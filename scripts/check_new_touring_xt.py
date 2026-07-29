@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """
-Check for newly-posted CPO Subaru Outback Touring XT listings under a price
-cap, and send a Pushover alert when one shows up that we haven't seen before.
+Watch CPO Subaru Outback Touring XT listings under a price cap and send a
+Pushover alert on two events:
+  * a listing we've never seen appears under the cap        ("new listing")
+  * a listing we already alerted on drops >= --drop-threshold ("price drop")
 
-Persists the set of already-seen VINs to a JSON state file (checked into the
-repo by the GitHub Actions workflow) so re-runs only alert on genuinely new
-postings, not ones we already know about.
+State is a JSON map of VIN -> last alerted price (checked into the repo by the
+GitHub Actions workflow), so re-runs only fire on genuinely new postings or on
+a fresh new low for a car we're already tracking. The legacy list-of-VINs state
+file is migrated automatically.
 
 Env vars (set as GitHub Actions secrets):
   PUSHOVER_USER_KEY   - your Pushover user key
@@ -55,17 +58,24 @@ def load_rows(args):
     return rows
 
 
-def load_seen():
+def load_state():
+    """State maps VIN -> last price we alerted on (the reference for drop
+    detection). Migrates the legacy list-of-VINs format: those VINs come back
+    with price None, meaning "seen, baseline unknown" — we record their current
+    price on the next run without firing a spurious drop alert."""
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE) as f:
-            return set(json.load(f))
-    return set()
+            data = json.load(f)
+        if isinstance(data, list):
+            return {vin: None for vin in data}
+        return data
+    return {}
 
 
-def save_seen(vins):
+def save_state(state):
     os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
     with open(STATE_FILE, "w") as f:
-        json.dump(sorted(vins), f, indent=2)
+        json.dump(dict(sorted(state.items())), f, indent=2)
 
 
 def send_pushover(title, message, url=None, url_title=None):
@@ -102,6 +112,8 @@ def main():
     ap.add_argument("--trim", default="Touring XT")
     ap.add_argument("--year", type=int, default=2026)
     ap.add_argument("--max-price", type=int, default=45000)
+    ap.add_argument("--drop-threshold", type=int, default=200,
+                    help="re-alert when a known listing drops at least this many $ below its last alerted price")
     ap.add_argument("--from-file", default=None,
                     help="read a pre-fetched snapshot JSON instead of fetching live (shared per-run fetch)")
     args = ap.parse_args()
@@ -131,43 +143,74 @@ def main():
 
     print(f"  {len(matches)} match trim/price filter")
 
-    seen = load_seen()
-    new_matches = [m for m in matches if m["vin"] not in seen]
-    print(f"  {len(new_matches)} are new (not previously alerted)")
+    # Classify each match against saved state:
+    #   new  -> VIN we've never alerted on          (fires "new listing")
+    #   drop -> known VIN now >= threshold cheaper   (fires "price drop")
+    # A known VIN with an unknown baseline (None, from the legacy format) just
+    # gets its baseline recorded here, silently, so it can't false-alarm.
+    state = load_state()
+    new_matches, drop_matches = [], []
+    for m in matches:
+        vin, price = m["vin"], m["price"]
+        if vin not in state:
+            new_matches.append(m)
+        elif state[vin] is None:
+            state[vin] = price  # establish baseline, no alert
+        elif price <= state[vin] - args.drop_threshold:
+            m["prevPrice"] = state[vin]
+            drop_matches.append(m)
+    print(f"  {len(new_matches)} new, {len(drop_matches)} price drop(s) (≥ ${args.drop_threshold})")
 
-    notified_vins = set()
+    def dealer_line(m):
+        dt = m.get("driveText")
+        return f"{m['dealer']} ({m['distance']}mi, ~{dt} drive)" if dt else f"{m['dealer']} ({m['distance']}mi)"
+
+    notified = set()
+
+    # --- New listings ---
     if not new_matches:
-        print("No new matches — no notification sent.")
+        print("No new listings.")
     elif len(new_matches) > 10:
-        # Large batch (e.g. a manual state reset) -- one summary instead of a notification storm.
+        # Large batch (e.g. a manual state reset) -- one summary instead of a storm.
         lines = [f"{m['year']} — ${m['price']:,}, {m['dealer']}" for m in new_matches]
         title = f"{len(new_matches)} new Outback Touring XT under ${args.max_price:,}"
-        message = "\n".join(lines)
         try:
-            send_pushover(title, message, url=new_matches[0]["url"], url_title="First listing")
-            notified_vins = {m["vin"] for m in new_matches}
+            send_pushover(title, "\n".join(lines), url=new_matches[0]["url"], url_title="First listing")
+            notified |= {m["vin"] for m in new_matches}
         except Exception as e:
             print(f"Failed to send summary notification: {e}")
     else:
         title = f"New Outback Touring XT under ${args.max_price:,}"
         for m in new_matches:
-            dt = m.get("driveText")
-            dealer_line = f"{m['dealer']} ({m['distance']}mi, ~{dt} drive)" if dt else f"{m['dealer']} ({m['distance']}mi)"
-            message = f"{m['year']} — ${m['price']:,}, {m['mileage']:,}mi\n{dealer_line}"
+            message = f"{m['year']} — ${m['price']:,}, {m['mileage']:,}mi\n{dealer_line(m)}"
             try:
                 send_pushover(title, message, url=m["url"], url_title="View listing")
-                notified_vins.add(m["vin"])
+                notified.add(m["vin"])
             except Exception as e:
                 print(f"Failed to notify for VIN {m['vin']}: {e}")
 
-    all_current_vins = seen | notified_vins
-    save_seen(all_current_vins)
-    unnotified = len(new_matches) - len(notified_vins)
-    if unnotified > 0:
-        print(f"State updated: {len(all_current_vins)} VINs tracked total "
-              f"({unnotified} new match(es) left unnotified due to send failures, will retry next run).")
-    else:
-        print(f"State updated: {len(all_current_vins)} VINs tracked total.")
+    # --- Price drops on already-known listings ---
+    for m in drop_matches:
+        delta = m["prevPrice"] - m["price"]
+        title = f"Price drop — {m['year']} Touring XT"
+        message = (f"↓ ${delta:,} — was ${m['prevPrice']:,}, now ${m['price']:,} ({m['mileage']:,}mi)\n"
+                   f"{dealer_line(m)}")
+        try:
+            send_pushover(title, message, url=m["url"], url_title="View listing")
+            notified.add(m["vin"])
+        except Exception as e:
+            print(f"Failed to send drop alert for VIN {m['vin']}: {e}")
+
+    # Record the new reference price only for listings we actually notified about;
+    # unsent ones keep their old baseline and retry next run.
+    for m in new_matches + drop_matches:
+        if m["vin"] in notified:
+            state[m["vin"]] = m["price"]
+
+    save_state(state)
+    unsent = (len(new_matches) + len(drop_matches)) - len([m for m in new_matches + drop_matches if m["vin"] in notified])
+    tail = f" ({unsent} left unsent due to failures, will retry)" if unsent else ""
+    print(f"State updated: {len(state)} VINs tracked.{tail}")
 
 
 if __name__ == "__main__":
