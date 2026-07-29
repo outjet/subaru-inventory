@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Watch CPO Subaru Outback Touring XT listings under a price cap and send a
-Pushover alert on two events:
+Watch CPO Subaru Outback listings (by default the Touring XT and Limited XT
+trims) under a price cap and send a Pushover alert on two events:
   * a listing we've never seen appears under the cap        ("new listing")
   * a listing we already alerted on drops >= --drop-threshold ("price drop")
 
@@ -109,7 +109,8 @@ def main():
     ap.add_argument("--zip", default="44107")
     ap.add_argument("--radius", type=int, default=200)
     ap.add_argument("--model", default="OBK")
-    ap.add_argument("--trim", default="Touring XT")
+    ap.add_argument("--trims", nargs="+", default=["Touring XT", "Limited XT"],
+                    help="trims to watch (default: Touring XT, Limited XT)")
     ap.add_argument("--year", type=int, default=2026)
     ap.add_argument("--max-price", type=int, default=45000)
     ap.add_argument("--drop-threshold", type=int, default=200,
@@ -118,13 +119,14 @@ def main():
                     help="read a pre-fetched snapshot JSON instead of fetching live (shared per-run fetch)")
     args = ap.parse_args()
 
-    print(f"Checking CPO {args.year} {args.model} '{args.trim}' under ${args.max_price:,} within {args.radius}mi of {args.zip}...")
+    trims = set(args.trims)
+    print(f"Checking CPO {args.year} {args.model} {sorted(trims)} under ${args.max_price:,} within {args.radius}mi of {args.zip}...")
     rows = load_rows(args)
 
     matches = []
     for r in rows:
         price = r.get("price") or 0
-        if r.get("trim") != args.trim:
+        if r.get("trim") not in trims:
             continue
         if r.get("year") != args.year:
             continue
@@ -133,6 +135,7 @@ def main():
         matches.append({
             "vin": r.get("vin"),
             "year": r.get("year"),
+            "trim": r.get("trim"),
             "price": price,
             "mileage": r.get("mileage"),
             "dealer": r.get("dealer"),
@@ -172,17 +175,17 @@ def main():
         print("No new listings.")
     elif len(new_matches) > 10:
         # Large batch (e.g. a manual state reset) -- one summary instead of a storm.
-        lines = [f"{m['year']} — ${m['price']:,}, {m['dealer']}" for m in new_matches]
-        title = f"{len(new_matches)} new Outback Touring XT under ${args.max_price:,}"
+        lines = [f"{m['year']} {m['trim']} — ${m['price']:,}, {m['dealer']}" for m in new_matches]
+        title = f"{len(new_matches)} new Outback CPO under ${args.max_price:,}"
         try:
             send_pushover(title, "\n".join(lines), url=new_matches[0]["url"], url_title="First listing")
             notified |= {m["vin"] for m in new_matches}
         except Exception as e:
             print(f"Failed to send summary notification: {e}")
     else:
-        title = f"New Outback Touring XT under ${args.max_price:,}"
+        title = f"New Outback CPO under ${args.max_price:,}"
         for m in new_matches:
-            message = f"{m['year']} — ${m['price']:,}, {m['mileage']:,}mi\n{dealer_line(m)}"
+            message = f"{m['year']} {m['trim']} — ${m['price']:,}, {m['mileage']:,}mi\n{dealer_line(m)}"
             try:
                 send_pushover(title, message, url=m["url"], url_title="View listing")
                 notified.add(m["vin"])
@@ -192,7 +195,7 @@ def main():
     # --- Price drops on already-known listings ---
     for m in drop_matches:
         delta = m["prevPrice"] - m["price"]
-        title = f"Price drop — {m['year']} Touring XT"
+        title = f"Price drop — {m['year']} {m['trim']}"
         message = (f"↓ ${delta:,} — was ${m['prevPrice']:,}, now ${m['price']:,} ({m['mileage']:,}mi)\n"
                    f"{dealer_line(m)}")
         try:
