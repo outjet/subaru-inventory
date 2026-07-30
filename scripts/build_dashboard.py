@@ -42,13 +42,16 @@ def days_between(a, b):
     return (dt.date.fromisoformat(b) - dt.date.fromisoformat(a)).days
 
 
-def comp_rows(history, today):
+def comp_rows(history, today, year, trims):
     """Flatten the per-VIN history into active, priced comp rows for the
-    dashboard, computing days-on-lot and price-drop that a single snapshot
-    can't carry."""
+    dashboard, restricted to the target model year and watched trims, and
+    computing days-on-lot and price-drop that a single snapshot can't carry."""
+    trims = set(trims)
     rows = []
     for e in history["vehicles"].values():
         if not e.get("active"):
+            continue
+        if e.get("year") != year or e.get("trim") not in trims:
             continue
         price = e.get("currentPrice") or 0
         if price <= 0 or e.get("currentMileage") is None:
@@ -241,14 +244,6 @@ TEMPLATE = r"""<title>Outback CPO — Negotiation Comps</title>
         <select id="f-trim"></select>
       </div>
       <div class="ctl">
-        <label for="f-ymin">Model year</label>
-        <div style="display:flex;gap:6px;align-items:center">
-          <select id="f-ymin"></select>
-          <span style="color:var(--text-3)">–</span>
-          <select id="f-ymax"></select>
-        </div>
-      </div>
-      <div class="ctl">
         <label for="f-dist">Max drive distance <span class="rangeval" id="v-dist"></span></label>
         <input type="range" id="f-dist" min="20" max="300" step="10">
       </div>
@@ -270,8 +265,8 @@ TEMPLATE = r"""<title>Outback CPO — Negotiation Comps</title>
       <div class="legend" id="scatter-legend"></div>
     </div>
     <div class="card">
-      <h2>Value ladder by model year</h2>
-      <p class="cap">Median asking price — what the newer badge actually costs.</p>
+      <h2>Touring XT vs. Limited XT</h2>
+      <p class="cap">Median asking price by trim — the premium for the top badge.</p>
       <div id="ladder"></div>
     </div>
   </div>
@@ -315,17 +310,14 @@ const META = __META__;
 const $ = s => document.querySelector(s);
 const fmt$ = n => '$' + Math.round(n).toLocaleString();
 const fmtK = n => n.toLocaleString();
-const YR_VARS = ['--yr-1','--yr-2','--yr-3','--yr-4','--yr-5','--yr-6'];
+const YEAR = META.year;
+const WATCH = META.watch || ['Touring XT', 'Limited XT'];
 
-// ---- year color ramp (older -> newer, light -> dark) ----
-const years = [...new Set(DATA.map(r => r.year))].sort((a,b)=>a-b);
+// ---- trim color (Touring = blue, Limited = orange); resolved to hex so SVG
+//      presentation attributes work everywhere ----
 const cssv = v => getComputedStyle($('.comps-root')).getPropertyValue(v).trim();
-function yearColor(y) {
-  const i = years.indexOf(y);
-  const idx = years.length <= 1 ? YR_VARS.length-1
-            : Math.round(i/(years.length-1)*(YR_VARS.length-1));
-  return cssv(YR_VARS[idx]);
-}
+const TRIM_VAR = {'Touring XT':'--accent', 'Limited XT':'--accent2'};
+const trimColor = t => cssv(TRIM_VAR[t] || '--accent');
 
 // ---- OLS: price ~ 1 + mileage + year (drops year if only one present) ----
 function fitMarket(rows) {
@@ -365,7 +357,6 @@ function gsolve(A, bv){ // Gaussian elimination with partial pivoting
 
 // ---- state / filters ----
 const priced = DATA.filter(r => (r.price||0) > 0 && r.mileage != null);
-const WATCH = ['Touring XT', 'Limited XT'];   // the two trims we compare
 const DIST_MAX = 300;                          // miles the buyer will travel
 const maxPrice = Math.ceil(Math.max(...priced.map(r=>r.price))/1000)*1000;
 const trimCounts = {};
@@ -373,13 +364,11 @@ priced.forEach(r => trimCounts[r.trim]=(trimCounts[r.trim]||0)+1);
 const trimMatch = r => state.trim==='both' ? WATCH.includes(r.trim) : r.trim===state.trim;
 const trimLabel = () => state.trim==='both' ? 'Touring XT + Limited XT' : state.trim;
 
-const state = { trim: 'both', ymin: years[0], ymax: years[years.length-1],
-                dist: DIST_MAX, price: maxPrice, sort:'delta', dir:1 };
+const state = { trim: 'both', dist: DIST_MAX, price: maxPrice, sort:'delta', dir:1 };
 
 function currentRows(){
   return priced.filter(r =>
     trimMatch(r) &&
-    r.year>=state.ymin && r.year<=state.ymax &&
     (r.distance==null || r.distance<=state.dist) &&
     r.price<=state.price);
 }
@@ -393,19 +382,13 @@ function buildControls(){
     `<option value="Touring XT">Touring XT (${trimCounts['Touring XT']||0})</option>` +
     `<option value="Limited XT">Limited XT (${trimCounts['Limited XT']||0})</option>`;
   ts.value = state.trim;
-  const ym=$('#f-ymin'), yx=$('#f-ymax');
-  ym.innerHTML = years.map(y=>`<option>${y}</option>`).join('');
-  yx.innerHTML = years.map(y=>`<option>${y}</option>`).join('');
-  ym.value=state.ymin; yx.value=state.ymax;
   const fd=$('#f-dist'); fd.max=DIST_MAX; fd.value=state.dist;
   const fp=$('#f-price'); fp.max=maxPrice; fp.value=state.price;
   ts.onchange=()=>{state.trim=ts.value; render();};
-  ym.onchange=()=>{state.ymin=+ym.value; if(state.ymax<state.ymin){state.ymax=state.ymin; yx.value=state.ymax;} render();};
-  yx.onchange=()=>{state.ymax=+yx.value; if(state.ymin>state.ymax){state.ymin=state.ymax; ym.value=state.ymin;} render();};
   fd.oninput=()=>{state.dist=+fd.value; render();};
   fp.oninput=()=>{state.price=+fp.value; render();};
-  $('#reset').onclick=()=>{ Object.assign(state,{trim:'both',ymin:years[0],ymax:years[years.length-1],dist:DIST_MAX,price:maxPrice});
-    ts.value=state.trim; ym.value=state.ymin; yx.value=state.ymax; fd.value=state.dist; fp.value=state.price; render(); };
+  $('#reset').onclick=()=>{ Object.assign(state,{trim:'both',dist:DIST_MAX,price:maxPrice});
+    ts.value=state.trim; fd.value=state.dist; fp.value=state.price; render(); };
 }
 
 // ---- KPIs ----
@@ -432,8 +415,7 @@ function renderKpis(rows, fit){
     : 'none yet — accrues over time';
   tiles.push(['Price changes', moved, changeNote]);
   if(fit){
-    tiles.push(['Depreciation', '−'+fmt$(Math.abs(fit.perK)),
-      fit.useYear? `per 1,000 mi · +${fmt$(Math.abs(fit.perYr))}/model year` : 'per 1,000 mi · single model year']);
+    tiles.push(['Depreciation', '−'+fmt$(Math.abs(fit.perK)), 'per 1,000 mi']);
   }
   el.innerHTML=tiles.map(([k,v,note])=>`<div class="kpi"><div class="k">${k}</div><div class="v">${v}</div><div class="note">${note}</div></div>`).join('');
 }
@@ -450,38 +432,36 @@ function renderScatter(rows, fit){
   const px=v=>m.l+(v-x0)/(x1-x0)*(W-m.l-m.r);
   const py=v=>H-m.b-(v-y0)/(y1-y0)*(H-m.t-m.b);
   const xticks=niceTicks(x0,x1,5), yticks=niceTicks(y0,y1,5);
+  const xdec = (x1-x0) < 8000 ? 1 : 0;   // narrow mileage band -> show a decimal
   let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Price versus mileage scatter">`;
   s+=`<g class="axis">`;
   yticks.forEach(t=>{ s+=`<line class="gridline" x1="${m.l}" x2="${W-m.r}" y1="${py(t)}" y2="${py(t)}"/>`;
     s+=`<text x="${m.l-8}" y="${py(t)+4}" text-anchor="end">${'$'+(t/1000).toFixed(0)+'k'}</text>`; });
-  xticks.forEach(t=>{ s+=`<text x="${px(t)}" y="${H-m.b+18}" text-anchor="middle">${(t/1000).toFixed(0)+'k'}</text>`; });
+  xticks.forEach(t=>{ s+=`<text x="${px(t)}" y="${H-m.b+18}" text-anchor="middle">${(t/1000).toFixed(xdec)+'k'}</text>`; });
   s+=`<text x="${(m.l+W-m.r)/2}" y="${H-4}" text-anchor="middle" fill="var(--text-3)">Mileage</text>`;
   s+=`</g>`;
-  // market line(s) — one per trim when two are pooled, so each price tier
-  // gets its own reference and Limited XT isn't wrongly flagged "below market"
+  // market line(s) — one per trim, each in that trim's color, so each price
+  // tier gets its own reference (Limited XT isn't wrongly flagged "below market")
   if(fit){
-    const my = fit.useYear ? Math.round(median(rows.map(r=>r.year))) : rows[0].year;
     const lineTrims = fit.useTrim ? fit.ut : [rows[0].trim];
     lineTrims.forEach(tr=>{
-      const ly0=fit.pred({mileage:x0, year:my, trim:tr});
-      const ly1=fit.pred({mileage:x1, year:my, trim:tr});
-      s+=`<line class="marketline" x1="${px(x0)}" y1="${py(ly0)}" x2="${px(x1)}" y2="${py(ly1)}"/>`;
-      if(fit.useTrim) s+=`<text x="${px(x1)-3}" y="${py(ly1)-6}" text-anchor="end" fill="var(--text-3)" style="font-size:10px">${tr}</text>`;
+      const ly0=fit.pred({mileage:x0, trim:tr});
+      const ly1=fit.pred({mileage:x1, trim:tr});
+      s+=`<line class="marketline" x1="${px(x0)}" y1="${py(ly0)}" x2="${px(x1)}" y2="${py(ly1)}" style="stroke:${trimColor(tr)}"/>`;
     });
-    cap.innerHTML = `Dashed line${fit.useTrim?'s (one per trim)':''} = fitted market price${fit.useYear?` at MY ${my}`:''}. Points below are priced under market.`;
+    cap.innerHTML = `Dashed line${fit.useTrim?'s (one per trim)':''} = fitted market price. Points below are priced under market.`;
   } else {
-    cap.textContent = `Not enough comps for a market fit — showing raw listings.`;
+    cap.textContent = `Only ${rows.length} comp${rows.length===1?'':'s'} so far — too few to fit a market line yet (accrues over time).`;
   }
-  // dots
+  // dots colored by trim
   rows.forEach((r,i)=>{
-    s+=`<circle class="dot" data-i="${i}" cx="${px(r.mileage)}" cy="${py(r.price)}" r="6.5" fill="${yearColor(r.year)}"/>`;
+    s+=`<circle class="dot" data-i="${i}" cx="${px(r.mileage)}" cy="${py(r.price)}" r="6.5" fill="${trimColor(r.trim)}"/>`;
   });
   s+=`</svg>`;
   host.innerHTML=s;
-  // legend by year present
-  const yl=[...new Set(rows.map(r=>r.year))].sort((a,b)=>a-b);
-  $('#scatter-legend').innerHTML = yl.map(y=>`<span class="it"><span class="sw" style="background:${yearColor(y)}"></span>${y}</span>`).join('')
-    + `<span class="it"><span class="sw" style="background:var(--accent)"></span>Market line</span>`;
+  // legend by trim present
+  const tl=[...new Set(rows.map(r=>r.trim))];
+  $('#scatter-legend').innerHTML = tl.map(t=>`<span class="it"><span class="sw" style="background:${trimColor(t)}"></span>${t}</span>`).join('');
   // hover
   host.querySelectorAll('.dot').forEach(c=>{
     c.addEventListener('mousemove',e=>{ const r=rows[+c.dataset.i]; const d=fit?r.price-fit.pred(r):null;
@@ -499,23 +479,27 @@ function renderScatter(rows, fit){
 // ---- value ladder ----
 function renderLadder(){
   const host=$('#ladder');
-  const rows = priced.filter(trimMatch);
-  const byYear={};
-  rows.forEach(r=> (byYear[r.year]=byYear[r.year]||[]).push(r.price));
-  const ys=Object.keys(byYear).map(Number).sort((a,b)=>a-b);
-  if(!ys.length){ host.innerHTML=`<div class="empty">No comps for this trim.</div>`; return; }
-  const meds=ys.map(y=>({y, m:median(byYear[y]), n:byYear[y].length}));
-  const W=440, rowH=44, H=meds.length*rowH+20, m={l:52,r:78,t:8,b:8};
+  // Always both trims for comparison, regardless of the trim filter.
+  const meds=WATCH.map(t=>{
+    const ps=priced.filter(r=>r.trim===t).map(r=>r.price);
+    return ps.length ? {t, m:median(ps), n:ps.length} : null;
+  }).filter(Boolean);
+  if(!meds.length){ host.innerHTML=`<div class="empty">No ${YEAR} XT comps listed yet.</div>`; return; }
+  const W=440, rowH=52, H=meds.length*rowH+20, m={l:96,r:78,t:8,b:8};
   const maxV=Math.max(...meds.map(d=>d.m));
   const bw=W-m.l-m.r;
-  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Median price by model year">`;
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Median price by trim">`;
   meds.forEach((d,i)=>{
-    const y=m.t+i*rowH+6, h=rowH-18, w=Math.max(2,d.m/maxV*bw);
-    s+=`<text x="${m.l-10}" y="${y+h/2+4}" text-anchor="end" class="barlabel" style="fill:var(--text-1);font-weight:650">${d.y}</text>`;
-    s+=`<rect class="bar" x="${m.l}" y="${y}" width="${w}" height="${h}" rx="3" fill="${yearColor(d.y)}"/>`;
+    const y=m.t+i*rowH+8, h=rowH-22, w=Math.max(2,d.m/maxV*bw);
+    s+=`<text x="${m.l-10}" y="${y+h/2+4}" text-anchor="end" class="barlabel" style="fill:var(--text-1);font-weight:650">${d.t}</text>`;
+    s+=`<rect class="bar" x="${m.l}" y="${y}" width="${w}" height="${h}" rx="3" fill="${trimColor(d.t)}"/>`;
     s+=`<text x="${m.l+w+8}" y="${y+h/2+4}" class="barlabel" style="fill:var(--text-1);font-weight:650">${fmt$(d.m)}</text>`;
     s+=`<text x="${m.l+w+8}" y="${y+h/2+4}" dx="${(fmt$(d.m).length)*7.4+6}" class="barlabel">n=${d.n}</text>`;
   });
+  if(meds.length===2){
+    const gap=Math.abs(meds[0].m-meds[1].m);
+    s+=`<text x="${m.l}" y="${H-2}" class="barlabel">Touring commands ${fmt$(gap)} over Limited</text>`;
+  }
   s+=`</svg>`;
   host.innerHTML=s;
 }
@@ -523,7 +507,6 @@ function renderLadder(){
 // ---- comps table ----
 const COLS=[
   {k:'delta', label:'Δ market', num:true},
-  {k:'year', label:'Year', num:true},
   {k:'trim', label:'Trim', num:false},
   {k:'price', label:'Price', num:true},
   {k:'mileage', label:'Mileage', num:true},
@@ -569,8 +552,7 @@ function renderTable(rows, fit){
                : `${r.daysOnLot}d`;
     return `<tr class="${r.price===cheapest?'target':''}">
       <td class="num">${deltaCell}</td>
-      <td class="num"><span class="yrchip" style="background:${yearColor(r.year)}"></span>${r.year}</td>
-      <td>${r.trim}</td>
+      <td><span class="yrchip" style="background:${trimColor(r.trim)}"></span>${r.trim}</td>
       <td class="num">${fmt$(r.price)}${drop}</td>
       <td class="num">${fmtK(r.mileage)}</td>
       <td class="num">${days}</td>
@@ -584,10 +566,9 @@ function renderTable(rows, fit){
 // ---- trend (one line per selected trim; "both" overlays two) ----
 function renderTrend(){
   const host=$('#trend'); const cap=$('#trend-cap');
-  const keys = state.trim==='both' ? WATCH : [state.trim];
-  const COLORS = ['var(--accent)', 'var(--accent2)'];
-  const seriesByKey = keys
-    .map(k=>({key:k, pts: HISTORY.filter(h=>h.trim===k).sort((a,b)=>a.date<b.date?-1:1)}))
+  const trimsSel = state.trim==='both' ? WATCH : [state.trim];
+  const seriesByKey = trimsSel
+    .map(t=>({key:t, pts: HISTORY.filter(h=>h.trim===`${YEAR} ${t}`).sort((a,b)=>a.date<b.date?-1:1)}))
     .filter(s=>s.pts.length);
   const maxLen = Math.max(0, ...seriesByKey.map(s=>s.pts.length));
   if(maxLen<=1){
@@ -609,8 +590,8 @@ function renderTrend(){
   yticks.forEach(t=>{ s+=`<line class="gridline" x1="${m.l}" x2="${W-m.r}" y1="${py(t)}" y2="${py(t)}"/><text x="${m.l-8}" y="${py(t)+4}" text-anchor="end">$${(t/1000).toFixed(0)}k</text>`; });
   allDates.forEach((d,i)=>{ s+=`<text x="${px(i)}" y="${H-m.b+18}" text-anchor="middle">${d.slice(5)}</text>`; });
   s+=`</g>`;
-  seriesByKey.forEach((ser,si)=>{
-    const col=COLORS[si%COLORS.length];
+  seriesByKey.forEach(ser=>{
+    const col=trimColor(ser.key);
     s+=`<path fill="none" stroke="${col}" stroke-width="2" d="${ser.pts.map((p,j)=>(j?'L':'M')+px(xi(p.date))+' '+py(p.median_price)).join(' ')}"/>`;
     ser.pts.forEach(p=> s+=`<circle cx="${px(xi(p.date))}" cy="${py(p.median_price)}" r="4" fill="${col}" stroke="var(--surface-1)" stroke-width="1.5"/>`);
   });
@@ -618,7 +599,7 @@ function renderTrend(){
   host.innerHTML=s;
   if(seriesByKey.length>1){
     host.innerHTML += `<div class="legend">` +
-      seriesByKey.map((ser,si)=>`<span class="it"><span class="sw" style="background:${COLORS[si%COLORS.length]}"></span>${ser.key}</span>`).join('') +
+      seriesByKey.map(ser=>`<span class="it"><span class="sw" style="background:${trimColor(ser.key)}"></span>${ser.key}</span>`).join('') +
       `</div>`;
   }
 }
@@ -679,7 +660,8 @@ def main():
                     help="full standalone page for GitHub Pages (default: docs/index.html)")
     ap.add_argument("--artifact-out", default=None,
                     help="also write a body-fragment here for publishing as a Claude Artifact")
-    ap.add_argument("--default-trim", default="Touring XT")
+    ap.add_argument("--year", type=int, default=2026, help="model year to focus on")
+    ap.add_argument("--watch-trims", nargs="+", default=["Touring XT", "Limited XT"])
     args = ap.parse_args()
 
     with open(args.history) as f:
@@ -688,15 +670,14 @@ def main():
     zipc, radius = hmeta.get("zip", "44107"), hmeta.get("radius", 200)
     today = dt.date.today().isoformat()
 
-    rows = comp_rows(history, today)
+    rows = comp_rows(history, today, args.year, args.watch_trims)
     trend = flatten_trend(history)
     tracking_since = hmeta.get("trackingSince", today)
     last_snap = hmeta.get("lastSnapshot", today)
 
-    subtitle = (f"Certified pre-owned within <b>{radius} mi</b> of <b>{zipc}</b> · "
-                f"<b>{len(rows)}</b> active listings · snapshot <b>{last_snap}</b> · "
-                f"tracking since <b>{tracking_since}</b>")
-    meta = {"defaultTrim": args.default_trim, "zip": zipc, "radius": radius,
+    subtitle = (f"<b>{args.year}</b> {' / '.join(args.watch_trims)} · CPO within <b>{radius} mi</b> of <b>{zipc}</b> · "
+                f"<b>{len(rows)}</b> live · snapshot <b>{last_snap}</b> · tracking since <b>{tracking_since}</b>")
+    meta = {"year": args.year, "watch": args.watch_trims, "zip": zipc, "radius": radius,
             "date": last_snap, "trackingSince": tracking_since}
 
     fragment = (TEMPLATE

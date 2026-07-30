@@ -80,24 +80,28 @@ def live_rows(zipcode, radius, model):
     return rows
 
 
-def record_trend(history, rows, today):
-    """Append today's per-trim (and (all)) median price, once per date."""
+def record_trend(history, rows, today, years, trims):
+    """Append today's median price, once per date, for each watched
+    (model-year, trim) — keyed "<year> <trim>" (e.g. "2026 Touring XT") so the
+    trend tracks exactly the cars we care about rather than all model years
+    pooled together."""
     trend = history["meta"]["trend"]
     priced = [r for r in rows if (r.get("price") or 0) > 0]
-    groups = {"(all)": priced}
-    for r in priced:
-        groups.setdefault(r["trim"], []).append(r)
-    for trim, group in groups.items():
-        series = trend.setdefault(trim, [])
-        if any(p["date"] == today for p in series):
-            continue
-        prices = sorted(g["price"] for g in group)
-        series.append({
-            "date": today, "n": len(group),
-            "median": int(statistics.median(prices)),
-            "min": prices[0], "max": prices[-1],
-        })
-        series.sort(key=lambda p: p["date"])
+    for y in years:
+        for t in trims:
+            group = [r for r in priced if r.get("year") == y and r.get("trim") == t]
+            if not group:
+                continue
+            series = trend.setdefault(f"{y} {t}", [])
+            if any(p["date"] == today for p in series):
+                continue
+            prices = sorted(g["price"] for g in group)
+            series.append({
+                "date": today, "n": len(group),
+                "median": int(statistics.median(prices)),
+                "min": prices[0], "max": prices[-1],
+            })
+            series.sort(key=lambda p: p["date"])
 
 
 def main():
@@ -107,6 +111,10 @@ def main():
     ap.add_argument("--model", default="OBK")
     ap.add_argument("--from-file", default=None,
                     help="ingest a flat simplified-rows JSON instead of fetching live (for seeding/testing)")
+    ap.add_argument("--trend-years", type=int, nargs="+", default=[2026],
+                    help="model years to record trend series for")
+    ap.add_argument("--trend-trims", nargs="+", default=["Touring XT", "Limited XT"],
+                    help="trims to record trend series for")
     args = ap.parse_args()
 
     today = date.today().isoformat()
@@ -178,7 +186,7 @@ def main():
             e["delistedDate"] = today
             delisted += 1
 
-    record_trend(history, rows, today)
+    record_trend(history, rows, today, args.trend_years, args.trend_trims)
     save_history(history)
 
     print(f"  {new} new · {price_changes} price change(s) · {reactivated} relisted · {delisted} newly delisted")

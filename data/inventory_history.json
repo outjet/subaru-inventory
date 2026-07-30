@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSnapshot": "2026-07-29",
-    "radius": 200,
+    "radius": 300,
     "trackingSince": "2026-07-22",
     "trend": {
       "(all)": [
@@ -60,6 +60,24 @@
           "median": 31977,
           "min": 22598,
           "n": 236
+        }
+      ],
+      "2026 Limited XT": [
+        {
+          "date": "2026-07-29",
+          "max": 42986,
+          "median": 41434,
+          "min": 39882,
+          "n": 2
+        }
+      ],
+      "2026 Touring XT": [
+        {
+          "date": "2026-07-29",
+          "max": 46498,
+          "median": 44307,
+          "min": 44229,
+          "n": 3
         }
       ],
       "Base": [
