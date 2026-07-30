@@ -49,7 +49,19 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add $FILES
             git commit -m "Update inventory history, comps trend, and dashboard"
-            git push
+            # Rebase onto any concurrent push before pushing, resolving conflicts
+            # in these bot-generated files in favour of this run (the freshest
+            # data). Retry, since another push can still land between pull & push.
+            # Without this a raced push is silently dropped -- losing the seen
+            # state and re-firing alerts every run.
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase -X theirs --autostash origin main && git push; then
+                echo "Pushed on attempt $attempt."; exit 0
+              fi
+              git rebase --abort 2>/dev/null || true
+              echo "Push raced (attempt $attempt) — retrying..."; sleep 5
+            done
+            echo "Could not push after retries; next run will retry."; exit 1
           else
             echo "No state change, skipping commit."
           fi
