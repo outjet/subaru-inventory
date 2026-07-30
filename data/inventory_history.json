@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastSnapshot": "2026-07-29",
+    "lastSnapshot": "2026-07-30",
     "radius": 300,
     "trackingSince": "2026-07-22",
     "trend": {
@@ -69,6 +69,13 @@
           "median": 41434,
           "min": 39882,
           "n": 2
+        },
+        {
+          "date": "2026-07-30",
+          "max": 42986,
+          "median": 40241,
+          "min": 38995,
+          "n": 9
         }
       ],
       "2026 Touring XT": [
@@ -78,6 +85,13 @@
           "median": 44307,
           "min": 44229,
           "n": 3
+        },
+        {
+          "date": "2026-07-30",
+          "max": 46498,
+          "median": 44307,
+          "min": 42868,
+          "n": 11
         }
       ],
       "Base": [
@@ -614,11 +628,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -640,11 +654,11 @@
       "dealer": "Quantrell Subaru",
       "delistedDate": null,
       "distance": 277.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -670,7 +684,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -734,7 +748,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28651,
       "priceHistory": [
         {
@@ -764,7 +778,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -790,7 +804,7 @@
       "driveText": "45 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -812,11 +826,11 @@
       "dealer": "Subaru of Sterling",
       "delistedDate": null,
       "distance": 285.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -838,11 +852,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -868,7 +882,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29399,
       "priceHistory": [
         {
@@ -894,11 +908,11 @@
       "dealer": "Van Bortel Subaru of Victor",
       "delistedDate": null,
       "distance": 248.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 253,
+      "driveText": "4 hours 13 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -954,7 +968,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-28",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -980,7 +994,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28850,
       "priceHistory": [
         {
@@ -1006,7 +1020,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28995,
       "priceHistory": [
         {
@@ -1032,7 +1046,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31055,
       "priceHistory": [
         {
@@ -1058,7 +1072,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1088,11 +1102,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1118,7 +1132,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1140,11 +1154,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1170,7 +1184,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1200,11 +1214,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1226,11 +1240,11 @@
       "dealer": "Maple Hill Subaru",
       "delistedDate": null,
       "distance": 206.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 240,
+      "driveText": "4 hours 0 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1256,7 +1270,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29350,
       "priceHistory": [
         {
@@ -1282,11 +1296,11 @@
       "dealer": "Alexander Subaru",
       "delistedDate": null,
       "distance": 257.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1312,7 +1326,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1338,7 +1352,7 @@
       "driveText": "3 hours 2 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1368,7 +1382,7 @@
       "driveText": "2 hours 56 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 27749,
       "priceHistory": [
         {
@@ -1390,11 +1404,11 @@
       "dealer": "My Lakeshore Subaru",
       "delistedDate": null,
       "distance": 244.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1420,7 +1434,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1446,7 +1460,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1502,11 +1516,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1532,7 +1546,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1562,7 +1576,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-24",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 25977,
       "priceHistory": [
         {
@@ -1588,7 +1602,7 @@
       "driveText": "3 hours 19 mins",
       "firstSeen": "2026-07-25",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 27500,
       "priceHistory": [
         {
@@ -1614,7 +1628,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1636,11 +1650,11 @@
       "dealer": "Alexander Subaru",
       "delistedDate": null,
       "distance": 257.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1666,7 +1680,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1692,11 +1706,11 @@
       "dealer": "Beechmont Subaru",
       "delistedDate": null,
       "distance": 213.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 225,
+      "driveText": "3 hours 45 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1722,7 +1736,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29850,
       "priceHistory": [
         {
@@ -1752,7 +1766,7 @@
       "driveText": "2 hours 18 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29486,
       "priceHistory": [
         {
@@ -1774,11 +1788,11 @@
       "dealer": "Faulkner Subaru Harrisburg",
       "delistedDate": null,
       "distance": 272.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 309,
+      "driveText": "5 hours 9 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1804,7 +1818,7 @@
       "driveText": "2 hours 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1860,7 +1874,7 @@
       "driveText": "42 mins",
       "firstSeen": "2026-07-23",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1882,11 +1896,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1908,11 +1922,11 @@
       "dealer": "Dutch Miller Subaru",
       "delistedDate": null,
       "distance": 215.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 234,
+      "driveText": "3 hours 54 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31588,
       "priceHistory": [
         {
@@ -1938,7 +1952,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1968,11 +1982,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -1994,11 +2008,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2020,11 +2034,11 @@
       "dealer": "Faulkner Subaru Harrisburg",
       "delistedDate": null,
       "distance": 272.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 309,
+      "driveText": "5 hours 9 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2050,7 +2064,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2072,11 +2086,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2124,11 +2138,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2154,7 +2168,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2236,7 +2250,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 30998,
       "priceHistory": [
         {
@@ -2262,7 +2276,7 @@
       "driveText": "45 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2318,7 +2332,7 @@
       "driveText": "3 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2344,7 +2358,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 36741,
       "priceHistory": [
         {
@@ -2366,11 +2380,11 @@
       "dealer": "Reynolds Subaru",
       "delistedDate": null,
       "distance": 296.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 404,
+      "driveText": "6 hours 44 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2396,7 +2410,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33075,
       "priceHistory": [
         {
@@ -2418,11 +2432,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2448,7 +2462,7 @@
       "driveText": "3 hours 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2482,7 +2496,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2512,11 +2526,11 @@
       "dealer": "Quantrell Subaru",
       "delistedDate": null,
       "distance": 277.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2542,7 +2556,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2572,7 +2586,7 @@
       "driveText": "27 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 26850,
       "priceHistory": [
         {
@@ -2598,11 +2612,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2624,11 +2638,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2676,11 +2690,11 @@
       "dealer": "Maple Hill Subaru",
       "delistedDate": null,
       "distance": 206.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 240,
+      "driveText": "4 hours 0 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2702,11 +2716,11 @@
       "dealer": "Subaru of Kings Automall",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 206,
+      "driveText": "3 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2728,11 +2742,11 @@
       "dealer": "Van Bortel Subaru of Victor",
       "delistedDate": null,
       "distance": 248.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 253,
+      "driveText": "4 hours 13 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2754,11 +2768,11 @@
       "dealer": "CMA's Valley Subaru",
       "delistedDate": null,
       "distance": 273.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 395,
+      "driveText": "6 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28839,
       "priceHistory": [
         {
@@ -2780,11 +2794,11 @@
       "dealer": "Quantrell Subaru",
       "delistedDate": null,
       "distance": 277.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2806,11 +2820,11 @@
       "dealer": "Maple Hill Subaru",
       "delistedDate": null,
       "distance": 206.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 240,
+      "driveText": "4 hours 0 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2832,11 +2846,11 @@
       "dealer": "My Lakeshore Subaru",
       "delistedDate": null,
       "distance": 244.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2858,11 +2872,11 @@
       "dealer": "Serra Subaru of Traverse City",
       "delistedDate": null,
       "distance": 295.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 357,
+      "driveText": "5 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2888,7 +2902,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-25",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2910,11 +2924,11 @@
       "dealer": "Flow Subaru of Charlottesville",
       "delistedDate": null,
       "distance": 293.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 419,
+      "driveText": "6 hours 59 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2940,7 +2954,7 @@
       "driveText": "3 hours 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 25760,
       "priceHistory": [
         {
@@ -2966,11 +2980,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -2996,7 +3010,7 @@
       "driveText": "3 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29609,
       "priceHistory": [
         {
@@ -3026,7 +3040,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31500,
       "priceHistory": [
         {
@@ -3052,11 +3066,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3108,11 +3122,11 @@
       "dealer": "Busam Subaru",
       "delistedDate": null,
       "distance": 206.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 218,
+      "driveText": "3 hours 38 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3134,11 +3148,11 @@
       "dealer": "Dutch Miller Subaru",
       "delistedDate": null,
       "distance": 215.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 234,
+      "driveText": "3 hours 54 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 30735,
       "priceHistory": [
         {
@@ -3164,7 +3178,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3190,7 +3204,7 @@
       "driveText": "1 hour 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 23500,
       "priceHistory": [
         {
@@ -3216,11 +3230,11 @@
       "dealer": "Dutch Miller Subaru",
       "delistedDate": null,
       "distance": 215.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 234,
+      "driveText": "3 hours 54 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 26723,
       "priceHistory": [
         {
@@ -3242,11 +3256,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3268,11 +3282,11 @@
       "dealer": "Faulkner Subaru Harrisburg",
       "delistedDate": null,
       "distance": 272.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 309,
+      "driveText": "5 hours 9 mins",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3294,11 +3308,11 @@
       "dealer": "Bob Wade Subaru",
       "delistedDate": null,
       "distance": 261.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 375,
+      "driveText": "6 hours 15 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3324,7 +3338,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3346,11 +3360,11 @@
       "dealer": "My Lakeshore Subaru",
       "delistedDate": null,
       "distance": 244.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3372,11 +3386,11 @@
       "dealer": "Quantrell Subaru",
       "delistedDate": null,
       "distance": 277.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3398,11 +3412,11 @@
       "dealer": "Beechmont Subaru",
       "delistedDate": null,
       "distance": 213.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 225,
+      "driveText": "3 hours 45 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3424,11 +3438,11 @@
       "dealer": "Farrish Subaru",
       "delistedDate": null,
       "distance": 298.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 353,
+      "driveText": "5 hours 53 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3450,11 +3464,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3480,7 +3494,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29925,
       "priceHistory": [
         {
@@ -3506,11 +3520,11 @@
       "dealer": "Alexander Subaru",
       "delistedDate": null,
       "distance": 257.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3536,7 +3550,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3558,11 +3572,11 @@
       "dealer": "Fitzgerald Subaru of Gaithersburg",
       "delistedDate": null,
       "distance": 289.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 327,
+      "driveText": "5 hours 27 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3584,11 +3598,11 @@
       "dealer": "Fitzgerald Subaru of Gaithersburg",
       "delistedDate": null,
       "distance": 289.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 327,
+      "driveText": "5 hours 27 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3614,7 +3628,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3636,11 +3650,11 @@
       "dealer": "Stohlman Subaru",
       "delistedDate": null,
       "distance": 298.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3662,11 +3676,11 @@
       "dealer": "Serra Subaru of Traverse City",
       "delistedDate": null,
       "distance": 295.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 357,
+      "driveText": "5 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3692,7 +3706,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3718,7 +3732,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 32000,
       "priceHistory": [
         {
@@ -3748,7 +3762,7 @@
       "driveText": "2 hours 18 mins",
       "firstSeen": "2026-07-28",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 27993,
       "priceHistory": [
         {
@@ -3800,7 +3814,7 @@
       "driveText": "2 hours 41 mins",
       "firstSeen": "2026-07-25",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3822,11 +3836,11 @@
       "dealer": "My Lakeshore Subaru",
       "delistedDate": null,
       "distance": 244.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3848,11 +3862,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3878,7 +3892,7 @@
       "driveText": "2 hours 44 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 38530,
       "priceHistory": [
         {
@@ -3960,7 +3974,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -3990,7 +4004,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-26",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 25500,
       "priceHistory": [
         {
@@ -4020,11 +4034,11 @@
       "dealer": "Subaru of Kings Automall",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 206,
+      "driveText": "3 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4046,11 +4060,11 @@
       "dealer": "Fox Subaru",
       "delistedDate": null,
       "distance": 214.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 252,
+      "driveText": "4 hours 12 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4076,7 +4090,7 @@
       "driveText": "1 hour 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4106,7 +4120,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4132,7 +4146,7 @@
       "driveText": "2 hours 16 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4158,11 +4172,11 @@
       "dealer": "Alexander Subaru",
       "delistedDate": null,
       "distance": 257.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4184,11 +4198,11 @@
       "dealer": "Friendship Subaru of Beckley",
       "delistedDate": null,
       "distance": 253.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4210,11 +4224,11 @@
       "dealer": "My Lakeshore Subaru",
       "delistedDate": null,
       "distance": 244.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4240,7 +4254,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 38336,
       "priceHistory": [
         {
@@ -4266,7 +4280,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 38336,
       "priceHistory": [
         {
@@ -4292,7 +4306,7 @@
       "driveText": "2 hours 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4318,11 +4332,11 @@
       "dealer": "Ciocca Subaru of York",
       "delistedDate": null,
       "distance": 283.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 328,
+      "driveText": "5 hours 28 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31999,
       "priceHistory": [
         {
@@ -4370,11 +4384,11 @@
       "dealer": "Fitzgerald Subaru of Gaithersburg",
       "delistedDate": null,
       "distance": 289.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 327,
+      "driveText": "5 hours 27 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4400,7 +4414,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 25025,
       "priceHistory": [
         {
@@ -4426,11 +4440,11 @@
       "dealer": "Friendship Subaru of Beckley",
       "delistedDate": null,
       "distance": 253.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4456,7 +4470,7 @@
       "driveText": "3 hours 0 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 25575,
       "priceHistory": [
         {
@@ -4478,11 +4492,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4504,11 +4518,11 @@
       "dealer": "River City Subaru",
       "delistedDate": null,
       "distance": 214.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 271,
+      "driveText": "4 hours 31 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFC6R3281820",
@@ -4525,11 +4539,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4555,7 +4569,7 @@
       "driveText": "2 hours 56 mins",
       "firstSeen": "2026-07-24",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28499,
       "priceHistory": [
         {
@@ -4603,11 +4617,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4655,11 +4669,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4685,7 +4699,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-28",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4707,11 +4721,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4733,11 +4747,11 @@
       "dealer": "Alexander Subaru",
       "delistedDate": null,
       "distance": 257.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4789,7 +4803,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-24",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28493,
       "priceHistory": [
         {
@@ -4815,11 +4829,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4867,11 +4881,11 @@
       "dealer": "CMA's Valley Subaru",
       "delistedDate": null,
       "distance": 273.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 395,
+      "driveText": "6 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 38822,
       "priceHistory": [
         {
@@ -4897,7 +4911,7 @@
       "driveText": "42 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Cloth",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4949,11 +4963,11 @@
       "dealer": "Stohlman Subaru",
       "delistedDate": null,
       "distance": 298.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -4979,7 +4993,7 @@
       "driveText": "2 hours 56 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 27499,
       "priceHistory": [
         {
@@ -5001,11 +5015,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5057,7 +5071,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5083,11 +5097,11 @@
       "dealer": "Friendship Subaru of Beckley",
       "delistedDate": null,
       "distance": 253.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5113,7 +5127,7 @@
       "driveText": "2 hours 49 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5135,11 +5149,11 @@
       "dealer": "Dreyer & Reinbold Subaru",
       "delistedDate": null,
       "distance": 261.0,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 297,
+      "driveText": "4 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 34000,
       "priceHistory": [
         {
@@ -5187,11 +5201,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5217,7 +5231,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31995,
       "priceHistory": [
         {
@@ -5239,11 +5253,11 @@
       "dealer": "Sheehy Subaru of Hagerstown",
       "delistedDate": null,
       "distance": 252.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5269,7 +5283,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5295,7 +5309,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5321,7 +5335,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-23",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5347,7 +5361,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 32500,
       "priceHistory": [
         {
@@ -5369,11 +5383,11 @@
       "dealer": "Subaru of Kings Automall",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 206,
+      "driveText": "3 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5395,11 +5409,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5421,11 +5435,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5451,7 +5465,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-28",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 30225,
       "priceHistory": [
         {
@@ -5477,7 +5491,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5525,11 +5539,11 @@
       "dealer": "Sheehy Subaru of Hagerstown",
       "delistedDate": null,
       "distance": 252.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5555,7 +5569,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-25",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28730,
       "priceHistory": [
         {
@@ -5581,7 +5595,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31555,
       "priceHistory": [
         {
@@ -5615,7 +5629,7 @@
       "driveText": "2 hours 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5641,7 +5655,7 @@
       "driveText": "42 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5701,7 +5715,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 32995,
       "priceHistory": [
         {
@@ -5723,11 +5737,11 @@
       "dealer": "Beechmont Subaru",
       "delistedDate": null,
       "distance": 213.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 225,
+      "driveText": "3 hours 45 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5753,7 +5767,7 @@
       "driveText": "45 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5779,7 +5793,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31000,
       "priceHistory": [
         {
@@ -5835,7 +5849,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5891,7 +5905,7 @@
       "driveText": "2 hours 48 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5917,7 +5931,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5939,11 +5953,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -5969,7 +5983,7 @@
       "driveText": "3 hours 19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29999,
       "priceHistory": [
         {
@@ -5999,7 +6013,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6025,7 +6039,7 @@
       "driveText": "2 hours 48 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6047,11 +6061,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6073,11 +6087,11 @@
       "dealer": "Maple Hill Subaru",
       "delistedDate": null,
       "distance": 206.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 240,
+      "driveText": "4 hours 0 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6103,7 +6117,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31899,
       "priceHistory": [
         {
@@ -6133,7 +6147,7 @@
       "driveText": "3 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 27785,
       "priceHistory": [
         {
@@ -6155,11 +6169,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6181,11 +6195,11 @@
       "dealer": "Speedway Subaru",
       "delistedDate": null,
       "distance": 258.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6207,11 +6221,11 @@
       "dealer": "Thomas Subaru",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 231,
+      "driveText": "3 hours 51 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31975,
       "priceHistory": [
         {
@@ -6233,11 +6247,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6263,7 +6277,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-24",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31030,
       "priceHistory": [
         {
@@ -6285,11 +6299,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6315,7 +6329,7 @@
       "driveText": "2 hours 44 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6341,11 +6355,11 @@
       "dealer": "Quantrell Subaru",
       "delistedDate": null,
       "distance": 277.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6371,7 +6385,7 @@
       "driveText": "3 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29690,
       "priceHistory": [
         {
@@ -6401,7 +6415,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 34558,
       "priceHistory": [
         {
@@ -6427,7 +6441,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28977,
       "priceHistory": [
         {
@@ -6453,7 +6467,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35250,
       "priceHistory": [
         {
@@ -6483,11 +6497,11 @@
       "dealer": "Fitzgerald Subaru of Gaithersburg",
       "delistedDate": null,
       "distance": 289.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 327,
+      "driveText": "5 hours 27 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6509,11 +6523,11 @@
       "dealer": "Van Bortel Subaru of Victor",
       "delistedDate": null,
       "distance": 248.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 253,
+      "driveText": "4 hours 13 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6535,11 +6549,11 @@
       "dealer": "Bob Wade Subaru",
       "delistedDate": null,
       "distance": 261.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 375,
+      "driveText": "6 hours 15 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6565,7 +6579,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 26000,
       "priceHistory": [
         {
@@ -6599,7 +6613,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-26",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6625,7 +6639,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6655,7 +6669,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6681,11 +6695,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6732,7 +6746,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6758,11 +6772,11 @@
       "dealer": "Tom Wood Subaru",
       "delistedDate": null,
       "distance": 250.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 281,
+      "driveText": "4 hours 41 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6788,7 +6802,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-28",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6810,11 +6824,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6840,7 +6854,7 @@
       "driveText": "1 hour 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6866,7 +6880,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33499,
       "priceHistory": [
         {
@@ -6896,7 +6910,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 32382,
       "priceHistory": [
         {
@@ -6918,11 +6932,11 @@
       "dealer": "Fox Subaru",
       "delistedDate": null,
       "distance": 214.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 252,
+      "driveText": "4 hours 12 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -6948,7 +6962,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35400,
       "priceHistory": [
         {
@@ -7004,7 +7018,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 37400,
       "priceHistory": [
         {
@@ -7026,11 +7040,11 @@
       "dealer": "Alexander Subaru",
       "delistedDate": null,
       "distance": 257.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7082,7 +7096,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7104,11 +7118,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7134,7 +7148,7 @@
       "driveText": "3 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 24018,
       "priceHistory": [
         {
@@ -7156,11 +7170,11 @@
       "dealer": "CMA's Valley Subaru",
       "delistedDate": null,
       "distance": 273.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 395,
+      "driveText": "6 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28475,
       "priceHistory": [
         {
@@ -7182,11 +7196,11 @@
       "dealer": "Bergey's Subaru",
       "delistedDate": null,
       "distance": 275.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 335,
+      "driveText": "5 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7208,11 +7222,11 @@
       "dealer": "Bob Wade Subaru",
       "delistedDate": null,
       "distance": 261.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 375,
+      "driveText": "6 hours 15 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7238,7 +7252,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 26525,
       "priceHistory": [
         {
@@ -7264,7 +7278,7 @@
       "driveText": "2 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7286,11 +7300,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7316,7 +7330,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7342,11 +7356,11 @@
       "dealer": "Serra Subaru of Traverse City",
       "delistedDate": null,
       "distance": 295.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 357,
+      "driveText": "5 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7372,7 +7386,7 @@
       "driveText": "2 hours 18 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35683,
       "priceHistory": [
         {
@@ -7398,7 +7412,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 37025,
       "priceHistory": [
         {
@@ -7420,11 +7434,11 @@
       "dealer": "River City Subaru",
       "delistedDate": null,
       "distance": 214.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 271,
+      "driveText": "4 hours 31 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 24900,
       "priceHistory": [
         {
@@ -7450,7 +7464,7 @@
       "driveText": "27 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 26190,
       "priceHistory": [
         {
@@ -7476,11 +7490,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7562,7 +7576,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29516,
       "priceHistory": [
         {
@@ -7592,7 +7606,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7622,7 +7636,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35448,
       "priceHistory": [
         {
@@ -7644,11 +7658,11 @@
       "dealer": "Dulles Subaru",
       "delistedDate": null,
       "distance": 276.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 336,
+      "driveText": "5 hours 37 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7674,7 +7688,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28160,
       "priceHistory": [
         {
@@ -7700,11 +7714,11 @@
       "dealer": "Joseph Subaru",
       "delistedDate": null,
       "distance": 228.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 235,
+      "driveText": "3 hours 55 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7730,7 +7744,7 @@
       "driveText": "42 mins",
       "firstSeen": "2026-07-23",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7777,7 +7791,7 @@
       "driveText": "2 hours 18 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 36129,
       "priceHistory": [
         {
@@ -7799,11 +7813,11 @@
       "dealer": "Blaise Alexander Subaru of Lewistown",
       "delistedDate": null,
       "distance": 227.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 266,
+      "driveText": "4 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35375,
       "priceHistory": [
         {
@@ -7825,11 +7839,11 @@
       "dealer": "Tom Wood Subaru",
       "delistedDate": null,
       "distance": 250.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 281,
+      "driveText": "4 hours 41 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7851,11 +7865,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7881,7 +7895,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35995,
       "priceHistory": [
         {
@@ -7933,7 +7947,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35595,
       "priceHistory": [
         {
@@ -7955,11 +7969,11 @@
       "dealer": "Serra Subaru of Traverse City",
       "delistedDate": null,
       "distance": 295.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 357,
+      "driveText": "5 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -7981,11 +7995,11 @@
       "dealer": "Faulkner Subaru Harrisburg",
       "delistedDate": null,
       "distance": 272.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 309,
+      "driveText": "5 hours 9 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8007,11 +8021,11 @@
       "dealer": "My Lakeshore Subaru",
       "delistedDate": null,
       "distance": 244.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8033,11 +8047,11 @@
       "dealer": "Faulkner Subaru Harrisburg",
       "delistedDate": null,
       "distance": 272.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 309,
+      "driveText": "5 hours 9 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8059,11 +8073,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8085,11 +8099,11 @@
       "dealer": "Maple Hill Subaru",
       "delistedDate": null,
       "distance": 206.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 240,
+      "driveText": "4 hours 0 mins",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8115,7 +8129,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8149,7 +8163,7 @@
       "driveText": "1 hour 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35990,
       "priceHistory": [
         {
@@ -8179,7 +8193,7 @@
       "driveText": "3 hours 2 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8205,11 +8219,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8235,7 +8249,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8257,11 +8271,11 @@
       "dealer": "Subaru of Kings Automall",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 206,
+      "driveText": "3 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8309,11 +8323,11 @@
       "dealer": "Van Bortel Subaru of Victor",
       "delistedDate": null,
       "distance": 248.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 253,
+      "driveText": "4 hours 13 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8361,11 +8375,11 @@
       "dealer": "Thomas Subaru",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 231,
+      "driveText": "3 hours 51 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35000,
       "priceHistory": [
         {
@@ -8387,11 +8401,11 @@
       "dealer": "Subaru of Kings Automall",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 206,
+      "driveText": "3 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8417,7 +8431,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33500,
       "priceHistory": [
         {
@@ -8481,11 +8495,11 @@
       "dealer": "Dutch Miller Subaru",
       "delistedDate": null,
       "distance": 215.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 234,
+      "driveText": "3 hours 54 mins",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 25474,
       "priceHistory": [
         {
@@ -8511,7 +8525,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8533,11 +8547,11 @@
       "dealer": "Flow Subaru of Charlottesville",
       "delistedDate": null,
       "distance": 293.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 419,
+      "driveText": "6 hours 59 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8563,7 +8577,7 @@
       "driveText": "42 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8593,7 +8607,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8619,11 +8633,11 @@
       "dealer": "Tom Wood Subaru",
       "delistedDate": null,
       "distance": 250.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 281,
+      "driveText": "4 hours 41 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8649,7 +8663,7 @@
       "driveText": "3 hours 19 mins",
       "firstSeen": "2026-07-25",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 42239,
       "priceHistory": [
         {
@@ -8701,11 +8715,11 @@
       "dealer": "Dreyer & Reinbold Subaru",
       "delistedDate": null,
       "distance": 261.0,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 297,
+      "driveText": "4 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31000,
       "priceHistory": [
         {
@@ -8727,11 +8741,11 @@
       "dealer": "Maple Hill Subaru",
       "delistedDate": null,
       "distance": 206.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 240,
+      "driveText": "4 hours 0 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8757,7 +8771,7 @@
       "driveText": "26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8791,7 +8805,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-23",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31977,
       "priceHistory": [
         {
@@ -8813,11 +8827,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8839,11 +8853,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8865,11 +8879,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -8895,7 +8909,7 @@
       "driveText": "3 hours 0 mins",
       "firstSeen": "2026-07-26",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 34950,
       "priceHistory": [
         {
@@ -8947,11 +8961,11 @@
       "dealer": "CMA's Valley Subaru",
       "delistedDate": null,
       "distance": 273.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 395,
+      "driveText": "6 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 42045,
       "priceHistory": [
         {
@@ -8977,7 +8991,7 @@
       "driveText": "3 hours 2 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9051,11 +9065,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9107,7 +9121,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9137,7 +9151,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 37225,
       "priceHistory": [
         {
@@ -9159,11 +9173,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9189,7 +9203,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 24525,
       "priceHistory": [
         {
@@ -9241,11 +9255,11 @@
       "dealer": "Serra Subaru of Traverse City",
       "delistedDate": null,
       "distance": 295.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 357,
+      "driveText": "5 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9267,11 +9281,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9297,7 +9311,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 36450,
       "priceHistory": [
         {
@@ -9319,11 +9333,11 @@
       "dealer": "Serra Subaru of Traverse City",
       "delistedDate": null,
       "distance": 295.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 357,
+      "driveText": "5 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9349,7 +9363,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9379,11 +9393,11 @@
       "dealer": "Tom Wood Subaru",
       "delistedDate": null,
       "distance": 250.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 281,
+      "driveText": "4 hours 41 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9405,11 +9419,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9431,11 +9445,11 @@
       "dealer": "Van Bortel Subaru of Victor",
       "delistedDate": null,
       "distance": 248.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 253,
+      "driveText": "4 hours 13 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9457,11 +9471,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9487,7 +9501,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 32050,
       "priceHistory": [
         {
@@ -9535,11 +9549,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9565,7 +9579,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9591,11 +9605,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9621,7 +9635,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9647,7 +9661,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33925,
       "priceHistory": [
         {
@@ -9699,7 +9713,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-26",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 25750,
       "priceHistory": [
         {
@@ -9725,11 +9739,11 @@
       "dealer": "Fitzgerald Subaru of Gaithersburg",
       "delistedDate": null,
       "distance": 289.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 327,
+      "driveText": "5 hours 27 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9755,7 +9769,7 @@
       "driveText": "2 hours 48 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9777,11 +9791,11 @@
       "dealer": "Quantrell Subaru",
       "delistedDate": null,
       "distance": 277.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9807,7 +9821,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28560,
       "priceHistory": [
         {
@@ -9837,7 +9851,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 34875,
       "priceHistory": [
         {
@@ -9889,7 +9903,7 @@
       "driveText": "3 hours 19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 32499,
       "priceHistory": [
         {
@@ -9911,11 +9925,11 @@
       "dealer": "Quantrell Subaru",
       "delistedDate": null,
       "distance": 277.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -9967,7 +9981,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 29300,
       "priceHistory": [
         {
@@ -9993,7 +10007,7 @@
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10019,11 +10033,11 @@
       "dealer": "Sheehy Subaru of Hagerstown",
       "delistedDate": null,
       "distance": 252.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10049,7 +10063,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 27830,
       "priceHistory": [
         {
@@ -10079,7 +10093,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28450,
       "priceHistory": [
         {
@@ -10105,11 +10119,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10131,11 +10145,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10157,11 +10171,11 @@
       "dealer": "Subaru of Kings Automall",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 206,
+      "driveText": "3 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10183,11 +10197,11 @@
       "dealer": "Fitzgerald Subaru of Gaithersburg",
       "delistedDate": null,
       "distance": 289.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 327,
+      "driveText": "5 hours 27 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10209,11 +10223,11 @@
       "dealer": "Stohlman Subaru",
       "delistedDate": null,
       "distance": 298.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10235,11 +10249,11 @@
       "dealer": "Subaru of Kings Automall",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 206,
+      "driveText": "3 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10265,7 +10279,7 @@
       "driveText": "2 hours 16 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10321,7 +10335,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-24",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10347,7 +10361,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35019,
       "priceHistory": [
         {
@@ -10373,7 +10387,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10429,11 +10443,11 @@
       "dealer": "Beechmont Subaru",
       "delistedDate": null,
       "distance": 213.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 225,
+      "driveText": "3 hours 45 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10459,7 +10473,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 28580,
       "priceHistory": [
         {
@@ -10489,7 +10503,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Warm Ivory Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33325,
       "priceHistory": [
         {
@@ -10515,11 +10529,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10545,7 +10559,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 30025,
       "priceHistory": [
         {
@@ -10571,7 +10585,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10597,7 +10611,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31750,
       "priceHistory": [
         {
@@ -10679,7 +10693,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33775,
       "priceHistory": [
         {
@@ -10705,7 +10719,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10735,7 +10749,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 30510,
       "priceHistory": [
         {
@@ -10769,7 +10783,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 30977,
       "priceHistory": [
         {
@@ -10825,7 +10839,7 @@
       "driveText": "1 hour 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 35900,
       "priceHistory": [
         {
@@ -10851,11 +10865,11 @@
       "dealer": "Subaru of Sterling",
       "delistedDate": null,
       "distance": 285.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10881,7 +10895,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-24",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 36220,
       "priceHistory": [
         {
@@ -10907,7 +10921,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10929,11 +10943,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10959,7 +10973,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -10981,11 +10995,11 @@
       "dealer": "Royal Subaru",
       "delistedDate": null,
       "distance": 296.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 340,
+      "driveText": "5 hours 40 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11011,7 +11025,7 @@
       "driveText": "2 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11059,11 +11073,11 @@
       "dealer": "Faulkner Subaru Harrisburg",
       "delistedDate": null,
       "distance": 272.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 309,
+      "driveText": "5 hours 9 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11089,7 +11103,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11119,7 +11133,7 @@
       "driveText": "2 hours 26 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33869,
       "priceHistory": [
         {
@@ -11141,11 +11155,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11171,7 +11185,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 40000,
       "priceHistory": [
         {
@@ -11201,7 +11215,7 @@
       "driveText": "2 hours 48 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11223,11 +11237,11 @@
       "dealer": "Busam Subaru",
       "delistedDate": null,
       "distance": 206.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 218,
+      "driveText": "3 hours 38 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11249,11 +11263,11 @@
       "dealer": "Van Bortel Subaru of Victor",
       "delistedDate": null,
       "distance": 248.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 253,
+      "driveText": "4 hours 13 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11279,7 +11293,7 @@
       "driveText": "2 hours 43 mins",
       "firstSeen": "2026-07-22",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 37995,
       "priceHistory": [
         {
@@ -11301,11 +11315,11 @@
       "dealer": "Serra Subaru of Traverse City",
       "delistedDate": null,
       "distance": 295.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 357,
+      "driveText": "5 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11383,7 +11397,7 @@
       "driveText": "3 hours 12 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex ",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 26840,
       "priceHistory": [
         {
@@ -11409,11 +11423,11 @@
       "dealer": "Beechmont Subaru",
       "delistedDate": null,
       "distance": 213.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 225,
+      "driveText": "3 hours 45 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11435,11 +11449,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11465,7 +11479,7 @@
       "driveText": "2 hours 48 mins",
       "firstSeen": "2026-07-25",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11491,7 +11505,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31425,
       "priceHistory": [
         {
@@ -11513,11 +11527,11 @@
       "dealer": "Speedway Subaru",
       "delistedDate": null,
       "distance": 258.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11543,7 +11557,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11569,11 +11583,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11599,7 +11613,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31490,
       "priceHistory": [
         {
@@ -11651,11 +11665,11 @@
       "dealer": "Friendship Subaru of Beckley",
       "delistedDate": null,
       "distance": 253.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11677,11 +11691,11 @@
       "dealer": "Alexander Subaru",
       "delistedDate": null,
       "distance": 257.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11703,11 +11717,11 @@
       "dealer": "Fox Subaru",
       "delistedDate": null,
       "distance": 214.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 252,
+      "driveText": "4 hours 12 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11733,7 +11747,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33750,
       "priceHistory": [
         {
@@ -11759,7 +11773,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31977,
       "priceHistory": [
         {
@@ -11811,11 +11825,11 @@
       "dealer": "My Lakeshore Subaru",
       "delistedDate": null,
       "distance": 244.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11841,7 +11855,7 @@
       "driveText": "2 hours 38 mins",
       "firstSeen": "2026-07-24",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11867,7 +11881,7 @@
       "driveText": "2 hours 9 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11889,11 +11903,11 @@
       "dealer": "Ciocca Subaru of York",
       "delistedDate": null,
       "distance": 283.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 328,
+      "driveText": "5 hours 28 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 37999,
       "priceHistory": [
         {
@@ -11915,11 +11929,11 @@
       "dealer": "Friendship Subaru of Beckley",
       "delistedDate": null,
       "distance": 253.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -11971,11 +11985,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12001,7 +12015,7 @@
       "driveText": "2 hours 16 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex ",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12027,7 +12041,7 @@
       "driveText": "1 hour 49 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 34990,
       "priceHistory": [
         {
@@ -12053,7 +12067,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12075,11 +12089,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12105,7 +12119,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 34150,
       "priceHistory": [
         {
@@ -12131,11 +12145,11 @@
       "dealer": "Speedway Subaru",
       "delistedDate": null,
       "distance": 258.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12157,11 +12171,11 @@
       "dealer": "Subaru of Kings Automall",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 206,
+      "driveText": "3 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12187,7 +12201,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-28",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12209,11 +12223,11 @@
       "dealer": "Flow Subaru of Charlottesville",
       "delistedDate": null,
       "distance": 293.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 419,
+      "driveText": "6 hours 59 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 46071,
       "priceHistory": [
         {
@@ -12239,7 +12253,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12261,11 +12275,11 @@
       "dealer": "Bergey's Subaru",
       "delistedDate": null,
       "distance": 275.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 335,
+      "driveText": "5 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12287,11 +12301,11 @@
       "dealer": "Faulkner Subaru Harrisburg",
       "delistedDate": null,
       "distance": 272.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 309,
+      "driveText": "5 hours 9 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12313,11 +12327,11 @@
       "dealer": "Subaru of Sterling",
       "delistedDate": null,
       "distance": 285.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12343,7 +12357,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31475,
       "priceHistory": [
         {
@@ -12369,11 +12383,11 @@
       "dealer": "Serra Subaru of Traverse City",
       "delistedDate": null,
       "distance": 295.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 357,
+      "driveText": "5 hours 57 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12395,11 +12409,11 @@
       "dealer": "Van Bortel Subaru of Rochester",
       "delistedDate": null,
       "distance": 238.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 242,
+      "driveText": "4 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12421,11 +12435,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12451,7 +12465,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-25",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 31977,
       "priceHistory": [
         {
@@ -12473,11 +12487,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12503,7 +12517,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 37775,
       "priceHistory": [
         {
@@ -12525,11 +12539,11 @@
       "dealer": "Faulkner Subaru Harrisburg",
       "delistedDate": null,
       "distance": 272.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 309,
+      "driveText": "5 hours 9 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12585,11 +12599,11 @@
       "dealer": "CMA's Valley Subaru",
       "delistedDate": null,
       "distance": 273.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 395,
+      "driveText": "6 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 36592,
       "priceHistory": [
         {
@@ -12641,11 +12655,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12667,11 +12681,11 @@
       "dealer": "CMA's Valley Subaru",
       "delistedDate": null,
       "distance": 273.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 395,
+      "driveText": "6 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex ",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 34300,
       "priceHistory": [
         {
@@ -12693,11 +12707,11 @@
       "dealer": "Subaru of Kings Automall",
       "delistedDate": null,
       "distance": 200.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 206,
+      "driveText": "3 hours 26 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12719,11 +12733,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex Urethane",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12745,11 +12759,11 @@
       "dealer": "Friendship Subaru of Beckley",
       "delistedDate": null,
       "distance": 253.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12771,11 +12785,11 @@
       "dealer": "Friendship Subaru of Beckley",
       "delistedDate": null,
       "distance": 253.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12797,11 +12811,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12827,7 +12841,7 @@
       "driveText": "1 hour 27 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 34274,
       "priceHistory": [
         {
@@ -12853,7 +12867,7 @@
       "driveText": "2 hours 30 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 38795,
       "priceHistory": [
         {
@@ -12909,7 +12923,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12935,7 +12949,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12965,7 +12979,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -12991,7 +13005,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 36589,
       "priceHistory": [
         {
@@ -13021,11 +13035,11 @@
       "dealer": "Bob Wade Subaru",
       "delistedDate": null,
       "distance": 261.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 375,
+      "driveText": "6 hours 15 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13073,11 +13087,11 @@
       "dealer": "Quantrell Subaru",
       "delistedDate": null,
       "distance": 277.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13099,11 +13113,11 @@
       "dealer": "Joseph Subaru",
       "delistedDate": null,
       "distance": 228.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 235,
+      "driveText": "3 hours 55 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 39556,
       "priceHistory": [
         {
@@ -13129,7 +13143,7 @@
       "driveText": "3 hours 41 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13155,7 +13169,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33977,
       "priceHistory": [
         {
@@ -13181,11 +13195,11 @@
       "dealer": "Beechmont Subaru",
       "delistedDate": null,
       "distance": 213.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 225,
+      "driveText": "3 hours 45 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13207,11 +13221,11 @@
       "dealer": "Bob Wade Subaru",
       "delistedDate": null,
       "distance": 261.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 375,
+      "driveText": "6 hours 15 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13263,7 +13277,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13293,7 +13307,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13319,7 +13333,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13345,7 +13359,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33977,
       "priceHistory": [
         {
@@ -13371,11 +13385,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPBD3TY452151",
@@ -13392,11 +13406,11 @@
       "dealer": "Stohlman Subaru",
       "delistedDate": null,
       "distance": 298.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13422,7 +13436,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-28",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13444,11 +13458,11 @@
       "dealer": "Alexander Subaru",
       "delistedDate": null,
       "distance": 257.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13474,7 +13488,7 @@
       "driveText": "52 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 33977,
       "priceHistory": [
         {
@@ -13500,11 +13514,11 @@
       "dealer": "Speedway Subaru",
       "delistedDate": null,
       "distance": 258.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13530,7 +13544,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13552,11 +13566,11 @@
       "dealer": "Fox Subaru",
       "delistedDate": null,
       "distance": 214.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 252,
+      "driveText": "4 hours 12 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13582,7 +13596,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-26",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13608,7 +13622,7 @@
       "driveText": "2 hours 32 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13630,11 +13644,11 @@
       "dealer": "Speedway Subaru",
       "delistedDate": null,
       "distance": 258.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13656,11 +13670,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13682,11 +13696,11 @@
       "dealer": "CMA's Valley Subaru",
       "delistedDate": null,
       "distance": 273.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 395,
+      "driveText": "6 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 40384,
       "priceHistory": [
         {
@@ -13708,11 +13722,11 @@
       "dealer": "My Lakeshore Subaru",
       "delistedDate": null,
       "distance": 244.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13789,7 +13803,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-28",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13811,11 +13825,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13837,11 +13851,11 @@
       "dealer": "Fox Subaru",
       "delistedDate": null,
       "distance": 214.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 252,
+      "driveText": "4 hours 12 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13863,11 +13877,11 @@
       "dealer": "Sheehy Subaru of Hagerstown",
       "delistedDate": null,
       "distance": 252.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13889,11 +13903,11 @@
       "dealer": "Beechmont Subaru",
       "delistedDate": null,
       "distance": 213.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 225,
+      "driveText": "3 hours 45 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13915,11 +13929,11 @@
       "dealer": "Fox Subaru",
       "delistedDate": null,
       "distance": 214.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 252,
+      "driveText": "4 hours 12 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13962,11 +13976,11 @@
       "dealer": "Maple Hill Subaru",
       "delistedDate": null,
       "distance": 206.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 240,
+      "driveText": "4 hours 0 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -13988,11 +14002,11 @@
       "dealer": "CMA's Subaru of Winchester",
       "delistedDate": null,
       "distance": 249.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 317,
+      "driveText": "5 hours 17 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14018,7 +14032,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14048,7 +14062,7 @@
       "driveText": "28 mins",
       "firstSeen": "2026-07-26",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 44085,
       "priceHistory": [
         {
@@ -14074,11 +14088,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPDD4TY464693",
@@ -14095,11 +14109,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14121,11 +14135,11 @@
       "dealer": "CMA's Valley Subaru",
       "delistedDate": null,
       "distance": 273.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 395,
+      "driveText": "6 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 44141,
       "priceHistory": [
         {
@@ -14151,7 +14165,7 @@
       "driveText": "3 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 40950,
       "priceHistory": [
         {
@@ -14177,11 +14191,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14203,11 +14217,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14229,11 +14243,11 @@
       "dealer": "Sheehy Subaru of Hagerstown",
       "delistedDate": null,
       "distance": 252.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14259,7 +14273,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 43898,
       "priceHistory": [
         {
@@ -14289,7 +14303,7 @@
       "driveText": "3 hours 51 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 45547,
       "priceHistory": [
         {
@@ -14311,11 +14325,11 @@
       "dealer": "Quantrell Subaru",
       "delistedDate": null,
       "distance": 277.6,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14341,7 +14355,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14367,7 +14381,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 42250,
       "priceHistory": [
         {
@@ -14397,7 +14411,7 @@
       "driveText": "3 hours 8 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14419,11 +14433,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14445,11 +14459,11 @@
       "dealer": "Faulkner Subaru Mechanicsburg",
       "delistedDate": null,
       "distance": 262.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPDDXTY499741",
@@ -14466,11 +14480,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14492,11 +14506,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14522,7 +14536,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14548,7 +14562,7 @@
       "driveText": "1 hour 27 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 43826,
       "priceHistory": [
         {
@@ -14570,11 +14584,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14596,11 +14610,11 @@
       "dealer": "Subaru of Sterling",
       "delistedDate": null,
       "distance": 285.9,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14622,11 +14636,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14648,11 +14662,11 @@
       "dealer": "Zeigler Subaru of Lafayette",
       "delistedDate": null,
       "distance": 273.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 302,
+      "driveText": "5 hours 2 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14674,11 +14688,11 @@
       "dealer": "Sheehy Subaru of Hagerstown",
       "delistedDate": null,
       "distance": 252.2,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 288,
+      "driveText": "4 hours 48 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14700,11 +14714,11 @@
       "dealer": "Farrish Subaru",
       "delistedDate": null,
       "distance": 298.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 353,
+      "driveText": "5 hours 53 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14726,11 +14740,11 @@
       "dealer": "Stohlman Subaru",
       "delistedDate": null,
       "distance": 298.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14752,11 +14766,11 @@
       "dealer": "W & L Subaru",
       "delistedDate": null,
       "distance": 264.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 290,
+      "driveText": "4 hours 50 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14778,11 +14792,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14804,11 +14818,11 @@
       "dealer": "Fox Subaru",
       "delistedDate": null,
       "distance": 214.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 252,
+      "driveText": "4 hours 12 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14830,11 +14844,11 @@
       "dealer": "Friendship Subaru of Beckley",
       "delistedDate": null,
       "distance": 253.8,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
       "firstSeen": "2026-07-29",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14856,11 +14870,11 @@
       "dealer": "Farrish Subaru",
       "delistedDate": null,
       "distance": 298.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 353,
+      "driveText": "5 hours 53 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14886,7 +14900,7 @@
       "driveText": "2 hours 14 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 44599,
       "priceHistory": [
         {
@@ -14920,7 +14934,7 @@
       "driveText": "3 hours 51 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 48218,
       "priceHistory": [
         {
@@ -14942,11 +14956,11 @@
       "dealer": "Zeigler Subaru of Schererville",
       "delistedDate": null,
       "distance": 290.5,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 292,
+      "driveText": "4 hours 52 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14968,11 +14982,11 @@
       "dealer": "Safford Subaru Manassas",
       "delistedDate": null,
       "distance": 296.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 370,
+      "driveText": "6 hours 10 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -14994,11 +15008,11 @@
       "dealer": "Fox Subaru",
       "delistedDate": null,
       "distance": 214.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 252,
+      "driveText": "4 hours 12 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15024,7 +15038,7 @@
       "driveText": "3 hours 51 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 51580,
       "priceHistory": [
         {
@@ -15046,11 +15060,11 @@
       "dealer": "Safford Subaru Manassas",
       "delistedDate": null,
       "distance": 296.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 370,
+      "driveText": "6 hours 10 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15076,7 +15090,7 @@
       "driveText": "2 hours 7 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15102,11 +15116,11 @@
       "dealer": "Safford Subaru Manassas",
       "delistedDate": null,
       "distance": 296.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 370,
+      "driveText": "6 hours 10 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15128,11 +15142,11 @@
       "dealer": "Safford Subaru Manassas",
       "delistedDate": null,
       "distance": 296.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 370,
+      "driveText": "6 hours 10 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15154,11 +15168,11 @@
       "dealer": "Dutch Miller Subaru",
       "delistedDate": null,
       "distance": 215.1,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 234,
+      "driveText": "3 hours 54 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 45789,
       "priceHistory": [
         {
@@ -15184,7 +15198,7 @@
       "driveText": "2 hours 54 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 50429,
       "priceHistory": [
         {
@@ -15210,11 +15224,11 @@
       "dealer": "Safford Subaru Manassas",
       "delistedDate": null,
       "distance": 296.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 370,
+      "driveText": "6 hours 10 mins",
       "firstSeen": "2026-07-29",
       "interior": "Java Brown Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15236,11 +15250,11 @@
       "dealer": "CMA's Valley Subaru",
       "delistedDate": null,
       "distance": 273.7,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 395,
+      "driveText": "6 hours 35 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 49807,
       "priceHistory": [
         {
@@ -15262,11 +15276,11 @@
       "dealer": "Safford Subaru Manassas",
       "delistedDate": null,
       "distance": 296.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 370,
+      "driveText": "6 hours 10 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15288,11 +15302,11 @@
       "dealer": "Safford Subaru Manassas",
       "delistedDate": null,
       "distance": 296.4,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 370,
+      "driveText": "6 hours 10 mins",
       "firstSeen": "2026-07-29",
       "interior": "Black StarTex<sup>&reg;</sup>",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15314,11 +15328,11 @@
       "dealer": "Farrish Subaru",
       "delistedDate": null,
       "distance": 298.3,
-      "driveMinutes": null,
-      "driveText": null,
+      "driveMinutes": 353,
+      "driveText": "5 hours 53 mins",
       "firstSeen": "2026-07-29",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15344,7 +15358,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15370,7 +15384,7 @@
       "driveText": "2 hours 3 mins",
       "firstSeen": "2026-07-22",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {
@@ -15404,7 +15418,7 @@
       "driveText": "3 hours 22 mins",
       "firstSeen": "2026-07-28",
       "interior": "Slate Black Nappa Leather",
-      "lastSeen": "2026-07-29",
+      "lastSeen": "2026-07-30",
       "msrp": 0,
       "priceHistory": [
         {

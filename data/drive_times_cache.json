@@ -4,10 +4,45 @@
     "minutes": 156,
     "text": "2 hours 36 mins"
   },
+  "44107 USA|10320 Auto Place, Hagerstown, MD 21740": {
+    "miles": 309.4,
+    "minutes": 288,
+    "text": "4 hours 48 mins"
+  },
+  "44107 USA|10325 Mt. Savage Rd, Cumberland, MD 21502": {
+    "miles": 234.7,
+    "minutes": 231,
+    "text": "3 hours 51 mins"
+  },
+  "44107 USA|10407 Fairfax Blvd, Fairfax, VA 22030": {
+    "miles": 377.8,
+    "minutes": 353,
+    "text": "5 hours 53 mins"
+  },
+  "44107 USA|107 Catoctin Cir SE, Leesburg, VA 20175": {
+    "miles": 353.1,
+    "minutes": 336,
+    "text": "5 hours 37 mins"
+  },
   "44107 USA|11299 Lincoln Hwy, North Huntingdon, PA 15642": {
     "miles": 160.5,
     "minutes": 152,
     "text": "2 hours 32 mins"
+  },
+  "44107 USA|11411 Rockville Pike, Rockville, MD 20852": {
+    "miles": 362.5,
+    "minutes": 340,
+    "text": "5 hours 40 mins"
+  },
+  "44107 USA|117 Midtown Ave, Mount Hope, WV 25880": {
+    "miles": 312.0,
+    "minutes": 286,
+    "text": "4 hours 46 mins"
+  },
+  "44107 USA|1202 Loucks Road, York, PA 17404": {
+    "miles": 352.5,
+    "minutes": 328,
+    "text": "5 hours 28 mins"
   },
   "44107 USA|123 Broadway Ave, Bedford, OH 44146": {
     "miles": 18.7,
@@ -19,25 +54,80 @@
     "minutes": 185,
     "text": "3 hours 5 mins"
   },
+  "44107 USA|12951 Ferguson Valley Road, Burnham, PA 17009": {
+    "miles": 272.5,
+    "minutes": 266,
+    "text": "4 hours 26 mins"
+  },
+  "44107 USA|1301 US 31 South, Greenwood, IN 46143": {
+    "miles": 322.3,
+    "minutes": 297,
+    "text": "4 hours 57 mins"
+  },
   "44107 USA|1395 Auto Mall Parkway, Columbus, OH 43228": {
     "miles": 146.3,
     "minutes": 136,
     "text": "2 hours 16 mins"
+  },
+  "44107 USA|1417 W Patrick St, Frederick, MD 21702": {
+    "miles": 327.6,
+    "minutes": 304,
+    "text": "5 hours 4 mins"
+  },
+  "44107 USA|1450 E New Circle Rd, Lexington, KY 40509": {
+    "miles": 328.0,
+    "minutes": 301,
+    "text": "5 hours 1 min"
+  },
+  "44107 USA|1600 South Creasy LN, Lafayette, IN 47905": {
+    "miles": 312.9,
+    "minutes": 302,
+    "text": "5 hours 2 mins"
+  },
+  "44107 USA|16605 112th Ave, Nunica, MI 49448": {
+    "miles": 315.2,
+    "minutes": 277,
+    "text": "4 hours 37 mins"
+  },
+  "44107 USA|1726 Carlisle Pike, Hanover, PA 17331": {
+    "miles": 355.4,
+    "minutes": 335,
+    "text": "5 hours 35 mins"
+  },
+  "44107 USA|1730 Elmira Street, Sayre, PA 18840": {
+    "miles": 329.0,
+    "minutes": 303,
+    "text": "5 hours 3 mins"
   },
   "44107 USA|1730 Mileground Rd, Morgantown, WV 26505": {
     "miles": 207.6,
     "minutes": 202,
     "text": "3 hours 22 mins"
   },
+  "44107 USA|1747 South Garfield Avenue, Traverse City, MI 49686": {
+    "miles": 395.0,
+    "minutes": 357,
+    "text": "5 hours 57 mins"
+  },
   "44107 USA|1821 Maplelawn Dr, Troy, MI 48084": {
     "miles": 181.0,
     "minutes": 169,
     "text": "2 hours 49 mins"
   },
+  "44107 USA|1901 Patrick Street Plaza, Charleston, WV 25387": {
+    "miles": 255.8,
+    "minutes": 234,
+    "text": "3 hours 54 mins"
+  },
   "44107 USA|1930 Blinker Pkwy, DuBois, PA 15801": {
     "miles": 184.7,
     "minutes": 180,
     "text": "3 hours 0 mins"
+  },
+  "44107 USA|1930 W. 16th Street, Indianapolis, IN 46202": {
+    "miles": 311.4,
+    "minutes": 288,
+    "text": "4 hours 48 mins"
   },
   "44107 USA|1991 Mentor Ave, Painesville, OH 44077": {
     "miles": 36.6,
@@ -48,6 +138,11 @@
     "miles": 171.3,
     "minutes": 161,
     "text": "2 hours 41 mins"
+  },
+  "44107 USA|21736 Auto World Circle, Sterling, VA 20166": {
+    "miles": 363.1,
+    "minutes": 347,
+    "text": "5 hours 47 mins"
   },
   "44107 USA|219 Alvin St, Johnstown, PA 15904": {
     "miles": 206.4,
@@ -64,6 +159,11 @@
     "minutes": 123,
     "text": "2 hours 3 mins"
   },
+  "44107 USA|257 Madison Rd, Orange, VA 22960": {
+    "miles": 417.2,
+    "minutes": 404,
+    "text": "6 hours 44 mins"
+  },
   "44107 USA|25730 Lorain Rd, North Olmsted, OH 44070": {
     "miles": 10.1,
     "minutes": 19,
@@ -79,25 +179,55 @@
     "minutes": 28,
     "text": "28 mins"
   },
+  "44107 USA|2941 S Main St, Harrisonburg, VA 22801": {
+    "miles": 392.4,
+    "minutes": 375,
+    "text": "6 hours 15 mins"
+  },
+  "44107 USA|299 LEE JACKSON HWY, STAUNTON, VA 24401": {
+    "miles": 415.6,
+    "minutes": 395,
+    "text": "6 hours 35 mins"
+  },
   "44107 USA|2992 Center Rd, Brunswick, OH 44212": {
     "miles": 18.7,
     "minutes": 26,
     "text": "26 mins"
+  },
+  "44107 USA|3019 Valley Avenue, Winchester, VA 22601": {
+    "miles": 324.7,
+    "minutes": 317,
+    "text": "5 hours 17 mins"
   },
   "44107 USA|3055 E West Maple Rd, Commerce Township, MI 48390": {
     "miles": 172.0,
     "minutes": 158,
     "text": "2 hours 38 mins"
   },
+  "44107 USA|3233 Paxton St, Harrisburg, PA 17111": {
+    "miles": 336.2,
+    "minutes": 309,
+    "text": "5 hours 9 mins"
+  },
   "44107 USA|3260 Washington Road, McMurray, PA 15317": {
     "miles": 149.3,
     "minutes": 146,
     "text": "2 hours 26 mins"
   },
+  "44107 USA|3300 E 96th St, Indianapolis, IN 46240": {
+    "miles": 307.5,
+    "minutes": 281,
+    "text": "4 hours 41 mins"
+  },
   "44107 USA|3363 S Arlington Rd, Akron, OH 44312": {
     "miles": 49.4,
     "minutes": 52,
     "text": "52 mins"
+  },
+  "44107 USA|3506 US-60, Huntington, WV 25705": {
+    "miles": 280.7,
+    "minutes": 271,
+    "text": "4 hours 31 mins"
   },
   "44107 USA|3559 Southwestern Blvd, Orchard Park, NY 14127": {
     "miles": 192.2,
@@ -113,6 +243,11 @@
     "miles": 162.8,
     "minutes": 150,
     "text": "2 hours 30 mins"
+  },
+  "44107 USA|3901 Route 281, Cortland, NY 13045": {
+    "miles": 373.0,
+    "minutes": 340,
+    "text": "5 hours 40 mins"
   },
   "44107 USA|3930 Sheridan Dr, Amherst, NY 14226": {
     "miles": 202.7,
@@ -144,6 +279,11 @@
     "minutes": 231,
     "text": "3 hours 51 mins"
   },
+  "44107 USA|4211 West Henrietta Road, Rochester, NY 14623": {
+    "miles": 260.8,
+    "minutes": 242,
+    "text": "4 hours 2 mins"
+  },
   "44107 USA|4231 Lincoln Way E, Massillon, OH 44646": {
     "miles": 66.7,
     "minutes": 72,
@@ -169,6 +309,16 @@
     "minutes": 202,
     "text": "3 hours 22 mins"
   },
+  "44107 USA|5302 N Grape Rd, Mishawaka, IN 46545": {
+    "miles": 242.6,
+    "minutes": 226,
+    "text": "3 hours 46 mins"
+  },
+  "44107 USA|535 Point Township Drive, Northumberland, PA 17857": {
+    "miles": 312.4,
+    "minutes": 290,
+    "text": "4 hours 50 mins"
+  },
   "44107 USA|5450 University Blvd, Moon Township, PA 15108": {
     "miles": 129.8,
     "minutes": 127,
@@ -179,15 +329,45 @@
     "minutes": 176,
     "text": "2 hours 56 mins"
   },
+  "44107 USA|5622 W Main, Kalamazoo, MI 49009": {
+    "miles": 254.4,
+    "minutes": 240,
+    "text": "4 hours 0 mins"
+  },
+  "44107 USA|595 Alexander Dr., Muncy, PA 17756": {
+    "miles": 307.2,
+    "minutes": 286,
+    "text": "4 hours 46 mins"
+  },
+  "44107 USA|6000 W. Lincoln Highway, Schererville, IN 46375": {
+    "miles": 317.3,
+    "minutes": 292,
+    "text": "4 hours 52 mins"
+  },
   "44107 USA|6061 S Saginaw St, Grand Blanc, MI 48439": {
     "miles": 211.8,
     "minutes": 194,
     "text": "3 hours 14 mins"
   },
+  "44107 USA|6115 28th St. SE, Grand Rapids, MI 49546": {
+    "miles": 283.0,
+    "minutes": 252,
+    "text": "4 hours 12 mins"
+  },
   "44107 USA|6141 W Central Ave, Toledo, OH 43615": {
     "miles": 116.7,
     "minutes": 109,
     "text": "1 hour 49 mins"
+  },
+  "44107 USA|6195 Dixie Hwy, Fairfield, OH 45014": {
+    "miles": 237.0,
+    "minutes": 218,
+    "text": "3 hours 38 mins"
+  },
+  "44107 USA|6327 Route 96, Victor, NY 14564": {
+    "miles": 275.1,
+    "minutes": 253,
+    "text": "4 hours 13 mins"
   },
   "44107 USA|636 7th St, Parkersburg, WV 26101": {
     "miles": 184.2,
@@ -198,6 +378,11 @@
     "miles": 204.6,
     "minutes": 192,
     "text": "3 hours 12 mins"
+  },
+  "44107 USA|6629 Carlisle Pike, Mechanicsburg, PA 17050": {
+    "miles": 323.6,
+    "minutes": 302,
+    "text": "5 hours 2 mins"
   },
   "44107 USA|6856 South Transit Road, Lockport, NY 14094": {
     "miles": 214.0,
@@ -214,10 +399,25 @@
     "minutes": 221,
     "text": "3 hours 41 mins"
   },
+  "44107 USA|7600 Industrial Rd, Florence, KY 41042": {
+    "miles": 256.5,
+    "minutes": 235,
+    "text": "3 hours 55 mins"
+  },
   "44107 USA|7811 South Ave, Boardman, OH 44512": {
     "miles": 86.3,
     "minutes": 87,
     "text": "1 hour 27 mins"
+  },
+  "44107 USA|8021 Beechmont Ave, Cincinnati, OH 45255": {
+    "miles": 245.7,
+    "minutes": 225,
+    "text": "3 hours 45 mins"
+  },
+  "44107 USA|8435 Leesburg Pike, Vienna, VA 22182": {
+    "miles": 371.4,
+    "minutes": 347,
+    "text": "5 hours 47 mins"
   },
   "44107 USA|861 Evans City Road, Renfrew, PA 16053": {
     "miles": 135.9,
@@ -229,15 +429,35 @@
     "minutes": 101,
     "text": "1 hour 41 mins"
   },
+  "44107 USA|9018 Liberia Avenue, Manassas, VA 20110": {
+    "miles": 381.2,
+    "minutes": 370,
+    "text": "6 hours 10 mins"
+  },
+  "44107 USA|904 Russell Avenue, Gaithersburg, MD 20879": {
+    "miles": 351.0,
+    "minutes": 327,
+    "text": "5 hours 27 mins"
+  },
   "44107 USA|920 Plaza Street, Findlay, OH 45840": {
     "miles": 107.6,
     "minutes": 123,
     "text": "2 hours 3 mins"
   },
+  "44107 USA|9536 Kings Auto Mall Rd, Cincinnati, OH 45249": {
+    "miles": 225.0,
+    "minutes": 206,
+    "text": "3 hours 26 mins"
+  },
   "44107 USA|9545 Perry Hwy, Pittsburgh, PA 15237": {
     "miles": 128.0,
     "minutes": 127,
     "text": "2 hours 7 mins"
+  },
+  "44107 USA|960 Hilton Heights Road, Charlottesville, VA 22901": {
+    "miles": 412.5,
+    "minutes": 419,
+    "text": "6 hours 59 mins"
   },
   "44107 USA|995 Miamisburg Centerville Rd, Dayton, OH 45459": {
     "miles": 215.8,
