@@ -806,6 +806,32 @@
       "vin": "4S4BTAAC2S3106218",
       "year": 2025
     },
+    "4S4BTAAC6R3221561": {
+      "active": true,
+      "color": "Crystal White Pearl",
+      "currentMileage": 23660,
+      "currentPrice": 25605,
+      "dealer": "Driveway Subaru of Moon Township",
+      "delistedDate": null,
+      "distance": 105.7,
+      "driveMinutes": 127,
+      "driveText": "2 hours 7 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Slate Black Cloth",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 25605
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAAC6R3221561",
+      "trim": "Base",
+      "url": "https://www.drivewaysubarumoon.com/catcher.esl?vehicleId=5c7f4f47ac18541152113ed6e5ee53bc",
+      "vin": "4S4BTAAC6R3221561",
+      "year": 2024
+    },
     "4S4BTAAC7R3108086": {
       "active": true,
       "color": "Crystal Black Silica",
@@ -911,18 +937,18 @@
       "year": 2022
     },
     "4S4BTACC0R3114759": {
-      "active": false,
+      "active": true,
       "color": "Crystal White Pearl",
       "currentMileage": 29408,
       "currentPrice": 26177,
       "dealer": "Ken Ganley Subaru North Olmsted",
-      "delistedDate": "2026-07-30",
+      "delistedDate": null,
       "distance": 7.2,
       "driveMinutes": 19,
       "driveText": "19 mins",
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
-      "lastSeen": "2026-07-30",
+      "lastSeen": "2026-07-31",
       "msrp": 29399,
       "priceHistory": [
         {
@@ -1470,6 +1496,32 @@
       "vin": "4S4BTACC4S3319989",
       "year": 2025
     },
+    "4S4BTACC5R3177615": {
+      "active": true,
+      "color": "Crystal White Pearl",
+      "currentMileage": 35542,
+      "currentPrice": 27980,
+      "dealer": "My Lakeshore Subaru",
+      "delistedDate": null,
+      "distance": 244.6,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Slate Black Cloth",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 27980
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTACC5R3177615",
+      "trim": "Premium",
+      "url": "https://www.mylakeshoresubaru.com/catcher.esl?vehicleId=920e0693ac180aac8449eac6f4dd7ea1",
+      "vin": "4S4BTACC5R3177615",
+      "year": 2024
+    },
     "4S4BTACC5R3185293": {
       "active": true,
       "color": "Autumn Green Metallic",
@@ -1526,7 +1578,7 @@
       "active": true,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 29335,
-      "currentPrice": 29075,
+      "currentPrice": 28075,
       "dealer": "Jenkins Subaru",
       "delistedDate": null,
       "distance": 171.0,
@@ -1540,6 +1592,10 @@
         {
           "date": "2026-07-22",
           "price": 29075
+        },
+        {
+          "date": "2026-07-31",
+          "price": 28075
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTACC5S3245997",
@@ -1799,12 +1855,12 @@
       "year": 2024
     },
     "4S4BTACC8S3283868": {
-      "active": true,
+      "active": false,
       "color": "Crimson Red Pearl",
       "currentMileage": 5387,
       "currentPrice": 28900,
       "dealer": "Beechmont Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 213.6,
       "driveMinutes": 225,
       "driveText": "3 hours 45 mins",
@@ -2389,12 +2445,12 @@
       "year": 2025
     },
     "4S4BTADC2R3165615": {
-      "active": true,
+      "active": false,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 33464,
       "currentPrice": 27052,
       "dealer": "Adventure Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 29.9,
       "driveMinutes": 45,
       "driveText": "45 mins",
@@ -2466,7 +2522,7 @@
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTADC2R3220127",
       "trim": "Premium",
-      "url": "https://www.subaruorchardpark.com/inventory/used-2024-subaru-outback-premium-awd-sport-utility-4s4btadc2r3220127/",
+      "url": "https://www.subaruorchardpark.com/inventory/certified-used-2024-subaru-outback-premium-awd-sport-utility-4s4btadc2r3220127/",
       "vin": "4S4BTADC2R3220127",
       "year": 2024
     },
@@ -2609,12 +2665,12 @@
       "year": 2025
     },
     "4S4BTADC3S3143483": {
-      "active": true,
+      "active": false,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 35794,
       "currentPrice": 28342,
       "dealer": "Subaru of Grand Blanc",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 138.5,
       "driveMinutes": 194,
       "driveText": "3 hours 14 mins",
@@ -2835,6 +2891,32 @@
       "url": "https://www.maplehillsubaru.com/catcher.esl?vehicleId=f8ee4482ac180018e1d2fa639a6e9d8b",
       "vin": "4S4BTADC4R3280023",
       "year": 2024
+    },
+    "4S4BTADC4S3315407": {
+      "active": true,
+      "color": "Crystal Black Silica",
+      "currentMileage": 10447,
+      "currentPrice": 32480,
+      "dealer": "My Lakeshore Subaru",
+      "delistedDate": null,
+      "distance": 244.6,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Titanium Gray Cloth",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 32480
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTADC4S3315407",
+      "trim": "Premium",
+      "url": "https://www.mylakeshoresubaru.com/catcher.esl?vehicleId=80e51a1aac1814e012e1fffcbc1fed53",
+      "vin": "4S4BTADC4S3315407",
+      "year": 2025
     },
     "4S4BTADC5N3159074": {
       "active": true,
@@ -3091,7 +3173,7 @@
       "firstSeen": "2026-07-22",
       "interior": "Titanium Gray Cloth",
       "lastSeen": "2026-07-31",
-      "msrp": 25760,
+      "msrp": 25710,
       "priceHistory": [
         {
           "date": "2026-07-22",
@@ -3285,12 +3367,12 @@
       "year": 2025
     },
     "4S4BTADC7S3201420": {
-      "active": true,
+      "active": false,
       "color": "Crystal White Pearl",
       "currentMileage": 11356,
       "currentPrice": 30409,
       "dealer": "Dutch Miller Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 215.1,
       "driveMinutes": 234,
       "driveText": "3 hours 54 mins",
@@ -3341,12 +3423,12 @@
       "year": 2025
     },
     "4S4BTADC8N3255975": {
-      "active": true,
+      "active": false,
       "color": "Ice Silver Metallic",
       "currentMileage": 59395,
       "currentPrice": 22598,
       "dealer": "Diehl Subaru of Massillon",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 50.9,
       "driveMinutes": 72,
       "driveText": "1 hour 12 mins",
@@ -3472,6 +3554,32 @@
       "trim": "Premium",
       "url": "https://www.bobwadesubaru.com/catcher.esl?vehicleId=235c544eac1831ddf3fc545865f67313",
       "vin": "4S4BTADC8S3180058",
+      "year": 2025
+    },
+    "4S4BTADC8S3186684": {
+      "active": true,
+      "color": "Ice Silver Metallic",
+      "currentMileage": 31030,
+      "currentPrice": 28485,
+      "dealer": "Spitzer Subaru",
+      "delistedDate": null,
+      "distance": 158.7,
+      "driveMinutes": 180,
+      "driveText": "3 hours 0 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Titanium Gray Cloth",
+      "lastSeen": "2026-07-31",
+      "msrp": 31125,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 28485
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTADC8S3186684",
+      "trim": "Premium",
+      "url": "https://www.spitzersubarudubois.com/inventory/used-2025-subaru-outback-premium-awd-4d-sport-utility-4s4btadc8s3186684/",
+      "vin": "4S4BTADC8S3186684",
       "year": 2025
     },
     "4S4BTADC8S3217318": {
@@ -3612,6 +3720,32 @@
       "vin": "4S4BTADC9R3297271",
       "year": 2024
     },
+    "4S4BTADC9S3142340": {
+      "active": true,
+      "color": "Cosmic Blue Pearl",
+      "currentMileage": 39465,
+      "currentPrice": 29980,
+      "dealer": "My Lakeshore Subaru",
+      "delistedDate": null,
+      "distance": 244.6,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Slate Black Cloth",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 29980
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTADC9S3142340",
+      "trim": "Premium",
+      "url": "https://www.mylakeshoresubaru.com/catcher.esl?vehicleId=83e3d20aac1824b1018118bafcbd85a4",
+      "vin": "4S4BTADC9S3142340",
+      "year": 2025
+    },
     "4S4BTADCXP3221667": {
       "active": true,
       "color": "Magnetite Gray Metallic",
@@ -3668,13 +3802,39 @@
       "vin": "4S4BTADCXR3158668",
       "year": 2024
     },
-    "4S4BTAFC0R3172236": {
+    "4S4BTADCXS3249090": {
       "active": true,
+      "color": "Crystal Black Silica",
+      "currentMileage": 13095,
+      "currentPrice": 31979,
+      "dealer": "Suburban Subaru of Troy",
+      "delistedDate": null,
+      "distance": 102.3,
+      "driveMinutes": 169,
+      "driveText": "2 hours 49 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Titanium Gray Cloth",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 31979
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTADCXS3249090",
+      "trim": "Premium",
+      "url": "https://www.suburbansubarutroy.com/catcher.esl?vehicleId=ab780daeac18131151cd1f59657ab611",
+      "vin": "4S4BTADCXS3249090",
+      "year": 2025
+    },
+    "4S4BTAFC0R3172236": {
+      "active": false,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 46970,
       "currentPrice": 23990,
       "dealer": "Alexander Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 257.1,
       "driveMinutes": 286,
       "driveText": "4 hours 46 mins",
@@ -3724,7 +3884,7 @@
       "active": true,
       "color": "Crimson Red Pearl",
       "currentMileage": 16699,
-      "currentPrice": 29487,
+      "currentPrice": 29287,
       "dealer": "Fitzgerald Subaru of Gaithersburg",
       "delistedDate": null,
       "distance": 289.7,
@@ -3738,6 +3898,10 @@
         {
           "date": "2026-07-29",
           "price": 29487
+        },
+        {
+          "date": "2026-07-31",
+          "price": 29287
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFC0S3236328",
@@ -3750,7 +3914,7 @@
       "active": true,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 13883,
-      "currentPrice": 30187,
+      "currentPrice": 29887,
       "dealer": "Fitzgerald Subaru of Gaithersburg",
       "delistedDate": null,
       "distance": 289.7,
@@ -3764,6 +3928,10 @@
         {
           "date": "2026-07-29",
           "price": 30187
+        },
+        {
+          "date": "2026-07-31",
+          "price": 29887
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFC0S3238659",
@@ -3802,7 +3970,7 @@
       "active": true,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 35090,
-      "currentPrice": 26900,
+      "currentPrice": 26770,
       "dealer": "Stohlman Subaru",
       "delistedDate": null,
       "distance": 298.3,
@@ -3816,6 +3984,10 @@
         {
           "date": "2026-07-29",
           "price": 26900
+        },
+        {
+          "date": "2026-07-31",
+          "price": 26770
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFC1P3156141",
@@ -4131,12 +4303,12 @@
       "year": 2025
     },
     "4S4BTAFC1S3336258": {
-      "active": true,
+      "active": false,
       "color": "Crimson Red Pearl",
       "currentMileage": 2810,
       "currentPrice": 30995,
       "dealer": "Ken Ganley Subaru Wickliffe",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 18.1,
       "driveMinutes": 28,
       "driveText": "28 mins",
@@ -4164,7 +4336,7 @@
       "active": true,
       "color": "Crystal White Pearl",
       "currentMileage": 52578,
-      "currentPrice": 23855,
+      "currentPrice": 23573,
       "dealer": "Subaru of Morgantown",
       "delistedDate": null,
       "distance": 160.4,
@@ -4186,6 +4358,10 @@
         {
           "date": "2026-07-29",
           "price": 23855
+        },
+        {
+          "date": "2026-07-31",
+          "price": 23573
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFC2N3251031",
@@ -4560,7 +4736,7 @@
       "active": true,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 13252,
-      "currentPrice": 30287,
+      "currentPrice": 29987,
       "dealer": "Fitzgerald Subaru of Gaithersburg",
       "delistedDate": null,
       "distance": 289.7,
@@ -4574,6 +4750,10 @@
         {
           "date": "2026-07-29",
           "price": 30287
+        },
+        {
+          "date": "2026-07-31",
+          "price": 29987
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFC5S3225907",
@@ -4715,6 +4895,32 @@
       "vin": "4S4BTAFC6R3281820",
       "year": 2024
     },
+    "4S4BTAFC7R3132493": {
+      "active": true,
+      "color": "Cosmic Blue Pearl",
+      "currentMileage": 25740,
+      "currentPrice": 30093,
+      "dealer": "Cascade Subaru",
+      "delistedDate": null,
+      "distance": 25.3,
+      "driveMinutes": 42,
+      "driveText": "42 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Titanium Gray Cloth",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 30093
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFC7R3132493",
+      "trim": "Premium",
+      "url": "https://www.cascadesubaru.net/catcher.esl?vehicleId=172223bdac182d12aed28c6620acfa50",
+      "vin": "4S4BTAFC7R3132493",
+      "year": 2024
+    },
     "4S4BTAFC7R3138343": {
       "active": true,
       "color": "Crystal White Pearl",
@@ -4792,6 +4998,32 @@
       "url": "https://www.wagnersubaru.com/viewdetails/cpo/4s4btafc7s3229523/2025-subaru-outback-sport-utility",
       "vin": "4S4BTAFC7S3229523",
       "year": 2025
+    },
+    "4S4BTAFC8P3142480": {
+      "active": true,
+      "color": "Cosmic Blue Pearl",
+      "currentMileage": 54361,
+      "currentPrice": 22760,
+      "dealer": "My Lakeshore Subaru",
+      "delistedDate": null,
+      "distance": 244.6,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Slate Black Cloth",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 22760
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAFC8P3142480",
+      "trim": "Premium",
+      "url": "https://www.mylakeshoresubaru.com/catcher.esl?vehicleId=81c2ddcaac18221a7f70d51efcde5511",
+      "vin": "4S4BTAFC8P3142480",
+      "year": 2023
     },
     "4S4BTAFC8S3131343": {
       "active": true,
@@ -4976,12 +5208,12 @@
       "year": 2025
     },
     "4S4BTAFCXR3250067": {
-      "active": true,
+      "active": false,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 15725,
       "currentPrice": 28793,
       "dealer": "Subaru of South Hills",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 120.5,
       "driveMinutes": 146,
       "driveText": "2 hours 26 mins",
@@ -5567,6 +5799,32 @@
       "vin": "4S4BTALC2S3200287",
       "year": 2025
     },
+    "4S4BTALC2S3226954": {
+      "active": true,
+      "color": "Crystal Black Silica",
+      "currentMileage": 17848,
+      "currentPrice": 32480,
+      "dealer": "My Lakeshore Subaru",
+      "delistedDate": null,
+      "distance": 244.6,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Gray StarTex<sup>&reg;</sup>",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 32480
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTALC2S3226954",
+      "trim": "Onyx Edition",
+      "url": "https://www.mylakeshoresubaru.com/catcher.esl?vehicleId=95edd61bac185d005aaedd202573de39",
+      "vin": "4S4BTALC2S3226954",
+      "year": 2025
+    },
     "4S4BTALC2S3262191": {
       "active": true,
       "color": "Magnetite Gray Metallic",
@@ -5727,6 +5985,32 @@
       "vin": "4S4BTALC4S3176543",
       "year": 2025
     },
+    "4S4BTALC4S3206933": {
+      "active": true,
+      "color": "Crystal White Pearl",
+      "currentMileage": 24812,
+      "currentPrice": 32737,
+      "dealer": "Maple Hill Subaru",
+      "delistedDate": null,
+      "distance": 206.6,
+      "driveMinutes": 240,
+      "driveText": "4 hours 0 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Gray StarTex<sup>&reg;</sup>",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 32737
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTALC4S3206933",
+      "trim": "Onyx Edition",
+      "url": "https://www.maplehillsubaru.com/catcher.esl?vehicleId=ddd85990ac1828a5426f66e15ac9cd3b",
+      "vin": "4S4BTALC4S3206933",
+      "year": 2025
+    },
     "4S4BTALC5R3132724": {
       "active": false,
       "color": "Ice Silver Metallic",
@@ -5821,7 +6105,7 @@
       "active": true,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 19260,
-      "currentPrice": 32255,
+      "currentPrice": 32067,
       "dealer": "Suburban Subaru of Troy",
       "delistedDate": null,
       "distance": 102.3,
@@ -5835,6 +6119,10 @@
         {
           "date": "2026-07-22",
           "price": 32255
+        },
+        {
+          "date": "2026-07-31",
+          "price": 32067
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTALC5S3158732",
@@ -5844,12 +6132,12 @@
       "year": 2025
     },
     "4S4BTALC5S3277719": {
-      "active": true,
+      "active": false,
       "color": "Crystal White Pearl",
       "currentMileage": 7053,
       "currentPrice": 34881,
       "dealer": "Cascade Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 25.3,
       "driveMinutes": 42,
       "driveText": "42 mins",
@@ -6288,12 +6576,12 @@
       "year": 2025
     },
     "4S4BTALC9S3242522": {
-      "active": true,
+      "active": false,
       "color": "Cosmic Blue Pearl",
       "currentMileage": 15875,
       "currentPrice": 32620,
       "dealer": "Maple Hill Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 206.6,
       "driveMinutes": 240,
       "driveText": "4 hours 0 mins",
@@ -6739,7 +7027,7 @@
       "active": true,
       "color": "Crystal Black Silica",
       "currentMileage": 16507,
-      "currentPrice": 33500,
+      "currentPrice": 33988,
       "dealer": "Beechmont Subaru",
       "delistedDate": null,
       "distance": 213.6,
@@ -6753,6 +7041,10 @@
         {
           "date": "2026-07-30",
           "price": 33500
+        },
+        {
+          "date": "2026-07-31",
+          "price": 33988
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC0S3221572",
@@ -6895,12 +7187,12 @@
       "year": 2023
     },
     "4S4BTANC1P3171871": {
-      "active": true,
+      "active": false,
       "color": "Crystal White Pearl",
       "currentMileage": 27294,
       "currentPrice": 27304,
       "dealer": "Fox Subaru Macomb",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 96.6,
       "driveMinutes": 174,
       "driveText": "2 hours 54 mins",
@@ -6918,6 +7210,32 @@
       "trim": "Limited",
       "url": "https://www.foxsubarumacomb.com/catcher.esl?vehicleId=958366d0ac181c46cdfd0dfe96bd4af1",
       "vin": "4S4BTANC1P3171871",
+      "year": 2023
+    },
+    "4S4BTANC1P3218784": {
+      "active": true,
+      "color": "Crystal Black Silica",
+      "currentMileage": 36425,
+      "currentPrice": 29287,
+      "dealer": "Fitzgerald Subaru of Gaithersburg",
+      "delistedDate": null,
+      "distance": 289.7,
+      "driveMinutes": 327,
+      "driveText": "5 hours 27 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 29287
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC1P3218784",
+      "trim": "Limited",
+      "url": "https://www.fitzgeraldsubarugaithersburg.com/used-Gaithersburg-2023-Subaru-Outback-Limited-4S4BTANC1P3218784",
+      "vin": "4S4BTANC1P3218784",
       "year": 2023
     },
     "4S4BTANC1R3104402": {
@@ -7007,12 +7325,12 @@
       "year": 2024
     },
     "4S4BTANC1S3197640": {
-      "active": true,
+      "active": false,
       "color": "Crimson Red Pearl",
       "currentMileage": 5139,
       "currentPrice": 0,
       "dealer": "Great Lakes Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 99.2,
       "driveMinutes": 123,
       "driveText": "2 hours 3 mins",
@@ -7541,7 +7859,7 @@
       "active": true,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 58110,
-      "currentPrice": 26011,
+      "currentPrice": 25448,
       "dealer": "Byers Dublin Subaru",
       "delistedDate": null,
       "distance": 116.3,
@@ -7555,6 +7873,10 @@
         {
           "date": "2026-07-22",
           "price": 26011
+        },
+        {
+          "date": "2026-07-31",
+          "price": 25448
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC3P3180023",
@@ -7751,6 +8073,32 @@
       "trim": "Limited",
       "url": "https://www.rivercitysubaru.com/used-Huntington-2022-Subaru-Outback-Limited-4S4BTANC4N3140420",
       "vin": "4S4BTANC4N3140420",
+      "year": 2022
+    },
+    "4S4BTANC4N3143110": {
+      "active": true,
+      "color": "Autumn Green Metallic",
+      "currentMileage": 42766,
+      "currentPrice": 26750,
+      "dealer": "Tom Wood Subaru",
+      "delistedDate": null,
+      "distance": 250.2,
+      "driveMinutes": 281,
+      "driveText": "4 hours 41 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Warm Ivory Leather",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 26750
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC4N3143110",
+      "trim": "Limited",
+      "url": "https://www.tomwoodsubaru.com/catcher.esl?vehicleId=4f1f013eac18541152113ed6f87f4a6b",
+      "vin": "4S4BTANC4N3143110",
       "year": 2022
     },
     "4S4BTANC4P3120865": {
@@ -8452,6 +8800,32 @@
       "vin": "4S4BTANC7R3180495",
       "year": 2024
     },
+    "4S4BTANC7S3105690": {
+      "active": true,
+      "color": "Ice Silver Metallic",
+      "currentMileage": 25953,
+      "currentPrice": 35480,
+      "dealer": "My Lakeshore Subaru",
+      "delistedDate": null,
+      "distance": 244.6,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Titanium Gray Leather",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 35480
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC7S3105690",
+      "trim": "Limited",
+      "url": "https://www.mylakeshoresubaru.com/catcher.esl?vehicleId=80e51795ac1840e460b67eb27e20c747",
+      "vin": "4S4BTANC7S3105690",
+      "year": 2025
+    },
     "4S4BTANC7S3132470": {
       "active": true,
       "color": "Crystal Black Silica",
@@ -8571,6 +8945,32 @@
       "url": "https://www.subaruorchardpark.com/inventory/certified-used-2025-subaru-outback-limited-awd-sport-utility-4s4btanc7s3205658/",
       "vin": "4S4BTANC7S3205658",
       "year": 2025
+    },
+    "4S4BTANC8N3200506": {
+      "active": true,
+      "color": "Magnetite Gray Metallic",
+      "currentMileage": 33928,
+      "currentPrice": 27842,
+      "dealer": "Northtown Subaru",
+      "delistedDate": null,
+      "distance": 185.3,
+      "driveMinutes": 189,
+      "driveText": "3 hours 9 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 27842
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC8N3200506",
+      "trim": "Limited",
+      "url": "https://www.northtownsubaru.com/catcher.esl?vehicleId=af3dc8e3ac18131151cd1f596078f8cd",
+      "vin": "4S4BTANC8N3200506",
+      "year": 2022
     },
     "4S4BTANC8P3119508": {
       "active": true,
@@ -8912,7 +9312,7 @@
       "active": true,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 49180,
-      "currentPrice": 29098,
+      "currentPrice": 28798,
       "dealer": "Flow Subaru of Charlottesville",
       "delistedDate": null,
       "distance": 293.1,
@@ -8926,6 +9326,10 @@
         {
           "date": "2026-07-29",
           "price": 29098
+        },
+        {
+          "date": "2026-07-31",
+          "price": 28798
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTANC9R3232256",
@@ -9107,12 +9511,12 @@
       "year": 2024
     },
     "4S4BTANCXR3135955": {
-      "active": true,
+      "active": false,
       "color": "Crimson Red Pearl",
       "currentMileage": 35557,
       "currentPrice": 30647,
       "dealer": "Maple Hill Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 206.6,
       "driveMinutes": 240,
       "driveText": "4 hours 0 mins",
@@ -9133,12 +9537,12 @@
       "year": 2024
     },
     "4S4BTANCXR3137365": {
-      "active": true,
+      "active": false,
       "color": "Crystal Black Silica",
       "currentMileage": 43499,
       "currentPrice": 30668,
       "dealer": "Brunswick Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 16.9,
       "driveMinutes": 26,
       "driveText": "26 mins",
@@ -9490,7 +9894,7 @@
       "active": true,
       "color": "Crystal Black Silica",
       "currentMileage": 20851,
-      "currentPrice": 32145,
+      "currentPrice": 31880,
       "dealer": "Kenny Ross Subaru",
       "delistedDate": null,
       "distance": 134.1,
@@ -9508,6 +9912,10 @@
         {
           "date": "2026-07-22",
           "price": 32145
+        },
+        {
+          "date": "2026-07-31",
+          "price": 31880
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAPC2R3103109",
@@ -9572,7 +9980,7 @@
       "active": true,
       "color": "Crystal Black Silica",
       "currentMileage": 22132,
-      "currentPrice": 34075,
+      "currentPrice": 33075,
       "dealer": "Jenkins Subaru",
       "delistedDate": null,
       "distance": 171.0,
@@ -9586,6 +9994,10 @@
         {
           "date": "2026-07-30",
           "price": 34075
+        },
+        {
+          "date": "2026-07-31",
+          "price": 33075
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTAPC3R3242794",
@@ -9651,12 +10063,12 @@
       "year": 2024
     },
     "4S4BTAPC4R3171850": {
-      "active": true,
+      "active": false,
       "color": "Crimson Red Pearl",
       "currentMileage": 15669,
       "currentPrice": 34891,
       "dealer": "Serra Subaru of Traverse City",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 295.4,
       "driveMinutes": 357,
       "driveText": "5 hours 57 mins",
@@ -9677,12 +10089,12 @@
       "year": 2024
     },
     "4S4BTAPC4S3160479": {
-      "active": true,
+      "active": false,
       "color": "Crystal Black Silica",
       "currentMileage": 20669,
       "currentPrice": 33484,
       "dealer": "W & L Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 264.1,
       "driveMinutes": 290,
       "driveText": "4 hours 50 mins",
@@ -9789,12 +10201,12 @@
       "year": 2025
     },
     "4S4BTAPC9S3194661": {
-      "active": true,
+      "active": false,
       "color": "Crimson Red Pearl",
       "currentMileage": 35340,
       "currentPrice": 34059,
       "dealer": "Tom Wood Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 250.2,
       "driveMinutes": 281,
       "driveText": "4 hours 41 mins",
@@ -10005,12 +10417,12 @@
       "year": 2024
     },
     "4S4BTGLD3R3204872": {
-      "active": true,
+      "active": false,
       "color": "Crystal White Pearl",
       "currentMileage": 60009,
       "currentPrice": 28276,
       "dealer": "Faulkner Subaru Mechanicsburg",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 262.7,
       "driveMinutes": 302,
       "driveText": "5 hours 2 mins",
@@ -10057,12 +10469,12 @@
       "year": 2025
     },
     "4S4BTGLD5S3129162": {
-      "active": true,
+      "active": false,
       "color": "Autumn Green Metallic",
       "currentMileage": 35590,
       "currentPrice": 34494,
       "dealer": "Subaru of Grand Blanc",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 138.5,
       "driveMinutes": 194,
       "driveText": "3 hours 14 mins",
@@ -10132,6 +10544,32 @@
       "trim": "Onyx Edition XT",
       "url": "https://www.lafontainesubaru.com/used-Commerce+Township-2024-Subaru-Outback-Onyx+Edition+XT-4S4BTGLD8R3118294",
       "vin": "4S4BTGLD8R3118294",
+      "year": 2024
+    },
+    "4S4BTGLD9R3119888": {
+      "active": true,
+      "color": "Crystal White Pearl",
+      "currentMileage": 19312,
+      "currentPrice": 32980,
+      "dealer": "My Lakeshore Subaru",
+      "delistedDate": null,
+      "distance": 244.6,
+      "driveMinutes": 277,
+      "driveText": "4 hours 37 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Gray StarTex<sup>&reg;</sup>",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 32980
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGLD9R3119888",
+      "trim": "Onyx Edition XT",
+      "url": "https://www.mylakeshoresubaru.com/catcher.esl?vehicleId=80e51b73ac1825bc039c152713957482",
+      "vin": "4S4BTGLD9R3119888",
       "year": 2024
     },
     "4S4BTGLDXM3227736": {
@@ -10250,7 +10688,7 @@
       "active": true,
       "color": "Autumn Green Metallic",
       "currentMileage": 42208,
-      "currentPrice": 28718,
+      "currentPrice": 28443,
       "dealer": "Kenny Ross Subaru",
       "delistedDate": null,
       "distance": 134.1,
@@ -10268,6 +10706,10 @@
         {
           "date": "2026-07-22",
           "price": 28718
+        },
+        {
+          "date": "2026-07-31",
+          "price": 28443
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGND0P3224748",
@@ -11043,12 +11485,12 @@
       "year": 2024
     },
     "4S4BTGND9R3136171": {
-      "active": true,
+      "active": false,
       "color": "Dark Mahogany Pearl",
       "currentMileage": 62371,
       "currentPrice": 28448,
       "dealer": "Byers Dublin Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 116.3,
       "driveMinutes": 123,
       "driveText": "2 hours 3 mins",
@@ -11198,7 +11640,7 @@
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGPD0R3132443",
       "trim": "Touring XT",
-      "url": "https://www.byerssubarudublin.com/inventory/used-2024-subaru-outback-touring-xt-awd-4d-sport-utility-4s4btgpd0r3132443/",
+      "url": "https://www.byerssubarudublin.com/inventory/certified-used-2024-subaru-outback-touring-xt-awd-4d-sport-utility-4s4btgpd0r3132443/",
       "vin": "4S4BTGPD0R3132443",
       "year": 2024
     },
@@ -11236,11 +11678,37 @@
       "vin": "4S4BTGPD0R3150456",
       "year": 2024
     },
+    "4S4BTGPD1P3181759": {
+      "active": true,
+      "color": "Magnetite Gray Metallic",
+      "currentMileage": 58728,
+      "currentPrice": 28990,
+      "dealer": "Alexander Subaru",
+      "delistedDate": null,
+      "distance": 257.1,
+      "driveMinutes": 286,
+      "driveText": "4 hours 46 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Java Brown Nappa Leather",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 28990
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGPD1P3181759",
+      "trim": "Touring XT",
+      "url": "https://www.alexandersubaruinc.com/catcher.esl?vehicleId=adad818fac184067335a66be3ad571e9",
+      "vin": "4S4BTGPD1P3181759",
+      "year": 2023
+    },
     "4S4BTGPD2P3185450": {
       "active": true,
       "color": "Crystal Black Silica",
       "currentMileage": 37262,
-      "currentPrice": 29975,
+      "currentPrice": 29390,
       "dealer": "Kenny Ross Subaru",
       "delistedDate": null,
       "distance": 134.1,
@@ -11262,6 +11730,10 @@
         {
           "date": "2026-07-26",
           "price": 29975
+        },
+        {
+          "date": "2026-07-31",
+          "price": 29390
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGPD2P3185450",
@@ -11382,6 +11854,32 @@
       "vin": "4S4BTGPD3R3281879",
       "year": 2024
     },
+    "4S4BTGPD4P3187751": {
+      "active": true,
+      "color": "Dark Mahogany Pearl",
+      "currentMileage": 41786,
+      "currentPrice": 29866,
+      "dealer": "#1 Cochran Subaru of Butler County",
+      "delistedDate": null,
+      "distance": 103.7,
+      "driveMinutes": 134,
+      "driveText": "2 hours 14 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Black Nappa Leather",
+      "lastSeen": "2026-07-31",
+      "msrp": 34258,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 29866
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGPD4P3187751",
+      "trim": "Touring XT",
+      "url": "https://www.cochransubarubutler.com/viewdetails/used/4s4btgpd4p3187751/2023-subaru-outback-sport-utility",
+      "vin": "4S4BTGPD4P3187751",
+      "year": 2023
+    },
     "4S4BTGPD4R3154980": {
       "active": true,
       "color": "Ice Silver Metallic",
@@ -11407,6 +11905,32 @@
       "url": "https://www.subaruofsterling.com/catcher.esl?vehicleId=8c5694e0ac181b1b4ac2fb7f6f7fd0a1",
       "vin": "4S4BTGPD4R3154980",
       "year": 2024
+    },
+    "4S4BTGPD5P3189637": {
+      "active": true,
+      "color": "Magnetite Gray Metallic",
+      "currentMileage": 36906,
+      "currentPrice": 31659,
+      "dealer": "Byers Airport Subaru",
+      "delistedDate": null,
+      "distance": 117.8,
+      "driveMinutes": 129,
+      "driveText": "2 hours 9 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Black Nappa Leather",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 31659
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGPD5P3189637",
+      "trim": "Touring XT",
+      "url": "https://www.columbussubaru.com/inventory/used-2023-subaru-outback-touring-xt-awd-sport-utility-4s4btgpd5p3189637/",
+      "vin": "4S4BTGPD5P3189637",
+      "year": 2023
     },
     "4S4BTGPD5S3103087": {
       "active": true,
@@ -11490,7 +12014,7 @@
       "active": true,
       "color": "Crystal Black Silica",
       "currentMileage": 12866,
-      "currentPrice": 36468,
+      "currentPrice": 36068,
       "dealer": "Zeigler Subaru of Fort Wayne",
       "delistedDate": null,
       "distance": 176.0,
@@ -11508,6 +12032,10 @@
         {
           "date": "2026-07-30",
           "price": 36468
+        },
+        {
+          "date": "2026-07-31",
+          "price": 36068
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGPD6S3126586",
@@ -12150,7 +12678,7 @@
       "active": true,
       "color": "Geyser Blue",
       "currentMileage": 38965,
-      "currentPrice": 32259,
+      "currentPrice": 32036,
       "dealer": "Kenny Ross Subaru",
       "delistedDate": null,
       "distance": 134.1,
@@ -12168,6 +12696,10 @@
         {
           "date": "2026-07-22",
           "price": 32259
+        },
+        {
+          "date": "2026-07-31",
+          "price": 32036
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGUD2R3133405",
@@ -12919,7 +13451,7 @@
       "active": true,
       "color": "Crystal White Pearl",
       "currentMileage": 24571,
-      "currentPrice": 31148,
+      "currentPrice": 30448,
       "dealer": "Byers Dublin Subaru",
       "delistedDate": null,
       "distance": 116.3,
@@ -12937,6 +13469,10 @@
         {
           "date": "2026-07-23",
           "price": 31148
+        },
+        {
+          "date": "2026-07-31",
+          "price": 30448
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGUD7P3173198",
@@ -13247,6 +13783,32 @@
       "vin": "4S4BTGUD8S3160193",
       "year": 2025
     },
+    "4S4BTGUD8S3184932": {
+      "active": true,
+      "color": "Geyser Blue",
+      "currentMileage": 15864,
+      "currentPrice": 37055,
+      "dealer": "Subaru of Sterling",
+      "delistedDate": null,
+      "distance": 285.9,
+      "driveMinutes": 347,
+      "driveText": "5 hours 47 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Gray StarTex<sup>&reg;</sup>",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 37055
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGUD8S3184932",
+      "trim": "Wilderness",
+      "url": "https://www.subaruofsterling.com/catcher.esl?vehicleId=2e8e6d04ac18424fa430750ed9abbf16",
+      "vin": "4S4BTGUD8S3184932",
+      "year": 2025
+    },
     "4S4BTGUD9N3153886": {
       "active": true,
       "color": "Autumn Green Metallic",
@@ -13304,12 +13866,12 @@
       "year": 2023
     },
     "4S4BTGUD9P3201311": {
-      "active": true,
+      "active": false,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 58083,
       "currentPrice": 28442,
       "dealer": "W & L Subaru",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 264.1,
       "driveMinutes": 290,
       "driveText": "4 hours 50 mins",
@@ -13333,7 +13895,7 @@
       "active": true,
       "color": "Magnetite Gray Metallic",
       "currentMileage": 15055,
-      "currentPrice": 36430,
+      "currentPrice": 36085,
       "dealer": "Friendship Subaru of Beckley",
       "delistedDate": null,
       "distance": 253.8,
@@ -13347,6 +13909,10 @@
         {
           "date": "2026-07-29",
           "price": 36430
+        },
+        {
+          "date": "2026-07-31",
+          "price": 36085
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/4S4BTGUD9S3184261",
@@ -13610,12 +14176,12 @@
       "year": 2026
     },
     "JF2BUPAD9TY483843": {
-      "active": true,
+      "active": false,
       "color": "Crimson Red Pearl",
       "currentMileage": 2573,
       "currentPrice": 34223,
       "dealer": "Subaru of Grand Blanc",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 138.5,
       "driveMinutes": 194,
       "driveText": "3 hours 14 mins",
@@ -13904,12 +14470,12 @@
       "year": 2026
     },
     "JF2BUPBD2TY455736": {
-      "active": true,
+      "active": false,
       "color": "River Rock Pearl",
       "currentMileage": 3748,
       "currentPrice": 33477,
       "dealer": "West Herr Subaru of Lockport",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 193.5,
       "driveMinutes": 202,
       "driveText": "3 hours 22 mins",
@@ -14015,7 +14581,7 @@
       "active": true,
       "color": "River Rock Pearl",
       "currentMileage": 2787,
-      "currentPrice": 34600,
+      "currentPrice": 34580,
       "dealer": "Stohlman Subaru",
       "delistedDate": null,
       "distance": 298.3,
@@ -14029,6 +14595,10 @@
         {
           "date": "2026-07-29",
           "price": 34600
+        },
+        {
+          "date": "2026-07-31",
+          "price": 34580
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPBD3TY467815",
@@ -14061,6 +14631,32 @@
       "trim": "Premium",
       "url": "https://www.lansingsubaru.com/catcher.esl?vehicleId=2736a293ac181c7f9d356bdd97d9481d",
       "vin": "JF2BUPBD3TY490642",
+      "year": 2026
+    },
+    "JF2BUPBD3TY500571": {
+      "active": true,
+      "color": "Ice Silver Metallic",
+      "currentMileage": 2470,
+      "currentPrice": 36574,
+      "dealer": "Quantrell Subaru",
+      "delistedDate": null,
+      "distance": 277.6,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
+      "firstSeen": "2026-07-31",
+      "interior": "Black StarTex<sup>&reg;</sup>",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 36574
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPBD3TY500571",
+      "trim": "Premium",
+      "url": "https://www.quantrellsubaru.com/inventory/used-2026-subaru-outback-premium-awd-sport-utility-jf2bupbd3ty500571/",
+      "vin": "JF2BUPBD3TY500571",
       "year": 2026
     },
     "JF2BUPBD4TY469640": {
@@ -14197,13 +14793,39 @@
       "vin": "JF2BUPBD5TY457805",
       "year": 2026
     },
-    "JF2BUPBD8TY464599": {
+    "JF2BUPBD6TY506803": {
       "active": true,
+      "color": "Deep Emerald Green Pearl",
+      "currentMileage": 2629,
+      "currentPrice": 36574,
+      "dealer": "Quantrell Subaru",
+      "delistedDate": null,
+      "distance": 277.6,
+      "driveMinutes": 301,
+      "driveText": "5 hours 1 min",
+      "firstSeen": "2026-07-31",
+      "interior": "Black StarTex<sup>&reg;</sup>",
+      "lastSeen": "2026-07-31",
+      "msrp": 0,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 36574
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPBD6TY506803",
+      "trim": "Premium",
+      "url": "https://www.quantrellsubaru.com/inventory/used-2026-subaru-outback-premium-awd-sport-utility-jf2bupbd6ty506803/",
+      "vin": "JF2BUPBD6TY506803",
+      "year": 2026
+    },
+    "JF2BUPBD8TY464599": {
+      "active": false,
       "color": "Deep Emerald Green Pearl",
       "currentMileage": 18050,
       "currentPrice": 35080,
       "dealer": "West Herr Subaru of Lockport",
-      "delistedDate": null,
+      "delistedDate": "2026-07-31",
       "distance": 193.5,
       "driveMinutes": 202,
       "driveText": "3 hours 22 mins",
@@ -14779,7 +15401,7 @@
       "active": true,
       "color": "Deep Emerald Green Pearl",
       "currentMileage": 3303,
-      "currentPrice": 37718,
+      "currentPrice": 37292,
       "dealer": "Subaru of Grand Blanc",
       "delistedDate": null,
       "distance": 138.5,
@@ -14797,6 +15419,10 @@
         {
           "date": "2026-07-24",
           "price": 37718
+        },
+        {
+          "date": "2026-07-31",
+          "price": 37292
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPDD5TY466940",
@@ -14977,7 +15603,7 @@
       "active": true,
       "color": "Deep Emerald Green Pearl",
       "currentMileage": 2306,
-      "currentPrice": 37368,
+      "currentPrice": 36968,
       "dealer": "Zeigler Subaru of Fort Wayne",
       "delistedDate": null,
       "distance": 176.0,
@@ -14995,6 +15621,10 @@
         {
           "date": "2026-07-30",
           "price": 37368
+        },
+        {
+          "date": "2026-07-31",
+          "price": 36968
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPDD9TY458484",
@@ -15031,6 +15661,32 @@
       "trim": "Limited",
       "url": "https://www.byerssubarudublin.com/inventory/certified-used-2026-subaru-outback-limited-awd-4d-sport-utility-jf2bupdd9ty471901/",
       "vin": "JF2BUPDD9TY471901",
+      "year": 2026
+    },
+    "JF2BUPDD9TY489475": {
+      "active": true,
+      "color": "Crystal White Pearl",
+      "currentMileage": 5599,
+      "currentPrice": 39591,
+      "dealer": "Sendell Subaru",
+      "delistedDate": null,
+      "distance": 145.3,
+      "driveMinutes": 164,
+      "driveText": "2 hours 44 mins",
+      "firstSeen": "2026-07-31",
+      "interior": "Slate Black Leather",
+      "lastSeen": "2026-07-31",
+      "msrp": 44193,
+      "priceHistory": [
+        {
+          "date": "2026-07-31",
+          "price": 39591
+        }
+      ],
+      "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BUPDD9TY489475",
+      "trim": "Limited",
+      "url": "https://www.sendellsubaru.com/inventory/used-2026-subaru-outback-limited-awd-4d-sport-utility-jf2bupdd9ty489475/",
+      "vin": "JF2BUPDD9TY489475",
       "year": 2026
     },
     "JF2BUPDDXTY457862": {
@@ -15375,7 +16031,7 @@
       "active": true,
       "color": "River Rock Pearl",
       "currentMileage": 6018,
-      "currentPrice": 40300,
+      "currentPrice": 40280,
       "dealer": "Stohlman Subaru",
       "delistedDate": null,
       "distance": 298.3,
@@ -15389,6 +16045,10 @@
         {
           "date": "2026-07-29",
           "price": 40300
+        },
+        {
+          "date": "2026-07-31",
+          "price": 40280
         }
       ],
       "sticker": "https://www.subaru.com/services/vehicles/windowsticker/JF2BURGD0TY497231",
