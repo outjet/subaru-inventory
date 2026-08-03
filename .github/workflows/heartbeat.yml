@@ -1,8 +1,7 @@
 name: Weekly Watch Heartbeat
 
 on:
-  schedule:
-    - cron: "0 13 * * 1"   # Mondays 13:00 UTC (~9am ET) — reassurance ping
+  # Retired 2026-08-03 with the Subaru search — manual-only now.
   workflow_dispatch: {}
 
 concurrency:

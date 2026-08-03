@@ -1,8 +1,7 @@
 name: Outback Touring XT Alert
 
 on:
-  schedule:
-    - cron: "*/30 11-23,0-2 * * *"
+  # Retired 2026-08-03 after the Outback was purchased — manual-only now.
   workflow_dispatch: {}
 
 permissions:
