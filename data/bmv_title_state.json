@@ -1,5 +1,6 @@
 {
-  "status": "not_found",
-  "alerted": false,
-  "consecutiveErrors": 0
+  "status": "found",
+  "alerted": true,
+  "consecutiveErrors": 0,
+  "firstFoundDate": "2026-08-12 13:52 UTC"
 }
